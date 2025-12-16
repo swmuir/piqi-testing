@@ -1,0 +1,542 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization?patient=2000190&-pageToken=1~6Z807QTZrKsurkk"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-R74h8oo6R3hFFvNs",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-R74h8oo6R3hFFvNs",
+        "meta": {
+          "lastUpdated": "2009-07-09T11:00:04Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "140",
+              "display": "INFLUENZA, SEASONAL, INJECTABLE, PRESERVATIVE FREE"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "88",
+              "display": "VACCINE GROUP: FLU"
+            }
+          ],
+          "text": "Influenza, seasonal, injectable, preservative free"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "occurrenceDateTime": "2009-07-09T11:00:04Z",
+        "primarySource": true,
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-7QY97qVvujaWRyw2q88",
+          "display": "VISUAL IMPAIRMENT SVCS OUTPATIENT REHAB (VISOR)"
+        },
+        "doseQuantity": {
+          "value": 2
+        },
+        "note": [
+          {
+            "text": "Dose #26 of 101 of Influenza  seasonal  injectable  preservative free vaccine administered."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Fever"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "doseNumberString": "Series 1"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-R74h8oo6R3djGGXM",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-R74h8oo6R3djGGXM",
+        "meta": {
+          "lastUpdated": "2009-07-09T11:00:04Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "52",
+              "display": "HEP A, ADULT"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "85",
+              "display": "VACCINE GROUP: HepA"
+            }
+          ],
+          "text": "Hep A, adult"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "occurrenceDateTime": "2009-07-09T11:00:04Z",
+        "primarySource": true,
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-7QY97qVvujaWRzEHZEm",
+          "display": "TEM MH PSO TRS IND93EH 2"
+        },
+        "doseQuantity": {
+          "value": 0.5,
+          "unit": "mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL"
+        },
+        "note": [
+          {
+            "text": "Dose #1 of 2 of Hep A  adult vaccine administered."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Rash or itching"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "doseNumberString": "Series 1"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-R74h8oo6R3etvZps",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-R74h8oo6R3etvZps",
+        "meta": {
+          "lastUpdated": "2009-11-05T12:00:04Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "140",
+              "display": "INFLUENZA, SEASONAL, INJECTABLE, PRESERVATIVE FREE"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "88",
+              "display": "VACCINE GROUP: FLU"
+            }
+          ],
+          "text": "Influenza, seasonal, injectable, preservative free"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "occurrenceDateTime": "2009-11-05T12:00:04Z",
+        "primarySource": true,
+        "doseQuantity": {
+          "value": 0.3,
+          "unit": "mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL"
+        },
+        "note": [
+          {
+            "text": "Dose #27 of 101 of Influenza  seasonal  injectable  preservative free vaccine administered."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Fever"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "doseNumberString": "Booster"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-R74h8oo6RDKz4Oe4",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-R74h8oo6RDKz4Oe4",
+        "meta": {
+          "lastUpdated": "2011-07-14T11:00:04Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "140",
+              "display": "INFLUENZA, SEASONAL, INJECTABLE, PRESERVATIVE FREE"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "88",
+              "display": "VACCINE GROUP: FLU"
+            }
+          ],
+          "text": "Influenza, seasonal, injectable, preservative free"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "occurrenceDateTime": "2011-07-14T11:00:04Z",
+        "primarySource": true,
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-7QY97qVvujaWRyw2q88",
+          "display": "VISUAL IMPAIRMENT SVCS OUTPATIENT REHAB (VISOR)"
+        },
+        "doseQuantity": {
+          "value": 0.5,
+          "unit": "mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL"
+        },
+        "note": [
+          {
+            "text": "Dose #28 of 101 of Influenza  seasonal  injectable  preservative free vaccine administered."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Anaphylaxis or collapse"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "doseNumberString": "Series 1"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-R74h8oo6RDM9jhwa",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-R74h8oo6RDM9jhwa",
+        "meta": {
+          "lastUpdated": "2011-07-14T11:00:04Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "113",
+              "display": "TD (ADULT), 5 LF TETANUS TOXOID, PRESERVATIVE FREE, ADSORBED"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "139",
+              "display": "VACCINE GROUP: Td"
+            }
+          ],
+          "text": "Td (adult), 5 Lf tetanus toxoid, preservative free, adsorbed"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "occurrenceDateTime": "2011-07-14T11:00:04Z",
+        "primarySource": true,
+        "doseQuantity": {
+          "value": 2,
+          "unit": "ug/mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "ug/mL"
+        },
+        "note": [
+          {
+            "text": "Dose #2 of 8 of Td (adult) preservative free vaccine administered."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Irritability"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-R74h8oo6RDNKP1F6",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-R74h8oo6RDNKP1F6",
+        "meta": {
+          "lastUpdated": "2011-07-14T11:00:04Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "52",
+              "display": "HEP A, ADULT"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "85",
+              "display": "VACCINE GROUP: HepA"
+            }
+          ],
+          "text": "Hep A, adult"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "occurrenceDateTime": "2011-07-14T11:00:04Z",
+        "primarySource": true,
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-7QY97qVvujaWRyw2q88",
+          "display": "VISUAL IMPAIRMENT SVCS OUTPATIENT REHAB (VISOR)"
+        },
+        "doseQuantity": {
+          "value": 0.3,
+          "unit": "mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL"
+        },
+        "note": [
+          {
+            "text": "Dose #2 of 2 of Hep A  adult vaccine administered."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Lethargy"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-R74h8oo6RDJoPMOa",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-R74h8oo6RDJoPMOa",
+        "meta": {
+          "lastUpdated": "2013-07-18T11:00:04Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "140",
+              "display": "INFLUENZA, SEASONAL, INJECTABLE, PRESERVATIVE FREE"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "88",
+              "display": "VACCINE GROUP: FLU"
+            }
+          ],
+          "text": "Influenza, seasonal, injectable, preservative free"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "occurrenceDateTime": "2013-07-18T11:00:04Z",
+        "primarySource": true,
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-7QY97qVvujaWRzoKcky",
+          "display": "MENTAL HEALTH SERVICES"
+        },
+        "doseQuantity": {
+          "value": 2,
+          "unit": "ug/mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "ug/mL"
+        },
+        "note": [
+          {
+            "text": "Dose #29 of 101 of Influenza  seasonal  injectable  preservative free vaccine administered."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Vomiting"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "doseNumberString": "Series 1"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-R74h8oo6RDKz4fh6",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-R74h8oo6RDKz4fh6",
+        "meta": {
+          "lastUpdated": "2015-07-23T11:00:04Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "140",
+              "display": "INFLUENZA, SEASONAL, INJECTABLE, PRESERVATIVE FREE"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "88",
+              "display": "VACCINE GROUP: FLU"
+            }
+          ],
+          "text": "Influenza, seasonal, injectable, preservative free"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "occurrenceDateTime": "2015-07-23T11:00:04Z",
+        "primarySource": true,
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-7QY97qVvujaWRzoKcky",
+          "display": "MENTAL HEALTH SERVICES"
+        },
+        "doseQuantity": {
+          "value": 2
+        },
+        "note": [
+          {
+            "text": "Dose #30 of 101 of Influenza  seasonal  injectable  preservative free vaccine administered."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Convulsions"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "doseNumberString": "Series 1"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-R74h8oo6RDM9jyzc",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-R74h8oo6RDM9jyzc",
+        "meta": {
+          "lastUpdated": "2017-07-27T11:00:04Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "140",
+              "display": "INFLUENZA, SEASONAL, INJECTABLE, PRESERVATIVE FREE"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "88",
+              "display": "VACCINE GROUP: FLU"
+            }
+          ],
+          "text": "Influenza, seasonal, injectable, preservative free"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "occurrenceDateTime": "2017-07-27T11:00:04Z",
+        "primarySource": true,
+        "doseQuantity": {
+          "value": 0.3,
+          "unit": "mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL"
+        },
+        "note": [
+          {
+            "text": "Dose #31 of 101 of Influenza  seasonal  injectable  preservative free vaccine administered."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Local reaction or swelling"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "doseNumberString": "Booster"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}

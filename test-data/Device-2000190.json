@@ -1,0 +1,11 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "link": [
+    {
+      "url": "https://sandbox-api.va.gov/services/fhir/v0/r4/Device?patient=2000190",
+      "relation": "self"
+    }
+  ],
+  "entry": []
+}

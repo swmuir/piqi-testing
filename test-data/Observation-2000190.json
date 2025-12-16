@@ -1,0 +1,4729 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation?patient=2000190&-pageToken=1~6Z807QTZrKsurkk"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqMVK5ThZ4f",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqMVK5ThZ4f",
+        "meta": {
+          "lastUpdated": "2009-08-08T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2",
+              "display": "Body height"
+            }
+          ],
+          "text": "Body height"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2009-07-09T11:00:04Z",
+        "issued": "2009-07-09T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUqOa8ETaMEi3",
+            "display": "DR. THOMAS359 REYNOLDS206 PHD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFnexgYl7h",
+            "display": "NEW AMSTERDAM CBOC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 68.9,
+          "unit": "[in_i]"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqMVK1xhuE9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqMVK1xhuE9",
+        "meta": {
+          "lastUpdated": "2009-08-08T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "72514-3",
+              "display": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+            }
+          ],
+          "text": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2009-07-09T11:00:04Z",
+        "issued": "2009-07-09T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUqOa8ETaMEi3",
+            "display": "DR. THOMAS359 REYNOLDS206 PHD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 1
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqMVK38NDWf",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqMVK38NDWf",
+        "meta": {
+          "lastUpdated": "2009-08-08T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body weight"
+            }
+          ],
+          "text": "Body weight"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2009-07-09T11:00:04Z",
+        "issued": "2009-07-09T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUqOa8ETaMEi3",
+            "display": "DR. THOMAS359 REYNOLDS206 PHD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFnexgYl7h",
+            "display": "NEW AMSTERDAM CBOC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 194.9,
+          "unit": "[lb_av]"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqMVALtgNk5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqMVALtgNk5",
+        "meta": {
+          "lastUpdated": "2009-08-08T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure systolic and diastolic"
+            }
+          ],
+          "text": "Blood pressure systolic and diastolic"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2009-07-09T11:00:04Z",
+        "issued": "2009-07-09T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQawlD29NjP",
+            "display": "DR. JANE460 DOE922 MD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFdZXYyf17",
+            "display": "WASHINGTON VA MEDICAL CENTER"
+          }
+        ],
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ],
+              "text": "Diastolic blood pressure"
+            },
+            "valueQuantity": {
+              "value": 97,
+              "unit": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ],
+              "text": "Systolic blood pressure"
+            },
+            "valueQuantity": {
+              "value": 145,
+              "unit": "mm[Hg]"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqMVK5Upxav",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqMVK5Upxav",
+        "meta": {
+          "lastUpdated": "2011-08-13T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2",
+              "display": "Body height"
+            }
+          ],
+          "text": "Body height"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2011-07-14T11:00:04Z",
+        "issued": "2011-07-14T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQZLR7LNfJT",
+            "display": "DR. JOHN248 SMITH811 MD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswH8db7Vq2stsf",
+            "display": "LYONS VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 68.9,
+          "unit": "[in_i]"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqMVK1yqIkP",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqMVK1yqIkP",
+        "meta": {
+          "lastUpdated": "2011-08-13T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "72514-3",
+              "display": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+            }
+          ],
+          "text": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2011-07-14T11:00:04Z",
+        "issued": "2011-07-14T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQawlD29NjP",
+            "display": "DR. JANE460 DOE922 MD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFdZXYyf17",
+            "display": "WASHINGTON VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 2
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqMVK39Vc2v",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqMVK39Vc2v",
+        "meta": {
+          "lastUpdated": "2011-08-13T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body weight"
+            }
+          ],
+          "text": "Body weight"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2011-07-14T11:00:04Z",
+        "issued": "2011-07-14T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQZLR7LNfJT",
+            "display": "DR. JOHN248 SMITH811 MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 204.6,
+          "unit": "[lb_av]"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqMVALuomGL",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqMVALuomGL",
+        "meta": {
+          "lastUpdated": "2011-08-13T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure systolic and diastolic"
+            }
+          ],
+          "text": "Blood pressure systolic and diastolic"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2011-07-14T11:00:04Z",
+        "issued": "2011-07-14T11:00:04Z",
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ],
+              "text": "Diastolic blood pressure"
+            },
+            "valueQuantity": {
+              "value": 118,
+              "unit": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ],
+              "text": "Systolic blood pressure"
+            },
+            "valueQuantity": {
+              "value": 188,
+              "unit": "mm[Hg]"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqMVAN5U5Yr",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqMVAN5U5Yr",
+        "meta": {
+          "lastUpdated": "2013-08-17T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2",
+              "display": "Body height"
+            }
+          ],
+          "text": "Body height"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2013-07-18T11:00:04Z",
+        "issued": "2013-07-18T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQawlD29NjP",
+            "display": "DR. JANE460 DOE922 MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 68.9,
+          "unit": "[in_i]"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqMVAOG9OrN",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqMVAOG9OrN",
+        "meta": {
+          "lastUpdated": "2013-08-17T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "72514-3",
+              "display": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+            }
+          ],
+          "text": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2013-07-18T11:00:04Z",
+        "issued": "2013-07-18T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQawlD29NjP",
+            "display": "DR. JANE460 DOE922 MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 1
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqMVAPQoi9t",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqMVAPQoi9t",
+        "meta": {
+          "lastUpdated": "2013-08-17T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body weight"
+            }
+          ],
+          "text": "Body weight"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2013-07-18T11:00:04Z",
+        "issued": "2013-07-18T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUqOa8ETaMEi3",
+            "display": "DR. THOMAS359 REYNOLDS206 PHD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFnexgYl7h",
+            "display": "NEW AMSTERDAM CBOC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 211.3,
+          "unit": "[lb_av]"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqMVALup3JN",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqMVALup3JN",
+        "meta": {
+          "lastUpdated": "2013-08-17T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure systolic and diastolic"
+            }
+          ],
+          "text": "Blood pressure systolic and diastolic"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2013-07-18T11:00:04Z",
+        "issued": "2013-07-18T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQawlD29NjP",
+            "display": "DR. JANE460 DOE922 MD"
+          }
+        ],
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ],
+              "text": "Diastolic blood pressure"
+            },
+            "valueQuantity": {
+              "value": 94,
+              "unit": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ],
+              "text": "Systolic blood pressure"
+            },
+            "valueQuantity": {
+              "value": 140,
+              "unit": "mm[Hg]"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqMVAN5UMbt",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqMVAN5UMbt",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2",
+              "display": "Body height"
+            }
+          ],
+          "text": "Body height"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFnexgYl7h",
+            "display": "NEW AMSTERDAM CBOC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 68.9,
+          "unit": "[in_i]"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqMVAOG9fuP",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqMVAOG9fuP",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "72514-3",
+              "display": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+            }
+          ],
+          "text": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQZLR7LNfJT",
+            "display": "DR. JOHN248 SMITH811 MD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFnexgYl7h",
+            "display": "NEW AMSTERDAM CBOC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 0
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqMVAPQozCv",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqMVAPQozCv",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body weight"
+            }
+          ],
+          "text": "Body weight"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUqOa8ETaMEi3",
+            "display": "DR. THOMAS359 REYNOLDS206 PHD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFdZXYyf17",
+            "display": "WASHINGTON VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 218.3,
+          "unit": "[lb_av]"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqMVALupKMP",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqMVALupKMP",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure systolic and diastolic"
+            }
+          ],
+          "text": "Blood pressure systolic and diastolic"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswH8db7Vq2stsf",
+            "display": "LYONS VA MEDICAL CENTER"
+          }
+        ],
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ],
+              "text": "Diastolic blood pressure"
+            },
+            "valueQuantity": {
+              "value": 108,
+              "unit": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ],
+              "text": "Systolic blood pressure"
+            },
+            "valueQuantity": {
+              "value": 178,
+              "unit": "mm[Hg]"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqMVAN5Udev",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqMVAN5Udev",
+        "meta": {
+          "lastUpdated": "2016-08-04T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "72514-3",
+              "display": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+            }
+          ],
+          "text": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2016-07-05T11:00:04Z",
+        "issued": "2016-07-05T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUqOa8ETaMEi3",
+            "display": "DR. THOMAS359 REYNOLDS206 PHD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswH8db7Vq2stsf",
+            "display": "LYONS VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 5
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqMVK1zy9Ab",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqMVK1zy9Ab",
+        "meta": {
+          "lastUpdated": "2017-03-11T12:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "72514-3",
+              "display": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+            }
+          ],
+          "text": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2017-02-09T12:00:04Z",
+        "issued": "2017-02-09T12:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQZLR7LNfJT",
+            "display": "DR. JOHN248 SMITH811 MD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFnexgYl7h",
+            "display": "NEW AMSTERDAM CBOC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 2
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqMVK3AdST7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqMVK3AdST7",
+        "meta": {
+          "lastUpdated": "2017-08-26T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2",
+              "display": "Body height"
+            }
+          ],
+          "text": "Body height"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2017-07-27T11:00:04Z",
+        "issued": "2017-07-27T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQawlD29NjP",
+            "display": "DR. JANE460 DOE922 MD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFnexgYl7h",
+            "display": "NEW AMSTERDAM CBOC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 68.9,
+          "unit": "[in_i]"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqMVK4LIlld",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqMVK4LIlld",
+        "meta": {
+          "lastUpdated": "2017-08-26T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "72514-3",
+              "display": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+            }
+          ],
+          "text": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2017-07-27T11:00:04Z",
+        "issued": "2017-07-27T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUqOa8ETaMEi3",
+            "display": "DR. THOMAS359 REYNOLDS206 PHD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswH8db7Vq2stsf",
+            "display": "LYONS VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 3
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqMVK5Vy549",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqMVK5Vy549",
+        "meta": {
+          "lastUpdated": "2017-08-26T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body weight"
+            }
+          ],
+          "text": "Body weight"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2017-07-27T11:00:04Z",
+        "issued": "2017-07-27T11:00:04Z",
+        "valueQuantity": {
+          "value": 227,
+          "unit": "[lb_av]"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqMVK1zyQDd",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqMVK1zyQDd",
+        "meta": {
+          "lastUpdated": "2017-08-26T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood pressure systolic and diastolic"
+            }
+          ],
+          "text": "Blood pressure systolic and diastolic"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2017-07-27T11:00:04Z",
+        "issued": "2017-07-27T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFnexgYl7h",
+            "display": "NEW AMSTERDAM CBOC"
+          }
+        ],
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic blood pressure"
+                }
+              ],
+              "text": "Diastolic blood pressure"
+            },
+            "valueQuantity": {
+              "value": 114,
+              "unit": "mm[Hg]"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic blood pressure"
+                }
+              ],
+              "text": "Systolic blood pressure"
+            },
+            "valueQuantity": {
+              "value": 197,
+              "unit": "mm[Hg]"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqMVK3AdjW9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqMVK3AdjW9",
+        "meta": {
+          "lastUpdated": "2017-09-24T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "72514-3",
+              "display": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+            }
+          ],
+          "text": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2017-08-25T11:00:04Z",
+        "issued": "2017-08-25T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswH8db7Vq2stsf",
+            "display": "LYONS VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 4
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqMVK4LJ2of",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqMVK4LJ2of",
+        "meta": {
+          "lastUpdated": "2018-04-02T12:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "72514-3",
+              "display": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+            }
+          ],
+          "text": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2018-03-03T12:00:04Z",
+        "issued": "2018-03-03T12:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQawlD29NjP",
+            "display": "DR. JANE460 DOE922 MD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswH8db7Vq2stsf",
+            "display": "LYONS VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 6
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbO0zyui",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbO0zyui",
+        "meta": {
+          "lastUpdated": "2009-08-08T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "Leukocytes [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Leukocytes [#/volume] in Blood by Automated count"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2009-07-09T11:00:04Z",
+        "issued": "2009-07-09T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswH8db7Vq2stsf",
+            "display": "LYONS VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 5.756428441,
+          "unit": "10*3/uL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbPBfIDE",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbPBfIDE",
+        "meta": {
+          "lastUpdated": "2009-08-08T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "789-8",
+              "display": "Erythrocytes [#/volume] in Blood by Automated coun"
+            }
+          ],
+          "text": "Erythrocytes [#/volume] in Blood by Automated coun"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2009-07-09T11:00:04Z",
+        "issued": "2009-07-09T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswH8db7Vq2stsf",
+            "display": "LYONS VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 5.212716448,
+          "unit": "10*6/uL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbLffdMi",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbLffdMi",
+        "meta": {
+          "lastUpdated": "2009-08-08T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Hemoglobin [Mass/volume] in Blood"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2009-07-09T11:00:04Z",
+        "issued": "2009-07-09T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUqOa8ETaMEi3",
+            "display": "DR. THOMAS359 REYNOLDS206 PHD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFdZXYyf17",
+            "display": "WASHINGTON VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 17.2066248012,
+          "unit": "g/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbMqKwfE",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbMqKwfE",
+        "meta": {
+          "lastUpdated": "2009-08-08T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4544-3",
+              "display": "Hematocrit [Volume Fraction] of Blood by Automated"
+            }
+          ],
+          "text": "Hematocrit [Volume Fraction] of Blood by Automated"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2009-07-09T11:00:04Z",
+        "issued": "2009-07-09T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFnexgYl7h",
+            "display": "NEW AMSTERDAM CBOC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 45.0937309525,
+          "unit": "%"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbO10Fxk",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbO10Fxk",
+        "meta": {
+          "lastUpdated": "2009-08-08T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "787-2",
+              "display": "MCV [Entitic volume] by Automated count"
+            }
+          ],
+          "text": "MCV [Entitic volume] by Automated count"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2009-07-09T11:00:04Z",
+        "issued": "2009-07-09T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFnexgYl7h",
+            "display": "NEW AMSTERDAM CBOC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 86.9644847698,
+          "unit": "fL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbPBfZGG",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbPBfZGG",
+        "meta": {
+          "lastUpdated": "2009-08-08T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "785-6",
+              "display": "MCH [Entitic mass] by Automated count"
+            }
+          ],
+          "text": "MCH [Entitic mass] by Automated count"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2009-07-09T11:00:04Z",
+        "issued": "2009-07-09T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQZLR7LNfJT",
+            "display": "DR. JOHN248 SMITH811 MD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswH8db7Vq2stsf",
+            "display": "LYONS VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 30.0764199632,
+          "unit": "pg"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbLffuPk",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbLffuPk",
+        "meta": {
+          "lastUpdated": "2009-08-08T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "786-4",
+              "display": "MCHC [Mass/volume] by Automated count"
+            }
+          ],
+          "text": "MCHC [Mass/volume] by Automated count"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2009-07-09T11:00:04Z",
+        "issued": "2009-07-09T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQawlD29NjP",
+            "display": "DR. JANE460 DOE922 MD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFnexgYl7h",
+            "display": "NEW AMSTERDAM CBOC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 34.5609188921,
+          "unit": "g/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl1kojDw",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl1kojDw",
+        "meta": {
+          "lastUpdated": "2009-08-08T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "21000-5",
+              "display": "Erythrocyte distribution width [Entitic volume] by"
+            }
+          ],
+          "text": "Erythrocyte distribution width [Entitic volume] by"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2009-07-09T11:00:04Z",
+        "issued": "2009-07-09T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFdZXYyf17",
+            "display": "WASHINGTON VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 45.9812481291,
+          "unit": "fL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl469Loy",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl469Loy",
+        "meta": {
+          "lastUpdated": "2009-08-08T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Platelets [#/volume] in Blood by Automated count"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2009-07-09T11:00:04Z",
+        "issued": "2009-07-09T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFdZXYyf17",
+            "display": "WASHINGTON VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 401.893580315,
+          "unit": "10*3/uL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl469cs0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl469cs0",
+        "meta": {
+          "lastUpdated": "2009-08-08T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "32207-3",
+              "display": "Platelet distribution width [Entitic volume] in Bl"
+            }
+          ],
+          "text": "Platelet distribution width [Entitic volume] in Bl"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2009-07-09T11:00:04Z",
+        "issued": "2009-07-09T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQawlD29NjP",
+            "display": "DR. JANE460 DOE922 MD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFdZXYyf17",
+            "display": "WASHINGTON VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 292.910929842,
+          "unit": "fL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl5GowAW",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl5GowAW",
+        "meta": {
+          "lastUpdated": "2009-08-08T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "32623-1",
+              "display": "Platelet mean volume [Entitic volume] in Blood by"
+            }
+          ],
+          "text": "Platelet mean volume [Entitic volume] in Blood by"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2009-07-09T11:00:04Z",
+        "issued": "2009-07-09T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUqOa8ETaMEi3",
+            "display": "DR. THOMAS359 REYNOLDS206 PHD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 11.3300284433,
+          "unit": "fL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl5HxKgm",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl5HxKgm",
+        "meta": {
+          "lastUpdated": "2011-08-13T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2339-0",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2011-07-14T11:00:04Z",
+        "issued": "2011-07-14T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswH8db7Vq2stsf",
+            "display": "LYONS VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 85.6681444009,
+          "unit": "mg/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl1lxfqG",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl1lxfqG",
+        "meta": {
+          "lastUpdated": "2011-08-13T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6299-2",
+              "display": "Urea Nitrogen"
+            }
+          ],
+          "text": "Urea Nitrogen"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2011-07-14T11:00:04Z",
+        "issued": "2011-07-14T11:00:04Z",
+        "valueQuantity": {
+          "value": 19.7726935906,
+          "unit": "mg/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl2wcz8m",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl2wcz8m",
+        "meta": {
+          "lastUpdated": "2011-08-13T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "38483-4",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2011-07-14T11:00:04Z",
+        "issued": "2011-07-14T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQawlD29NjP",
+            "display": "DR. JANE460 DOE922 MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 1.2632241717,
+          "unit": "mg/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbLhw9MC",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbLhw9MC",
+        "meta": {
+          "lastUpdated": "2011-08-13T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "49765-1",
+              "display": "Calcium"
+            }
+          ],
+          "text": "Calcium"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2011-07-14T11:00:04Z",
+        "issued": "2011-07-14T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFnexgYl7h",
+            "display": "NEW AMSTERDAM CBOC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 9.165520181,
+          "unit": "mg/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbMsbSei",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbMsbSei",
+        "meta": {
+          "lastUpdated": "2011-08-13T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2947-0",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2011-07-14T11:00:04Z",
+        "issued": "2011-07-14T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswH8db7Vq2stsf",
+            "display": "LYONS VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 141.0691568519,
+          "unit": "mmol/L"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbO3GlxE",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbO3GlxE",
+        "meta": {
+          "lastUpdated": "2011-08-13T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6298-4",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2011-07-14T11:00:04Z",
+        "issued": "2011-07-14T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQZLR7LNfJT",
+            "display": "DR. JOHN248 SMITH811 MD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswH8db7Vq2stsf",
+            "display": "LYONS VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 3.8713212057,
+          "unit": "mmol/L"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbPDw5Fk",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbPDw5Fk",
+        "meta": {
+          "lastUpdated": "2011-08-13T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2069-3",
+              "display": "Chloride"
+            }
+          ],
+          "text": "Chloride"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2011-07-14T11:00:04Z",
+        "issued": "2011-07-14T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUqOa8ETaMEi3",
+            "display": "DR. THOMAS359 REYNOLDS206 PHD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 104.2343891529,
+          "unit": "mmol/L"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbLhwQPE",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbLhwQPE",
+        "meta": {
+          "lastUpdated": "2011-08-13T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "20565-8",
+              "display": "Carbon Dioxide"
+            }
+          ],
+          "text": "Carbon Dioxide"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2011-07-14T11:00:04Z",
+        "issued": "2011-07-14T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswH8db7Vq2stsf",
+            "display": "LYONS VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 21.0538141866,
+          "unit": "mmol/L"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbMtkPH2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbMtkPH2",
+        "meta": {
+          "lastUpdated": "2011-08-13T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2093-3",
+              "display": "Total Cholesterol"
+            }
+          ],
+          "text": "Total Cholesterol"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2011-07-14T11:00:04Z",
+        "issued": "2011-07-14T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUqOa8ETaMEi3",
+            "display": "DR. THOMAS359 REYNOLDS206 PHD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 183.4847972629,
+          "unit": "mg/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl1oDumi",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl1oDumi",
+        "meta": {
+          "lastUpdated": "2011-08-13T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2571-8",
+              "display": "Triglycerides"
+            }
+          ],
+          "text": "Triglycerides"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2011-07-14T11:00:04Z",
+        "issued": "2011-07-14T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswH8db7Vq2stsf",
+            "display": "LYONS VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 120.0844843707,
+          "unit": "mg/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl2ytE5E",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl2ytE5E",
+        "meta": {
+          "lastUpdated": "2011-08-13T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "18262-6",
+              "display": "Low Density Lipoprotein Cholesterol"
+            }
+          ],
+          "text": "Low Density Lipoprotein Cholesterol"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2011-07-14T11:00:04Z",
+        "issued": "2011-07-14T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQZLR7LNfJT",
+            "display": "DR. JOHN248 SMITH811 MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 97.2126802565,
+          "unit": "mg/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl49YXNk",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl49YXNk",
+        "meta": {
+          "lastUpdated": "2011-08-13T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2085-9",
+              "display": "High Density Lipoprotein Cholesterol"
+            }
+          ],
+          "text": "High Density Lipoprotein Cholesterol"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2011-07-14T11:00:04Z",
+        "issued": "2011-07-14T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQawlD29NjP",
+            "display": "DR. JANE460 DOE922 MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 62.2552201322,
+          "unit": "mg/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl5KDqgG",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl5KDqgG",
+        "meta": {
+          "lastUpdated": "2013-08-17T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2339-0",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2013-07-18T11:00:04Z",
+        "issued": "2013-07-18T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQZLR7LNfJT",
+            "display": "DR. JOHN248 SMITH811 MD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFdZXYyf17",
+            "display": "WASHINGTON VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 90.9740659947,
+          "unit": "mg/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl1oEBpk",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl1oEBpk",
+        "meta": {
+          "lastUpdated": "2013-08-17T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6299-2",
+              "display": "Urea Nitrogen"
+            }
+          ],
+          "text": "Urea Nitrogen"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2013-07-18T11:00:04Z",
+        "issued": "2013-07-18T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUqOa8ETaMEi3",
+            "display": "DR. THOMAS359 REYNOLDS206 PHD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFdZXYyf17",
+            "display": "WASHINGTON VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 16.685026361,
+          "unit": "mg/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl2ytV8G",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl2ytV8G",
+        "meta": {
+          "lastUpdated": "2013-08-17T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "38483-4",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2013-07-18T11:00:04Z",
+        "issued": "2013-07-18T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswH8db7Vq2stsf",
+            "display": "LYONS VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 1.2777702801,
+          "unit": "mg/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl49YoQm",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl49YoQm",
+        "meta": {
+          "lastUpdated": "2013-08-17T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "49765-1",
+              "display": "Calcium"
+            }
+          ],
+          "text": "Calcium"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2013-07-18T11:00:04Z",
+        "issued": "2013-07-18T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUqOa8ETaMEi3",
+            "display": "DR. THOMAS359 REYNOLDS206 PHD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswH8db7Vq2stsf",
+            "display": "LYONS VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 9.3375154244,
+          "unit": "mg/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl5KE7jI",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl5KE7jI",
+        "meta": {
+          "lastUpdated": "2013-08-17T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2947-0",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2013-07-18T11:00:04Z",
+        "issued": "2013-07-18T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQZLR7LNfJT",
+            "display": "DR. JOHN248 SMITH811 MD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFdZXYyf17",
+            "display": "WASHINGTON VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 139.8965830046,
+          "unit": "mmol/L"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl1oESsm",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl1oESsm",
+        "meta": {
+          "lastUpdated": "2013-08-17T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6298-4",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2013-07-18T11:00:04Z",
+        "issued": "2013-07-18T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQawlD29NjP",
+            "display": "DR. JANE460 DOE922 MD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFdZXYyf17",
+            "display": "WASHINGTON VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 4.5038996747,
+          "unit": "mmol/L"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl2ytmBI",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl2ytmBI",
+        "meta": {
+          "lastUpdated": "2013-08-17T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2069-3",
+              "display": "Chloride"
+            }
+          ],
+          "text": "Chloride"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2013-07-18T11:00:04Z",
+        "issued": "2013-07-18T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswH8db7Vq2stsf",
+            "display": "LYONS VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 105.1528063705,
+          "unit": "mmol/L"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbLkCwOi",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbLkCwOi",
+        "meta": {
+          "lastUpdated": "2013-08-17T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "20565-8",
+              "display": "Carbon Dioxide"
+            }
+          ],
+          "text": "Carbon Dioxide"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2013-07-18T11:00:04Z",
+        "issued": "2013-07-18T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQawlD29NjP",
+            "display": "DR. JANE460 DOE922 MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 25.8188313968,
+          "unit": "mmol/L"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbMusFhE",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbMusFhE",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2339-0",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUqOa8ETaMEi3",
+            "display": "DR. THOMAS359 REYNOLDS206 PHD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswH8db7Vq2stsf",
+            "display": "LYONS VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 80.0087466798,
+          "unit": "mg/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbO5XYzk",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbO5XYzk",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6299-2",
+              "display": "Urea Nitrogen"
+            }
+          ],
+          "text": "Urea Nitrogen"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUqOa8ETaMEi3",
+            "display": "DR. THOMAS359 REYNOLDS206 PHD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswH8db7Vq2stsf",
+            "display": "LYONS VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 8.2288415188,
+          "unit": "mg/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbPGCsIG",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbPGCsIG",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "38483-4",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUqOa8ETaMEi3",
+            "display": "DR. THOMAS359 REYNOLDS206 PHD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFdZXYyf17",
+            "display": "WASHINGTON VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 1.3388503874,
+          "unit": "mg/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbLkDDRk",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbLkDDRk",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "49765-1",
+              "display": "Calcium"
+            }
+          ],
+          "text": "Calcium"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUqOa8ETaMEi3",
+            "display": "DR. THOMAS359 REYNOLDS206 PHD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFdZXYyf17",
+            "display": "WASHINGTON VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 9.689601767,
+          "unit": "mg/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbMusWkG",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbMusWkG",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2947-0",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "valueQuantity": {
+          "value": 137.9969879792,
+          "unit": "mmol/L"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbO5Xq2m",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbO5Xq2m",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6298-4",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFdZXYyf17",
+            "display": "WASHINGTON VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 4.4212919909,
+          "unit": "mmol/L"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbPGD9LI",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbPGD9LI",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2069-3",
+              "display": "Chloride"
+            }
+          ],
+          "text": "Chloride"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQZLR7LNfJT",
+            "display": "DR. JOHN248 SMITH811 MD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFdZXYyf17",
+            "display": "WASHINGTON VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 106.6480023674,
+          "unit": "mmol/L"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbLkDUUm",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbLkDUUm",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "20565-8",
+              "display": "Carbon Dioxide"
+            }
+          ],
+          "text": "Carbon Dioxide"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQawlD29NjP",
+            "display": "DR. JANE460 DOE922 MD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFdZXYyf17",
+            "display": "WASHINGTON VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 27.6271649004,
+          "unit": "mmol/L"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbMusnnI",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbMusnnI",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2093-3",
+              "display": "Total Cholesterol"
+            }
+          ],
+          "text": "Total Cholesterol"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswH8db7Vq2stsf",
+            "display": "LYONS VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 198.9421725762,
+          "unit": "mg/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl1pMJIy",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl1pMJIy",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2571-8",
+              "display": "Triglycerides"
+            }
+          ],
+          "text": "Triglycerides"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQawlD29NjP",
+            "display": "DR. JANE460 DOE922 MD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFnexgYl7h",
+            "display": "NEW AMSTERDAM CBOC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 106.6132108406,
+          "unit": "mg/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl301cbU",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl301cbU",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "18262-6",
+              "display": "Low Density Lipoprotein Cholesterol"
+            }
+          ],
+          "text": "Low Density Lipoprotein Cholesterol"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFdZXYyf17",
+            "display": "WASHINGTON VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 117.6106303345,
+          "unit": "mg/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl4Agvu0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl4Agvu0",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2085-9",
+              "display": "High Density Lipoprotein Cholesterol"
+            }
+          ],
+          "text": "High Density Lipoprotein Cholesterol"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQZLR7LNfJT",
+            "display": "DR. JOHN248 SMITH811 MD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswH8db7Vq2stsf",
+            "display": "LYONS VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 60.0089000735,
+          "unit": "mg/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl5LMFCW",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl5LMFCW",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "Leukocytes [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Leukocytes [#/volume] in Blood by Automated count"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQZLR7LNfJT",
+            "display": "DR. JOHN248 SMITH811 MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 6.2525266982,
+          "unit": "10*3/uL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl1pMaM0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl1pMaM0",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "789-8",
+              "display": "Erythrocytes [#/volume] in Blood by Automated coun"
+            }
+          ],
+          "text": "Erythrocytes [#/volume] in Blood by Automated coun"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQZLR7LNfJT",
+            "display": "DR. JOHN248 SMITH811 MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 5.0081525075,
+          "unit": "10*6/uL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl301teW",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl301teW",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Hemoglobin [Mass/volume] in Blood"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUqOa8ETaMEi3",
+            "display": "DR. THOMAS359 REYNOLDS206 PHD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 12.0281423707,
+          "unit": "g/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl4AhCx2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl4AhCx2",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4544-3",
+              "display": "Hematocrit [Volume Fraction] of Blood by Automated"
+            }
+          ],
+          "text": "Hematocrit [Volume Fraction] of Blood by Automated"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "valueQuantity": {
+          "value": 36.1261768277,
+          "unit": "%"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl5LMWFY",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl5LMWFY",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "787-2",
+              "display": "MCV [Entitic volume] by Automated count"
+            }
+          ],
+          "text": "MCV [Entitic volume] by Automated count"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQawlD29NjP",
+            "display": "DR. JANE460 DOE922 MD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswH8db7Vq2stsf",
+            "display": "LYONS VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 94.2631729213,
+          "unit": "fL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl1pMrP2",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl1pMrP2",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "785-6",
+              "display": "MCH [Entitic mass] by Automated count"
+            }
+          ],
+          "text": "MCH [Entitic mass] by Automated count"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQawlD29NjP",
+            "display": "DR. JANE460 DOE922 MD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFdZXYyf17",
+            "display": "WASHINGTON VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 31.2228236171,
+          "unit": "pg"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl302AhY",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl302AhY",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "786-4",
+              "display": "MCHC [Mass/volume] by Automated count"
+            }
+          ],
+          "text": "MCHC [Mass/volume] by Automated count"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQZLR7LNfJT",
+            "display": "DR. JOHN248 SMITH811 MD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswH8db7Vq2stsf",
+            "display": "LYONS VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 33.9880756848,
+          "unit": "g/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbQMKbVk",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbQMKbVk",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "21000-5",
+              "display": "Erythrocyte distribution width [Entitic volume] by"
+            }
+          ],
+          "text": "Erythrocyte distribution width [Entitic volume] by"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUqOa8ETaMEi3",
+            "display": "DR. THOMAS359 REYNOLDS206 PHD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFdZXYyf17",
+            "display": "WASHINGTON VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 40.2443675484,
+          "unit": "fL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbRWzuoG",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbRWzuoG",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Platelets [#/volume] in Blood by Automated count"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "valueQuantity": {
+          "value": 309.2174381825,
+          "unit": "10*3/uL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbShfE6m",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbShfE6m",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "32207-3",
+              "display": "Platelet distribution width [Entitic volume] in Bl"
+            }
+          ],
+          "text": "Platelet distribution width [Entitic volume] in Bl"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "valueQuantity": {
+          "value": 406.5224153358,
+          "unit": "fL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbTsKXPI",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbTsKXPI",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "32623-1",
+              "display": "Platelet mean volume [Entitic volume] in Blood by"
+            }
+          ],
+          "text": "Platelet mean volume [Entitic volume] in Blood by"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQZLR7LNfJT",
+            "display": "DR. JOHN248 SMITH811 MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 10.8417666705,
+          "unit": "fL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbQMKsYm",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbQMKsYm",
+        "meta": {
+          "lastUpdated": "2017-08-26T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2339-0",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2017-07-27T11:00:04Z",
+        "issued": "2017-07-27T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswH8db7Vq2stsf",
+            "display": "LYONS VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 85.5965567809,
+          "unit": "mg/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbRX0BrI",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbRX0BrI",
+        "meta": {
+          "lastUpdated": "2017-08-26T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6299-2",
+              "display": "Urea Nitrogen"
+            }
+          ],
+          "text": "Urea Nitrogen"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2017-07-27T11:00:04Z",
+        "issued": "2017-07-27T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswH8db7Vq2stsf",
+            "display": "LYONS VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 17.11537412,
+          "unit": "mg/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbShfV9o",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbShfV9o",
+        "meta": {
+          "lastUpdated": "2017-08-26T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "38483-4",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2017-07-27T11:00:04Z",
+        "issued": "2017-07-27T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFdZXYyf17",
+            "display": "WASHINGTON VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 1.3157059997,
+          "unit": "mg/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbTsKoSK",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbTsKoSK",
+        "meta": {
+          "lastUpdated": "2017-08-26T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "49765-1",
+              "display": "Calcium"
+            }
+          ],
+          "text": "Calcium"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2017-07-27T11:00:04Z",
+        "issued": "2017-07-27T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUqOa8ETaMEi3",
+            "display": "DR. THOMAS359 REYNOLDS206 PHD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFdZXYyf17",
+            "display": "WASHINGTON VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 10.009136897,
+          "unit": "mg/dL"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbQML9bo",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbQML9bo",
+        "meta": {
+          "lastUpdated": "2017-08-26T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2947-0",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2017-07-27T11:00:04Z",
+        "issued": "2017-07-27T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQawlD29NjP",
+            "display": "DR. JANE460 DOE922 MD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswH8db7Vq2stsf",
+            "display": "LYONS VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 143.7058751498,
+          "unit": "mmol/L"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbRX0SuK",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEbRX0SuK",
+        "meta": {
+          "lastUpdated": "2017-08-26T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6298-4",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2017-07-27T11:00:04Z",
+        "issued": "2017-07-27T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQZLR7LNfJT",
+            "display": "DR. JOHN248 SMITH811 MD"
+          }
+        ],
+        "valueQuantity": {
+          "value": 4.7995480028,
+          "unit": "mmol/L"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl6RTyQ0",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl6RTyQ0",
+        "meta": {
+          "lastUpdated": "2017-08-26T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2069-3",
+              "display": "Chloride"
+            }
+          ],
+          "text": "Chloride"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2017-07-27T11:00:04Z",
+        "issued": "2017-07-27T11:00:04Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQZLR7LNfJT",
+            "display": "DR. JOHN248 SMITH811 MD"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-V0wpgQswHJeFdZXYyf17",
+            "display": "WASHINGTON VA MEDICAL CENTER"
+          }
+        ],
+        "valueQuantity": {
+          "value": 105.7523450015,
+          "unit": "mmol/L"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl7c9HiW",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-RJYJwAqmEl7c9HiW",
+        "meta": {
+          "lastUpdated": "2017-08-26T11:00:04Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "20565-8",
+              "display": "Carbon Dioxide"
+            }
+          ],
+          "text": "Carbon Dioxide"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2017-07-27T11:00:04Z",
+        "issued": "2017-07-27T11:00:04Z",
+        "valueQuantity": {
+          "value": 26.6160489725,
+          "unit": "mmol/L"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}

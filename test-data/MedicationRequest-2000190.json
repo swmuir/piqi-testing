@@ -1,0 +1,415 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://sandbox-api.va.gov/services/fhir/v0/r4/MedicationRequest?patient=2000190&-pageToken=1~6Z807QTZrKsurkk"
+    },
+    {
+      "relation": "next",
+      "url": "https://sandbox-api.va.gov/services/fhir/v0/r4/MedicationRequest?patient=2000190&-pageToken=1~6Z807QTZrKsutss"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/MedicationRequest/4-1nxDXGy4RoJZJylR5u",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "4-1nxDXGy4RoJZJylR5u",
+        "meta": {
+          "lastUpdated": "1991-09-05T11:00:04Z"
+        },
+        "status": "active",
+        "intent": "plan",
+        "reportedBoolean": true,
+        "medicationReference": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Medication/4-7SGVf3FjClwZKwaYjQe",
+          "display": "Hydrochlorothiazide 25 MG"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "authoredOn": "1991-09-05T11:00:04Z",
+        "requester": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ],
+          "display": "Unknown"
+        },
+        "note": [
+          {
+            "text": "Hydrochlorothiazide 25 MG"
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "Once per day.",
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "1991-09-05T11:00:04Z"
+                }
+              },
+              "code": {
+                "text": "As directed by physician."
+              }
+            },
+            "route": {
+              "text": "As directed by physician."
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/MedicationRequest/4-1nxDXGy4RoJZKZ65kA",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "4-1nxDXGy4RoJZKZ65kA",
+        "meta": {
+          "lastUpdated": "2009-10-28T11:00:04Z"
+        },
+        "status": "active",
+        "intent": "plan",
+        "reportedBoolean": true,
+        "medicationReference": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Medication/4-7SGVf3FjClwZKwsnSXI",
+          "display": "Acetaminophen 160 MG"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "authoredOn": "2009-10-28T11:00:04Z",
+        "requester": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ],
+          "display": "Unknown"
+        },
+        "note": [
+          {
+            "text": "Acetaminophen 160 MG"
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "Once per day.",
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2009-10-28T11:00:04Z"
+                }
+              },
+              "code": {
+                "text": "As directed by physician."
+              }
+            },
+            "route": {
+              "text": "As directed by physician."
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/MedicationRequest/4-1nxDXGy4RoJZL9QkOQ",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "4-1nxDXGy4RoJZL9QkOQ",
+        "meta": {
+          "lastUpdated": "2011-08-13T11:00:04Z"
+        },
+        "status": "active",
+        "intent": "plan",
+        "reportedBoolean": true,
+        "medicationReference": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Medication/4-7SGVf3FjClwZKwslG92",
+          "display": "Naproxen sodium 220 MG Oral Tablet"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "authoredOn": "2011-08-13T11:00:04Z",
+        "requester": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ],
+          "display": "Unknown"
+        },
+        "note": [
+          {
+            "text": "Naproxen sodium 220 MG Oral Tablet"
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "Once per day.",
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2011-08-13T11:00:04Z"
+                }
+              },
+              "code": {
+                "text": "As directed by physician."
+              }
+            },
+            "route": {
+              "text": "As directed by physician."
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/MedicationRequest/4-1nxDXGy4RoJZLjlP2g",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "4-1nxDXGy4RoJZLjlP2g",
+        "meta": {
+          "lastUpdated": "2016-06-01T11:00:04Z"
+        },
+        "status": "active",
+        "intent": "plan",
+        "reportedBoolean": true,
+        "medicationReference": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Medication/4-7SGVf3FjClwZKwswG6K",
+          "display": "Ibuprofen 200 MG Oral Tablet"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "authoredOn": "2016-06-01T11:00:04Z",
+        "requester": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ],
+          "display": "Unknown"
+        },
+        "note": [
+          {
+            "text": "Ibuprofen 200 MG Oral Tablet"
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "Once per day.",
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2016-06-01T11:00:04Z"
+                }
+              },
+              "code": {
+                "text": "As directed by physician."
+              }
+            },
+            "route": {
+              "text": "As directed by physician."
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/MedicationRequest/4-1nxDXGy4RoJZHdR5Xu",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "4-1nxDXGy4RoJZHdR5Xu",
+        "meta": {
+          "lastUpdated": "2016-07-05T11:00:04Z"
+        },
+        "status": "active",
+        "intent": "plan",
+        "reportedBoolean": true,
+        "medicationReference": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Medication/4-7SGVf3FjClwZKxT5unI",
+          "display": "Sertraline 100MG"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "authoredOn": "2016-07-05T11:00:04Z",
+        "requester": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ],
+          "display": "Unknown"
+        },
+        "note": [
+          {
+            "text": "Sertraline 100MG"
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "1 dose(s) 1 time(s) per 1 days",
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2016-07-05T11:00:04Z"
+                }
+              },
+              "code": {
+                "text": "As directed by physician."
+              }
+            },
+            "route": {
+              "text": "As directed by physician."
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/MedicationRequest/4-1nxDXGy4RoJZIDlkCA",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "4-1nxDXGy4RoJZIDlkCA",
+        "meta": {
+          "lastUpdated": "2016-07-05T11:00:04Z"
+        },
+        "status": "active",
+        "intent": "plan",
+        "reportedBoolean": true,
+        "medicationReference": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Medication/4-7SGVf3FjClwZKxT87BY",
+          "display": "Acetaminophen/Hydrocodone"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "authoredOn": "2016-07-05T11:00:04Z",
+        "requester": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ],
+          "display": "Unknown"
+        },
+        "note": [
+          {
+            "text": "Acetaminophen/Hydrocodone"
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "Once per day.",
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2016-07-05T11:00:04Z"
+                }
+              },
+              "code": {
+                "text": "As directed by physician."
+              }
+            },
+            "route": {
+              "text": "As directed by physician."
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/MedicationRequest/4-1nxDXGy4RoJe7g0Ux0",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "4-1nxDXGy4RoJe7g0Ux0",
+        "meta": {
+          "lastUpdated": "2017-06-01T11:00:04Z"
+        },
+        "status": "active",
+        "intent": "plan",
+        "reportedBoolean": true,
+        "medicationReference": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Medication/4-7SGVf3FjClwZKwspevY",
+          "display": "Acetaminophen 325 MG Oral Tablet"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "authoredOn": "2017-06-01T11:00:04Z",
+        "requester": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ],
+          "display": "Unknown"
+        },
+        "note": [
+          {
+            "text": "Acetaminophen 325 MG Oral Tablet"
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "Once per day.",
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2017-06-01T11:00:04Z"
+                }
+              },
+              "code": {
+                "text": "As directed by physician."
+              }
+            },
+            "route": {
+              "text": "As directed by physician."
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}

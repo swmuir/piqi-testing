@@ -1,0 +1,5945 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation?patient=36000216&-pageToken=1~6Z807QTZrKsurkk"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHLblDf",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IHLblDf",
+        "meta": {
+          "lastUpdated": "2015-05-21T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4548-4",
+              "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+            }
+          ],
+          "text": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIwWP8V"
+        },
+        "effectiveDateTime": "2015-04-21T08:43:18Z",
+        "issued": "2015-04-21T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 5.95,
+          "unit": "%"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 1,
+              "unit": "%"
+            },
+            "high": {
+              "value": 52,
+              "unit": "%"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHLcAnF",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IHLcAnF",
+        "meta": {
+          "lastUpdated": "2015-05-21T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2",
+              "display": "Body Height"
+            }
+          ],
+          "text": "Body Height"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIwWP8V"
+        },
+        "effectiveDateTime": "2015-04-21T08:43:18Z",
+        "issued": "2015-04-21T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 160.1,
+          "unit": "cm"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHLcRqH",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IHLcRqH",
+        "meta": {
+          "lastUpdated": "2015-05-21T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "72514-3",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ],
+          "text": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIwWP8V"
+        },
+        "effectiveDateTime": "2015-04-21T08:43:18Z",
+        "issued": "2015-04-21T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 1,
+          "unit": "Score"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 20,
+              "unit": "Score"
+            },
+            "high": {
+              "value": 182,
+              "unit": "Score"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHLcitJ",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IHLcitJ",
+        "meta": {
+          "lastUpdated": "2015-05-21T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body Weight"
+            }
+          ],
+          "text": "Body Weight"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIwWP8V"
+        },
+        "effectiveDateTime": "2015-04-21T08:43:18Z",
+        "issued": "2015-04-21T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 74.7,
+          "unit": "kg"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHLdGzN",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IHLdGzN",
+        "meta": {
+          "lastUpdated": "2015-05-21T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood Pressure"
+            }
+          ],
+          "text": "Blood Pressure"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIwWP8V"
+        },
+        "effectiveDateTime": "2015-04-21T08:43:18Z",
+        "issued": "2015-04-21T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic Blood Pressure"
+                }
+              ],
+              "text": "Diastolic Blood Pressure"
+            },
+            "valueQuantity": {
+              "value": 88,
+              "unit": "mm Hg"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic Blood Pressure"
+                }
+              ],
+              "text": "Systolic Blood Pressure"
+            },
+            "valueQuantity": {
+              "value": 105,
+              "unit": "mm Hg"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHLdY2P",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IHLdY2P",
+        "meta": {
+          "lastUpdated": "2015-05-21T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIwWP8V"
+        },
+        "effectiveDateTime": "2015-04-21T08:43:18Z",
+        "issued": "2015-04-21T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 76,
+          "unit": "/min"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHLdp5R",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IHLdp5R",
+        "meta": {
+          "lastUpdated": "2015-05-21T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIwWP8V"
+        },
+        "effectiveDateTime": "2015-04-21T08:43:18Z",
+        "issued": "2015-04-21T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 15,
+          "unit": "/min"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHNs0A7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IHNs0A7",
+        "meta": {
+          "lastUpdated": "2015-05-21T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2339-0",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIwWP8V"
+        },
+        "effectiveDateTime": "2015-04-21T08:43:18Z",
+        "issued": "2015-04-21T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 93.38,
+          "unit": "mg/dL"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.8,
+              "unit": "mg/dL"
+            },
+            "high": {
+              "value": 135,
+              "unit": "mg/dL"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHNsHD9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IHNsHD9",
+        "meta": {
+          "lastUpdated": "2015-05-21T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6299-2",
+              "display": "Urea Nitrogen"
+            }
+          ],
+          "text": "Urea Nitrogen"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIwWP8V"
+        },
+        "effectiveDateTime": "2015-04-21T08:43:18Z",
+        "issued": "2015-04-21T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 7.29,
+          "unit": "mg/dL"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.8,
+              "unit": "mg/dL"
+            },
+            "high": {
+              "value": 135,
+              "unit": "mg/dL"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHNsYGB",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IHNsYGB",
+        "meta": {
+          "lastUpdated": "2015-05-21T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "38483-4",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIwWP8V"
+        },
+        "effectiveDateTime": "2015-04-21T08:43:18Z",
+        "issued": "2015-04-21T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 1.79,
+          "unit": "mg/dL"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.8,
+              "unit": "mg/dL"
+            },
+            "high": {
+              "value": 135,
+              "unit": "mg/dL"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHNspJD",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IHNspJD",
+        "meta": {
+          "lastUpdated": "2015-05-21T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "49765-1",
+              "display": "Calcium"
+            }
+          ],
+          "text": "Calcium"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIwWP8V"
+        },
+        "effectiveDateTime": "2015-04-21T08:43:18Z",
+        "issued": "2015-04-21T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 9.59,
+          "unit": "mg/dL"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.8,
+              "unit": "mg/dL"
+            },
+            "high": {
+              "value": 135,
+              "unit": "mg/dL"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHNt6MF",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IHNt6MF",
+        "meta": {
+          "lastUpdated": "2015-05-21T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2947-0",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIwWP8V"
+        },
+        "effectiveDateTime": "2015-04-21T08:43:18Z",
+        "issued": "2015-04-21T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 139.97,
+          "unit": "mmol/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.4,
+              "unit": "mmol/L"
+            },
+            "high": {
+              "value": 145,
+              "unit": "mmol/L"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHNtNPH",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IHNtNPH",
+        "meta": {
+          "lastUpdated": "2015-05-21T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6298-4",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIwWP8V"
+        },
+        "effectiveDateTime": "2015-04-21T08:43:18Z",
+        "issued": "2015-04-21T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 4.92,
+          "unit": "mmol/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.4,
+              "unit": "mmol/L"
+            },
+            "high": {
+              "value": 145,
+              "unit": "mmol/L"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHNteSJ",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IHNteSJ",
+        "meta": {
+          "lastUpdated": "2015-05-21T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2069-3",
+              "display": "Chloride"
+            }
+          ],
+          "text": "Chloride"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIwWP8V"
+        },
+        "effectiveDateTime": "2015-04-21T08:43:18Z",
+        "issued": "2015-04-21T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 109.26,
+          "unit": "mmol/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.4,
+              "unit": "mmol/L"
+            },
+            "high": {
+              "value": 145,
+              "unit": "mmol/L"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHNtvVL",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IHNtvVL",
+        "meta": {
+          "lastUpdated": "2015-05-21T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "20565-8",
+              "display": "Carbon Dioxide"
+            }
+          ],
+          "text": "Carbon Dioxide"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIwWP8V"
+        },
+        "effectiveDateTime": "2015-04-21T08:43:18Z",
+        "issued": "2015-04-21T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 25.35,
+          "unit": "mmol/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.4,
+              "unit": "mmol/L"
+            },
+            "high": {
+              "value": 145,
+              "unit": "mmol/L"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHNuL4v",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IHNuL4v",
+        "meta": {
+          "lastUpdated": "2015-05-21T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history",
+                "display": "Social History"
+              }
+            ],
+            "text": "Social History"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "72166-2",
+              "display": "Tobacco smoking status"
+            }
+          ],
+          "text": "Tobacco smoking status"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIwWP8V"
+        },
+        "effectiveDateTime": "2015-04-21T08:43:18Z",
+        "issued": "2015-04-21T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "266919005",
+              "display": "Never smoked tobacco (finding)"
+            }
+          ],
+          "text": "Never smoked tobacco (finding)"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHQ9LIh",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IHQ9LIh",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4548-4",
+              "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+            }
+          ],
+          "text": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 5.93,
+          "unit": "%"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 1,
+              "unit": "%"
+            },
+            "high": {
+              "value": 52,
+              "unit": "%"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHQ9ksH",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IHQ9ksH",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2",
+              "display": "Body Height"
+            }
+          ],
+          "text": "Body Height"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 160.1,
+          "unit": "cm"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHQA1vJ",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IHQA1vJ",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "72514-3",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ],
+          "text": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 3,
+          "unit": "Score"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 20,
+              "unit": "Score"
+            },
+            "high": {
+              "value": 182,
+              "unit": "Score"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHQAIyL",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IHQAIyL",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body Weight"
+            }
+          ],
+          "text": "Body Weight"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 80.6,
+          "unit": "kg"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHQAr4P",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IHQAr4P",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood Pressure"
+            }
+          ],
+          "text": "Blood Pressure"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic Blood Pressure"
+                }
+              ],
+              "text": "Diastolic Blood Pressure"
+            },
+            "valueQuantity": {
+              "value": 81,
+              "unit": "mm Hg"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic Blood Pressure"
+                }
+              ],
+              "text": "Systolic Blood Pressure"
+            },
+            "valueQuantity": {
+              "value": 103,
+              "unit": "mm Hg"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHQB87R",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IHQB87R",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 72,
+          "unit": "/min"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHQBPAT",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IHQBPAT",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 15,
+          "unit": "/min"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZqMecF",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZqMecF",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2339-0",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 75.54,
+          "unit": "mg/dL"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.8,
+              "unit": "mg/dL"
+            },
+            "high": {
+              "value": 135,
+              "unit": "mg/dL"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZqMvfH",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZqMvfH",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6299-2",
+              "display": "Urea Nitrogen"
+            }
+          ],
+          "text": "Urea Nitrogen"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 8.78,
+          "unit": "mg/dL"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.8,
+              "unit": "mg/dL"
+            },
+            "high": {
+              "value": 135,
+              "unit": "mg/dL"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZqNCiJ",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZqNCiJ",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "38483-4",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 1.07,
+          "unit": "mg/dL"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.8,
+              "unit": "mg/dL"
+            },
+            "high": {
+              "value": 135,
+              "unit": "mg/dL"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZqNTlL",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZqNTlL",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "49765-1",
+              "display": "Calcium"
+            }
+          ],
+          "text": "Calcium"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 9.73,
+          "unit": "mg/dL"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.8,
+              "unit": "mg/dL"
+            },
+            "high": {
+              "value": 135,
+              "unit": "mg/dL"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZqNkoN",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZqNkoN",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2947-0",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 137.24,
+          "unit": "mmol/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.4,
+              "unit": "mmol/L"
+            },
+            "high": {
+              "value": 145,
+              "unit": "mmol/L"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZqO1rP",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZqO1rP",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6298-4",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 5.03,
+          "unit": "mmol/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.4,
+              "unit": "mmol/L"
+            },
+            "high": {
+              "value": 145,
+              "unit": "mmol/L"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZqOIuR",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZqOIuR",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2069-3",
+              "display": "Chloride"
+            }
+          ],
+          "text": "Chloride"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 105.15,
+          "unit": "mmol/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.4,
+              "unit": "mmol/L"
+            },
+            "high": {
+              "value": 145,
+              "unit": "mmol/L"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZqOZxT",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZqOZxT",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "20565-8",
+              "display": "Carbon Dioxide"
+            }
+          ],
+          "text": "Carbon Dioxide"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 27.39,
+          "unit": "mmol/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.4,
+              "unit": "mmol/L"
+            },
+            "high": {
+              "value": 145,
+              "unit": "mmol/L"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZqOr0V",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZqOr0V",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6690-2",
+              "display": "Leukocytes [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Leukocytes [#/volume] in Blood by Automated count"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 5.0609,
+          "unit": "10*3/uL"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.1,
+              "unit": "10*3/uL"
+            },
+            "high": {
+              "value": 360,
+              "unit": "10*3/uL"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZqP83X",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZqP83X",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "789-8",
+              "display": "Erythrocytes [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Erythrocytes [#/volume] in Blood by Automated count"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 5.1194,
+          "unit": "10*6/uL"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.97,
+              "unit": "10*6/uL"
+            },
+            "high": {
+              "value": 5.55,
+              "unit": "10*6/uL"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZsdRel",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZsdRel",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "718-7",
+              "display": "Hemoglobin [Mass/volume] in Blood"
+            }
+          ],
+          "text": "Hemoglobin [Mass/volume] in Blood"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 13.894,
+          "unit": "g/dl"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.8,
+              "unit": "g/dl"
+            },
+            "high": {
+              "value": 36,
+              "unit": "g/dl"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZsdihn",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZsdihn",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4544-3",
+              "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+            }
+          ],
+          "text": "Hematocrit [Volume Fraction] of Blood by Automated count"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 45.849,
+          "unit": "%"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 1,
+              "unit": "%"
+            },
+            "high": {
+              "value": 52,
+              "unit": "%"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZsdzkp",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZsdzkp",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "787-2",
+              "display": "MCV [Entitic volume] by Automated count"
+            }
+          ],
+          "text": "MCV [Entitic volume] by Automated count"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 90.174,
+          "unit": "fL"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 7.4,
+              "unit": "fL"
+            },
+            "high": {
+              "value": 10.4,
+              "unit": "fL"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZseGnr",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZseGnr",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "785-6",
+              "display": "MCH [Entitic mass] by Automated count"
+            }
+          ],
+          "text": "MCH [Entitic mass] by Automated count"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 27.358,
+          "unit": "pg"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 28,
+              "unit": "pg"
+            },
+            "high": {
+              "value": 34,
+              "unit": "pg"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZseXqt",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZseXqt",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "786-4",
+              "display": "MCHC [Mass/volume] by Automated count"
+            }
+          ],
+          "text": "MCHC [Mass/volume] by Automated count"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 35.136,
+          "unit": "g/dl"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.8,
+              "unit": "g/dl"
+            },
+            "high": {
+              "value": 36,
+              "unit": "g/dl"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZseotv",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZseotv",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "21000-5",
+              "display": "Erythrocyte distribution width [Entitic volume] by Automated count"
+            }
+          ],
+          "text": "Erythrocyte distribution width [Entitic volume] by Automated count"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 40.563,
+          "unit": "fL"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 7.4,
+              "unit": "fL"
+            },
+            "high": {
+              "value": 10.4,
+              "unit": "fL"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZsf5wx",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZsf5wx",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "777-3",
+              "display": "Platelets [#/volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Platelets [#/volume] in Blood by Automated count"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 384.03,
+          "unit": "10*3/uL"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.1,
+              "unit": "10*3/uL"
+            },
+            "high": {
+              "value": 360,
+              "unit": "10*3/uL"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZsfMzz",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZsfMzz",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "32207-3",
+              "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 162.78,
+          "unit": "fL"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 7.4,
+              "unit": "fL"
+            },
+            "high": {
+              "value": 10.4,
+              "unit": "fL"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZsfe31",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZsfe31",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "32623-1",
+              "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+            }
+          ],
+          "text": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 9.8859,
+          "unit": "fL"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 7.4,
+              "unit": "fL"
+            },
+            "high": {
+              "value": 10.4,
+              "unit": "fL"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZsg3cb",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZsg3cb",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history",
+                "display": "Social History"
+              }
+            ],
+            "text": "Social History"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "72166-2",
+              "display": "Tobacco smoking status"
+            }
+          ],
+          "text": "Tobacco smoking status"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "266919005",
+              "display": "Never smoked tobacco (finding)"
+            }
+          ],
+          "text": "Never smoked tobacco (finding)"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZuvKtP",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZuvKtP",
+        "meta": {
+          "lastUpdated": "2021-05-27T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "4548-4",
+              "display": "Hemoglobin A1c/Hemoglobin.total in Blood"
+            }
+          ],
+          "text": "Hemoglobin A1c/Hemoglobin.total in Blood"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIynTE3"
+        },
+        "effectiveDateTime": "2021-04-27T08:43:18Z",
+        "issued": "2021-04-27T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 6.09,
+          "unit": "%"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 1,
+              "unit": "%"
+            },
+            "high": {
+              "value": 52,
+              "unit": "%"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZuvkSz",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZuvkSz",
+        "meta": {
+          "lastUpdated": "2021-05-27T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8302-2",
+              "display": "Body Height"
+            }
+          ],
+          "text": "Body Height"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIynTE3"
+        },
+        "effectiveDateTime": "2021-04-27T08:43:18Z",
+        "issued": "2021-04-27T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 160.1,
+          "unit": "cm"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZuw1W1",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZuw1W1",
+        "meta": {
+          "lastUpdated": "2021-05-27T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "72514-3",
+              "display": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+            }
+          ],
+          "text": "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIynTE3"
+        },
+        "effectiveDateTime": "2021-04-27T08:43:18Z",
+        "issued": "2021-04-27T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 0,
+          "unit": "Score"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 20,
+              "unit": "Score"
+            },
+            "high": {
+              "value": 182,
+              "unit": "Score"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZuwIZ3",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZuwIZ3",
+        "meta": {
+          "lastUpdated": "2021-05-27T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "29463-7",
+              "display": "Body Weight"
+            }
+          ],
+          "text": "Body Weight"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIynTE3"
+        },
+        "effectiveDateTime": "2021-04-27T08:43:18Z",
+        "issued": "2021-04-27T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 77.4,
+          "unit": "kg"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZuwqf7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZuwqf7",
+        "meta": {
+          "lastUpdated": "2021-05-27T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "85354-9",
+              "display": "Blood Pressure"
+            }
+          ],
+          "text": "Blood Pressure"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIynTE3"
+        },
+        "effectiveDateTime": "2021-04-27T08:43:18Z",
+        "issued": "2021-04-27T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8462-4",
+                  "display": "Diastolic Blood Pressure"
+                }
+              ],
+              "text": "Diastolic Blood Pressure"
+            },
+            "valueQuantity": {
+              "value": 76,
+              "unit": "mm Hg"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "8480-6",
+                  "display": "Systolic Blood Pressure"
+                }
+              ],
+              "text": "Systolic Blood Pressure"
+            },
+            "valueQuantity": {
+              "value": 103,
+              "unit": "mm Hg"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZxBAGL",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZxBAGL",
+        "meta": {
+          "lastUpdated": "2021-05-27T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8867-4",
+              "display": "Heart rate"
+            }
+          ],
+          "text": "Heart rate"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIynTE3"
+        },
+        "effectiveDateTime": "2021-04-27T08:43:18Z",
+        "issued": "2021-04-27T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 99,
+          "unit": "/min"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZxBRJN",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZxBRJN",
+        "meta": {
+          "lastUpdated": "2021-05-27T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9279-1",
+              "display": "Respiratory rate"
+            }
+          ],
+          "text": "Respiratory rate"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIynTE3"
+        },
+        "effectiveDateTime": "2021-04-27T08:43:18Z",
+        "issued": "2021-04-27T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 15,
+          "unit": "/min"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZxBZpr",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZxBZpr",
+        "meta": {
+          "lastUpdated": "2021-05-27T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2339-0",
+              "display": "Glucose"
+            }
+          ],
+          "text": "Glucose"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIynTE3"
+        },
+        "effectiveDateTime": "2021-04-27T08:43:18Z",
+        "issued": "2021-04-27T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 72.69,
+          "unit": "mg/dL"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.8,
+              "unit": "mg/dL"
+            },
+            "high": {
+              "value": 135,
+              "unit": "mg/dL"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZxBqst",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZxBqst",
+        "meta": {
+          "lastUpdated": "2021-05-27T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6299-2",
+              "display": "Urea Nitrogen"
+            }
+          ],
+          "text": "Urea Nitrogen"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIynTE3"
+        },
+        "effectiveDateTime": "2021-04-27T08:43:18Z",
+        "issued": "2021-04-27T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 11.98,
+          "unit": "mg/dL"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.8,
+              "unit": "mg/dL"
+            },
+            "high": {
+              "value": 135,
+              "unit": "mg/dL"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZxC7vv",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZxC7vv",
+        "meta": {
+          "lastUpdated": "2021-05-27T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "38483-4",
+              "display": "Creatinine"
+            }
+          ],
+          "text": "Creatinine"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIynTE3"
+        },
+        "effectiveDateTime": "2021-04-27T08:43:18Z",
+        "issued": "2021-04-27T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 1.23,
+          "unit": "mg/dL"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.8,
+              "unit": "mg/dL"
+            },
+            "high": {
+              "value": 135,
+              "unit": "mg/dL"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZxCOyx",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZxCOyx",
+        "meta": {
+          "lastUpdated": "2021-05-27T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "49765-1",
+              "display": "Calcium"
+            }
+          ],
+          "text": "Calcium"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIynTE3"
+        },
+        "effectiveDateTime": "2021-04-27T08:43:18Z",
+        "issued": "2021-04-27T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 9.38,
+          "unit": "mg/dL"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.8,
+              "unit": "mg/dL"
+            },
+            "high": {
+              "value": 135,
+              "unit": "mg/dL"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZxCg1z",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZxCg1z",
+        "meta": {
+          "lastUpdated": "2021-05-27T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2947-0",
+              "display": "Sodium"
+            }
+          ],
+          "text": "Sodium"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIynTE3"
+        },
+        "effectiveDateTime": "2021-04-27T08:43:18Z",
+        "issued": "2021-04-27T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 140.35,
+          "unit": "mmol/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.4,
+              "unit": "mmol/L"
+            },
+            "high": {
+              "value": 145,
+              "unit": "mmol/L"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZxCx51",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZxCx51",
+        "meta": {
+          "lastUpdated": "2021-05-27T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "6298-4",
+              "display": "Potassium"
+            }
+          ],
+          "text": "Potassium"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIynTE3"
+        },
+        "effectiveDateTime": "2021-04-27T08:43:18Z",
+        "issued": "2021-04-27T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 4.5,
+          "unit": "mmol/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.4,
+              "unit": "mmol/L"
+            },
+            "high": {
+              "value": 145,
+              "unit": "mmol/L"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZxDE83",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZxDE83",
+        "meta": {
+          "lastUpdated": "2021-05-27T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2069-3",
+              "display": "Chloride"
+            }
+          ],
+          "text": "Chloride"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIynTE3"
+        },
+        "effectiveDateTime": "2021-04-27T08:43:18Z",
+        "issued": "2021-04-27T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 106,
+          "unit": "mmol/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.4,
+              "unit": "mmol/L"
+            },
+            "high": {
+              "value": 145,
+              "unit": "mmol/L"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZxDVB5",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZxDVB5",
+        "meta": {
+          "lastUpdated": "2021-05-27T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "20565-8",
+              "display": "Carbon Dioxide"
+            }
+          ],
+          "text": "Carbon Dioxide"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIynTE3"
+        },
+        "effectiveDateTime": "2021-04-27T08:43:18Z",
+        "issued": "2021-04-27T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 21.85,
+          "unit": "mmol/L"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 3.4,
+              "unit": "mmol/L"
+            },
+            "high": {
+              "value": 145,
+              "unit": "mmol/L"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZzRomJ",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZzRomJ",
+        "meta": {
+          "lastUpdated": "2021-05-27T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2093-3",
+              "display": "Total Cholesterol"
+            }
+          ],
+          "text": "Total Cholesterol"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIynTE3"
+        },
+        "effectiveDateTime": "2021-04-27T08:43:18Z",
+        "issued": "2021-04-27T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 171.09,
+          "unit": "mg/dL"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.8,
+              "unit": "mg/dL"
+            },
+            "high": {
+              "value": 135,
+              "unit": "mg/dL"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZzS5pL",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZzS5pL",
+        "meta": {
+          "lastUpdated": "2021-05-27T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2571-8",
+              "display": "Triglycerides"
+            }
+          ],
+          "text": "Triglycerides"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIynTE3"
+        },
+        "effectiveDateTime": "2021-04-27T08:43:18Z",
+        "issued": "2021-04-27T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 103.72,
+          "unit": "mg/dL"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.8,
+              "unit": "mg/dL"
+            },
+            "high": {
+              "value": 135,
+              "unit": "mg/dL"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZzSMsN",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZzSMsN",
+        "meta": {
+          "lastUpdated": "2021-05-27T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "18262-6",
+              "display": "Low Density Lipoprotein Cholesterol"
+            }
+          ],
+          "text": "Low Density Lipoprotein Cholesterol"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIynTE3"
+        },
+        "effectiveDateTime": "2021-04-27T08:43:18Z",
+        "issued": "2021-04-27T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 106.04,
+          "unit": "mg/dL"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.8,
+              "unit": "mg/dL"
+            },
+            "high": {
+              "value": 135,
+              "unit": "mg/dL"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZzSdvP",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZzSdvP",
+        "meta": {
+          "lastUpdated": "2021-05-27T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "2085-9",
+              "display": "High Density Lipoprotein Cholesterol"
+            }
+          ],
+          "text": "High Density Lipoprotein Cholesterol"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIynTE3"
+        },
+        "effectiveDateTime": "2021-04-27T08:43:18Z",
+        "issued": "2021-04-27T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 44.31,
+          "unit": "mg/dL"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 0.8,
+              "unit": "mg/dL"
+            },
+            "high": {
+              "value": 135,
+              "unit": "mg/dL"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZzT3Uz",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZzT3Uz",
+        "meta": {
+          "lastUpdated": "2021-05-27T08:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history",
+                "display": "Social History"
+              }
+            ],
+            "text": "Social History"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "72166-2",
+              "display": "Tobacco smoking status"
+            }
+          ],
+          "text": "Tobacco smoking status"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIynTE3"
+        },
+        "effectiveDateTime": "2021-04-27T08:43:18Z",
+        "issued": "2021-04-27T08:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+            "display": "Dr. Chauncey770 Ritchie586"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "266919005",
+              "display": "Never smoked tobacco (finding)"
+            }
+          ],
+          "text": "Never smoked tobacco (finding)"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZzU9h7",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IZzU9h7",
+        "meta": {
+          "lastUpdated": "2023-01-06T04:43:18Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "vital-signs",
+                "display": "Vital Signs"
+              }
+            ],
+            "text": "Vital Signs"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "8310-5",
+              "display": "Body temperature"
+            }
+          ],
+          "text": "Body temperature"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftJ123sJ"
+        },
+        "effectiveDateTime": "2022-12-07T04:43:18Z",
+        "issued": "2022-12-07T04:43:19Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79MfR2nlWr",
+            "display": "Dr. Melvin857 Nikolaus26"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-5pFm5BD7R1d",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueQuantity": {
+          "value": 37.829,
+          "unit": "Cel"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "A",
+                "display": "Abnormal"
+              }
+            ],
+            "text": "Abnormal"
+          }
+        ],
+        "referenceRange": [
+          {
+            "low": {
+              "value": 180,
+              "unit": "Cel"
+            },
+            "high": {
+              "value": 3900,
+              "unit": "Cel"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IsmO8h9",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IsmO8h9",
+        "meta": {
+          "lastUpdated": "2019-09-13T17:32:51Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "12-5",
+              "display": "AMIKACIN"
+            }
+          ],
+          "text": "antibiotic sensitivity"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "effectiveDateTime": "2019-08-14T17:32:51Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-5pFm5ABcmrp",
+            "display": "TEST VAMC"
+          }
+        ],
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "112283007",
+              "display": "ESCHERICHIA COLI"
+            }
+          ],
+          "text": "ESCHERICHIA COLI"
+        },
+        "interpretation": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                "code": "R",
+                "display": "Resistant"
+              }
+            ],
+            "text": "Resistant"
+          }
+        ],
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "133-9",
+                  "display": "CEFTAZIDIME"
+                }
+              ],
+              "text": "CEFTAZIDIME"
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "R",
+                  "display": "Resistant"
+                }
+              ],
+              "text": "Resistant"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "141-2",
+                  "display": "CEFTRIAXONE"
+                }
+              ],
+              "text": "CEFTRIAXONE"
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "R",
+                  "display": "Resistant"
+                }
+              ],
+              "text": "Resistant"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "185-9",
+                  "display": "CIPROFLOXACIN"
+                }
+              ],
+              "text": "CIPROFLOXACIN"
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "R",
+                  "display": "Resistant"
+                }
+              ],
+              "text": "Resistant"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "20396-8",
+                  "display": "LEVOFLOXACIN"
+                }
+              ],
+              "text": "LEVOFLOXACIN"
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "R",
+                  "display": "Resistant"
+                }
+              ],
+              "text": "Resistant"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "267-5",
+                  "display": "GENTAMICIN"
+                }
+              ],
+              "text": "GENTAMICIN"
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "R",
+                  "display": "Resistant"
+                }
+              ],
+              "text": "Resistant"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "279-0",
+                  "display": "IMIPENEM"
+                }
+              ],
+              "text": "IMIPENEM"
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "S",
+                  "display": "Susceptible"
+                }
+              ],
+              "text": "Susceptible"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "28-1",
+                  "display": "AMPICILLIN"
+                }
+              ],
+              "text": "AMPICILLIN"
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "R",
+                  "display": "Resistant"
+                }
+              ],
+              "text": "Resistant"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "32-3",
+                  "display": "AMPICILLIN+SULBACTAM"
+                }
+              ],
+              "text": "AMPICILLIN+SULBACTAM"
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "R",
+                  "display": "Resistant"
+                }
+              ],
+              "text": "Resistant"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "35801-0",
+                  "display": "ERTAPENEM"
+                }
+              ],
+              "text": "ERTAPENEM"
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "S",
+                  "display": "Susceptible"
+                }
+              ],
+              "text": "Susceptible"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "363-2",
+                  "display": "NITROFURANTOIN"
+                }
+              ],
+              "text": "NITROFURANTOIN"
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "S",
+                  "display": "Susceptible"
+                }
+              ],
+              "text": "Susceptible"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "412-7",
+                  "display": "PIPERACILLIN+TAZOBACTAM"
+                }
+              ],
+              "text": "PIPERACILLIN+TAZOBACTAM"
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "S",
+                  "display": "Susceptible"
+                }
+              ],
+              "text": "Susceptible"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "508-2",
+                  "display": "TOBRAMYCIN"
+                }
+              ],
+              "text": "TOBRAMYCIN"
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "S",
+                  "display": "Susceptible"
+                }
+              ],
+              "text": "Susceptible"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "516-5",
+                  "display": "TRIMETHOPRIM+SULFAMETHOXAZOLE"
+                }
+              ],
+              "text": "TRIMETHOPRIM+SULFAMETHOXAZOLE"
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "S",
+                  "display": "Susceptible"
+                }
+              ],
+              "text": "Susceptible"
+            }
+          },
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://loinc.org",
+                  "code": "76-0",
+                  "display": "CEFAZOLIN"
+                }
+              ],
+              "text": "CEFAZOLIN"
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+                  "code": "R",
+                  "display": "Resistant"
+                }
+              ],
+              "text": "Resistant"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IsmOPkB",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IsmOPkB",
+        "meta": {
+          "lastUpdated": "2017-11-06T13:11:21Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "42803-7",
+              "display": "Bacteria identified in Isolate"
+            }
+          ],
+          "text": "bacteriology screen"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "effectiveDateTime": "2017-10-07T13:11:21Z",
+        "issued": "2017-10-08T00:00:00Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79MfQbVWYL",
+            "display": "Dr. Whitley172 Steuber698"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-5pFm5ABcmrp",
+            "display": "TEST VAMC"
+          }
+        ],
+        "dataAbsentReason": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+              "code": "unknown",
+              "display": "Unknown"
+            }
+          ],
+          "text": "Unknown"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IsmOgnD",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IsmOgnD",
+        "meta": {
+          "lastUpdated": "2017-12-11T18:46:59Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "9825-1",
+              "display": "Mycobacterium sp identified in Isolate"
+            }
+          ],
+          "text": "mycobacteriology"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "effectiveDateTime": "2017-11-11T18:46:59Z",
+        "issued": "2017-11-11T00:00:00Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79MfQbVWYL",
+            "display": "Dr. Whitley172 Steuber698"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-5pFm5ABcmrp",
+            "display": "TEST VAMC"
+          }
+        ],
+        "component": [
+          {
+            "code": {
+              "text": "Acid Fast Stain"
+            },
+            "valueString": "Concentrate Negative"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IsmOxqF",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IsmOxqF",
+        "meta": {
+          "lastUpdated": "2020-08-16T13:59:13Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "42804-5",
+              "display": "Fungus identified in Isolate"
+            }
+          ],
+          "text": "mycology"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "effectiveDateTime": "2020-07-17T13:59:13Z",
+        "issued": "2019-08-15T19:08:00Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79MfQbVWYL",
+            "display": "Dr. Whitley172 Steuber698"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-5pFm5ABcmrp",
+            "display": "TEST VAMC"
+          }
+        ],
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "373873005",
+                  "display": "Amoxicillin (substance)"
+                }
+              ],
+              "text": "Amoxicillin (substance)"
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "373873005",
+                  "display": "Amoxicillin (substance)"
+                }
+              ],
+              "text": "Amoxicillin (substance)"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IsmPEtH",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IsmPEtH",
+        "meta": {
+          "lastUpdated": "2020-06-22T01:30:00Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "laboratory",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "42807-8",
+              "display": "Parasite identified in Isolate"
+            }
+          ],
+          "text": "PARASITOLOGY 99VA4:600:6-1"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "effectiveDateTime": "2020-05-23T01:30:00Z",
+        "issued": "2020-05-27T21:50:00Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79MfQbVWYL",
+            "display": "Dr. Whitley172 Steuber698"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-5pFm5ABcmrp",
+            "display": "TEST VAMC"
+          }
+        ],
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "410607006",
+                  "display": "Parasitology (procedure)"
+                }
+              ],
+              "text": "Parasitology (procedure)"
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "410607006",
+                  "display": "Parasitology (procedure)"
+                }
+              ],
+              "text": "Parasitology (procedure)"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IsmPVwJ",
+      "resource": {
+        "resourceType": "Observation",
+        "id": "4-1bKloZ1IsmPVwJ",
+        "meta": {
+          "lastUpdated": "2017-01-21T19:38:16Z"
+        },
+        "status": "final",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+                "code": "social-history",
+                "display": "Social History"
+              }
+            ],
+            "text": "Social History"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "42808-6",
+              "display": "Virus identified in Isolate"
+            }
+          ],
+          "text": "virology"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "effectiveDateTime": "2016-12-22T19:38:16Z",
+        "issued": "2016-12-22T00:00:00Z",
+        "performer": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79MfQbVWYL",
+            "display": "Dr. Whitley172 Steuber698"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-5pFm5ABcmrp",
+            "display": "TEST VAMC"
+          }
+        ],
+        "component": [
+          {
+            "code": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "663380",
+                  "display": "CMV ANTIGENEMIA ASSAY POSITIVE"
+                }
+              ],
+              "text": "CMV ANTIGENEMIA ASSAY POSITIVE"
+            },
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "system": "http://snomed.info/sct",
+                  "code": "663380",
+                  "display": "CMV ANTIGENEMIA ASSAY POSITIVE"
+                }
+              ],
+              "text": "CMV ANTIGENEMIA ASSAY POSITIVE"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}

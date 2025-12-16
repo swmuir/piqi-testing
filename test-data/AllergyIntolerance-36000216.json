@@ -1,0 +1,11 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "link": [
+    {
+      "url": "https://sandbox-api.va.gov/services/fhir/v0/r4/AllergyIntolerance?patient=36000216",
+      "relation": "self"
+    }
+  ],
+  "entry": []
+}

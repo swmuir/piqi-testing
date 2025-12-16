@@ -1,0 +1,162 @@
+{
+  "resourceType": "Patient",
+  "id": "2000190",
+  "meta": {
+    "lastUpdated": "2019-11-13T23:51:18Z"
+  },
+  "extension": [
+    {
+      "extension": [
+        {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "2106-3",
+            "display": "White"
+          }
+        },
+        {
+          "url": "text",
+          "valueString": "White"
+        }
+      ],
+      "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+    },
+    {
+      "extension": [
+        {
+          "url": "ombCategory",
+          "valueCoding": {
+            "system": "urn:oid:2.16.840.1.113883.6.238",
+            "code": "*Unknown at this time*",
+            "display": "*Unknown at this time*"
+          }
+        },
+        {
+          "url": "text",
+          "valueString": "*Unknown at this time*"
+        }
+      ],
+      "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+    },
+    {
+      "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+      "valueCode": "M"
+    }
+  ],
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "PN"
+          }
+        ]
+      },
+      "system": "http://va.gov/mpi",
+      "value": "2000190",
+      "assigner": {
+        "display": "Master Patient Index"
+      }
+    },
+    {
+      "use": "official",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "SS"
+          }
+        ]
+      },
+      "system": "http://hl7.org/fhir/sid/us-ssn",
+      "value": "999-31-3944",
+      "assigner": {
+        "display": "United States Social Security Number"
+      }
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "Mr. Luis923 Mayer370",
+      "family": "Mayer370",
+      "given": [
+        "Luis923"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "5551715011",
+      "use": "mobile"
+    },
+    {
+      "system": "email",
+      "value": "Luis923.Mayer370@email.example",
+      "use": "home"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1969-07-03",
+  "deceasedBoolean": false,
+  "address": [
+    {
+      "line": [
+        "948 Paucek Well"
+      ],
+      "city": "Phoenix",
+      "state": "AZ",
+      "postalCode": "85003"
+    }
+  ],
+  "contact": [
+    {
+      "relationship": [
+        {
+          "coding": [
+            {
+              "system": "http://va.gov/terminology/vistaDefinedTerms/2",
+              "code": ".251",
+              "display": "SPOUSE EMPLOYER"
+            }
+          ],
+          "text": "SPOUSE EMPLOYER"
+        }
+      ],
+      "name": {
+        "text": "Graham16, Sung524"
+      },
+      "telecom": [
+        {
+          "system": "phone",
+          "value": "5559723132",
+          "use": "work"
+        },
+        {
+          "system": "email",
+          "value": "graham.hackett@example.com"
+        }
+      ],
+      "address": {
+        "line": [
+          "59130 Harris River",
+          "Apt. 014"
+        ],
+        "city": "West Juli",
+        "state": "WA",
+        "postalCode": "47981"
+      }
+    }
+  ],
+  "communication": [
+    {
+      "language": {
+        "text": "ENGLISH"
+      }
+    }
+  ]
+}

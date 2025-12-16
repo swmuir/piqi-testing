@@ -1,3 +1,8 @@
+# JWK
+va-private.pem
+va-public.pem
+va-public.jwk
+
 # Logs
 logs
 *.log

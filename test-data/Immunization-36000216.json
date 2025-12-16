@@ -1,0 +1,468 @@
+{
+  "resourceType": "Bundle",
+  "type": "searchset",
+  "link": [
+    {
+      "relation": "self",
+      "url": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization?patient=36000216&-pageToken=1~6Z807QTZrKsurkk"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-1abORwhPxZOnhK",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-1abORwhPxZOnhK",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "140",
+              "display": "FLU TRIVALENT PRES-FREE (HISTORICAL)"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "88",
+              "display": "VACCINE GROUP: FLU"
+            }
+          ],
+          "text": "Influenza, seasonal, injectable, preservative free"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIwWP8V"
+        },
+        "occurrenceDateTime": "2015-04-21T08:43:18Z",
+        "primarySource": true,
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRt4wrK9M",
+          "display": "TEST VA FACILITY"
+        },
+        "manufacturer": {
+          "display": "TEST MANUFACTURER"
+        },
+        "doseQuantity": {
+          "value": 5.5,
+          "unit": "mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL"
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+              "display": "Dr. Chauncey770 Ritchie586"
+            }
+          }
+        ],
+        "note": [
+          {
+            "text": "Sample Immunization Note."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Other"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "doseNumberString": "Series 1"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-1abORwhPxdw6jK",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-1abORwhPxdw6jK",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "140",
+              "display": "FLU TRIVALENT PRES-FREE (HISTORICAL)"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "88",
+              "display": "VACCINE GROUP: FLU"
+            }
+          ],
+          "text": "Influenza, seasonal, injectable, preservative free"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "occurrenceDateTime": "2018-04-24T08:43:18Z",
+        "primarySource": true,
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRt4wrK9M",
+          "display": "TEST VA FACILITY"
+        },
+        "manufacturer": {
+          "display": "TEST MANUFACTURER"
+        },
+        "doseQuantity": {
+          "value": 8.8,
+          "unit": "mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL"
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+              "display": "Dr. Chauncey770 Ritchie586"
+            }
+          }
+        ],
+        "note": [
+          {
+            "text": "Sample Immunization Note."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Other"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "doseNumberString": "Series 1"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-1abORwhQG8gj4s",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-1abORwhQG8gj4s",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "208",
+              "display": "COVID-19 (PFIZER), MRNA, LNP-S, PF, 30 MCG/0.3 ML DOSE"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "213",
+              "display": "VACCINE GROUP: COVID-19"
+            }
+          ],
+          "text": "SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 30 mcg/0.3mL dose"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIymv7z"
+        },
+        "occurrenceDateTime": "2021-03-02T08:43:18Z",
+        "primarySource": true,
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRqfMtNC0",
+          "display": "TEST VA FACILITY"
+        },
+        "manufacturer": {
+          "display": "TEST MANUFACTURER"
+        },
+        "doseQuantity": {
+          "value": 6.6,
+          "unit": "mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL"
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79MfR2nlWr",
+              "display": "Dr. Melvin857 Nikolaus26"
+            }
+          }
+        ],
+        "note": [
+          {
+            "text": "Sample Immunization Note."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Other"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "doseNumberString": "Series 1"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-1abORwhQG8hYDy",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-1abORwhQG8hYDy",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "208",
+              "display": "COVID-19 (PFIZER), MRNA, LNP-S, PF, 30 MCG/0.3 ML DOSE"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "213",
+              "display": "VACCINE GROUP: COVID-19"
+            }
+          ],
+          "text": "SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 30 mcg/0.3mL dose"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIynCB1"
+        },
+        "occurrenceDateTime": "2021-03-23T08:43:18Z",
+        "primarySource": true,
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRqfMtNC0",
+          "display": "TEST VA FACILITY"
+        },
+        "manufacturer": {
+          "display": "TEST MANUFACTURER"
+        },
+        "doseQuantity": {
+          "value": 2.9,
+          "unit": "mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL"
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79MfR2nlWr",
+              "display": "Dr. Melvin857 Nikolaus26"
+            }
+          }
+        ],
+        "note": [
+          {
+            "text": "Sample Immunization Note."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Other"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "doseNumberString": "Series 1"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-1abORwhQGAxnAQ",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-1abORwhQGAxnAQ",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "140",
+              "display": "FLU TRIVALENT PRES-FREE (HISTORICAL)"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "88",
+              "display": "VACCINE GROUP: FLU"
+            }
+          ],
+          "text": "Influenza, seasonal, injectable, preservative free"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIynTE3"
+        },
+        "occurrenceDateTime": "2021-04-27T08:43:18Z",
+        "primarySource": true,
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRt4wrK9M",
+          "display": "TEST VA FACILITY"
+        },
+        "manufacturer": {
+          "display": "TEST MANUFACTURER"
+        },
+        "doseQuantity": {
+          "value": 6.7,
+          "unit": "mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL"
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+              "display": "Dr. Chauncey770 Ritchie586"
+            }
+          }
+        ],
+        "note": [
+          {
+            "text": "Sample Immunization Note."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Other"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "doseNumberString": "Series 1"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-1abORwhQGAy4DS",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-1abORwhQGAy4DS",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "113",
+              "display": "TD (ADULT), 5 LF TETANUS TOXOID, PRESERVATIVE FREE, ADSORBED"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "139",
+              "display": "VACCINE GROUP: Td"
+            }
+          ],
+          "text": "Td (adult) preservative free"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIynTE3"
+        },
+        "occurrenceDateTime": "2021-04-27T08:43:18Z",
+        "primarySource": true,
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRt4wrK9M",
+          "display": "TEST VA FACILITY"
+        },
+        "manufacturer": {
+          "display": "TEST MANUFACTURER"
+        },
+        "doseQuantity": {
+          "value": 8,
+          "unit": "mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL"
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+              "display": "Dr. Chauncey770 Ritchie586"
+            }
+          }
+        ],
+        "note": [
+          {
+            "text": "Sample Immunization Note."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Other"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "doseNumberString": "Series 1"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}
