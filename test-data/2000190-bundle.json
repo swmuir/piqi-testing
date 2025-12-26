@@ -1,13 +1,388 @@
 {
   "resourceType": "Bundle",
-  "type": "searchset",
-  "link": [
-    {
-      "relation": "self",
-      "url": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation?patient=2000190&-pageToken=1~6Z807QTZrKsurkk"
-    }
-  ],
+  "type": "collection",
   "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "2000190",
+        "meta": {
+          "lastUpdated": "2019-11-13T23:51:18Z"
+        },
+        "extension": [
+          {
+            "extension": [
+              {
+                "url": "ombCategory",
+                "valueCoding": {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2106-3",
+                  "display": "White"
+                }
+              },
+              {
+                "url": "text",
+                "valueString": "White"
+              }
+            ],
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+          },
+          {
+            "extension": [
+              {
+                "url": "ombCategory",
+                "valueCoding": {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "*Unknown at this time*",
+                  "display": "*Unknown at this time*"
+                }
+              },
+              {
+                "url": "text",
+                "valueString": "*Unknown at this time*"
+              }
+            ],
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+          },
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+            "valueCode": "M"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PN"
+                }
+              ]
+            },
+            "system": "http://va.gov/mpi",
+            "value": "2000190",
+            "assigner": {
+              "display": "Master Patient Index"
+            }
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "SS"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "999-31-3944",
+            "assigner": {
+              "display": "United States Social Security Number"
+            }
+          }
+        ],
+        "name": [
+          {
+            "use": "usual",
+            "text": "Mr. Luis923 Mayer370",
+            "family": "Mayer370",
+            "given": [
+              "Luis923"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "5551715011",
+            "use": "mobile"
+          },
+          {
+            "system": "email",
+            "value": "Luis923.Mayer370@email.example",
+            "use": "home"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1969-07-03",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "line": [
+              "948 Paucek Well"
+            ],
+            "city": "Phoenix",
+            "state": "AZ",
+            "postalCode": "85003"
+          }
+        ],
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://va.gov/terminology/vistaDefinedTerms/2",
+                    "code": ".251",
+                    "display": "SPOUSE EMPLOYER"
+                  }
+                ],
+                "text": "SPOUSE EMPLOYER"
+              }
+            ],
+            "name": {
+              "text": "Graham16, Sung524"
+            },
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "5559723132",
+                "use": "work"
+              },
+              {
+                "system": "email",
+                "value": "graham.hackett@example.com"
+              }
+            ],
+            "address": {
+              "line": [
+                "59130 Harris River",
+                "Apt. 014"
+              ],
+              "city": "West Juli",
+              "state": "WA",
+              "postalCode": "47981"
+            }
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "text": "ENGLISH"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Condition/4-RJYFXvAVVYC27bXB",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "4-RJYFXvAVVYC27bXB",
+        "meta": {
+          "lastUpdated": "1987-08-27T11:00:04Z"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ],
+            "text": "Problem List Item"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "38341003",
+              "display": "Hypertension"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "I11.0",
+              "display": "Hypertensive heart disease with heart failure"
+            }
+          ],
+          "text": "Hypertension"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "onsetDateTime": "1987-08-27T11:00:04Z",
+        "recordedDate": "1987-08-27",
+        "recorder": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQawlD29NjP",
+          "display": "DR. JANE460 DOE922 MD"
+        },
+        "asserter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQawlD29NjP",
+          "display": "DR. JANE460 DOE922 MD"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Condition/4-RJYFXvAVVYDCmuph",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "4-RJYFXvAVVYDCmuph",
+        "meta": {
+          "lastUpdated": "2009-07-09T11:00:04Z"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "provisional",
+              "display": "Provisional"
+            }
+          ],
+          "text": "Provisional"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ],
+            "text": "Problem List Item"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "15777000",
+              "display": "Prediabetes"
+            }
+          ],
+          "text": "Prediabetes"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "onsetDateTime": "2009-07-09T11:00:04Z",
+        "recordedDate": "2009-07-09",
+        "recorder": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQZLR7LNfJT",
+          "display": "DR. JOHN248 SMITH811 MD"
+        },
+        "asserter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQZLR7LNfJT",
+          "display": "DR. JOHN248 SMITH811 MD"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Condition/4-RJYFXvAVVYFY7oTl",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "4-RJYFXvAVVYFY7oTl",
+        "meta": {
+          "lastUpdated": "2016-06-21T11:00:04Z"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "refuted",
+              "display": "Refuted"
+            }
+          ],
+          "text": "Refuted"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ],
+            "text": "Problem List Item"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "47505003",
+              "display": "Posttraumatic stress disorder"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "Z86.51",
+              "display": "Personal history of combat and operational stress reaction"
+            }
+          ],
+          "text": "Posttraumatic stress disorder"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "onsetDateTime": "2016-06-21T11:00:04Z",
+        "recordedDate": "2016-06-21",
+        "recorder": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQZLR7LNfJT",
+          "display": "DR. JOHN248 SMITH811 MD"
+        },
+        "asserter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Ufekf9eGUfQZLR7LNfJT",
+          "display": "DR. JOHN248 SMITH811 MD"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
     {
       "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqMVK5ThZ4f",
       "resource": {
@@ -4719,6 +5094,1791 @@
         "valueQuantity": {
           "value": 26.6160489725,
           "unit": "mmol/L"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/DiagnosticReport/4-1nXSE70DimE1aoHK1S",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "4-1nXSE70DimE1aoHK1S",
+        "meta": {
+          "lastUpdated": "2009-08-08T11:00:04Z"
+        },
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11502-2",
+              "display": "Laboratory report"
+            }
+          ],
+          "text": "Laboratory report"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2009-07-09T11:00:04Z",
+        "issued": "2009-07-09T11:00:04Z",
+        "result": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbO0zyui",
+            "display": "Leukocytes [#/volume] in Blood by Automated count"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbPBfIDE",
+            "display": "Erythrocytes [#/volume] in Blood by Automated coun"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbLffdMi",
+            "display": "Hemoglobin [Mass/volume] in Blood"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbMqKwfE",
+            "display": "Hematocrit [Volume Fraction] of Blood by Automated"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbO10Fxk",
+            "display": "MCV [Entitic volume] by Automated count"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbPBfZGG",
+            "display": "MCH [Entitic mass] by Automated count"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbLffuPk",
+            "display": "MCHC [Mass/volume] by Automated count"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl1kojDw",
+            "display": "Erythrocyte distribution width [Entitic volume] by"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl469Loy",
+            "display": "Platelets [#/volume] in Blood by Automated count"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl469cs0",
+            "display": "Platelet distribution width [Entitic volume] in Bl"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl5GowAW",
+            "display": "Platelet mean volume [Entitic volume] in Blood by"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/DiagnosticReport/4-1nXSE70DimE1djwbGk",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "4-1nXSE70DimE1djwbGk",
+        "meta": {
+          "lastUpdated": "2011-08-13T11:00:04Z"
+        },
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11502-2",
+              "display": "Laboratory report"
+            }
+          ],
+          "text": "Laboratory report"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2011-07-14T11:00:04Z",
+        "issued": "2011-07-14T11:00:04Z",
+        "result": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl5HxKgm",
+            "display": "Glucose"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl1lxfqG",
+            "display": "Urea Nitrogen"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl2wcz8m",
+            "display": "Creatinine"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbLhw9MC",
+            "display": "Calcium"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbMsbSei",
+            "display": "Sodium"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbO3GlxE",
+            "display": "Potassium"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbPDw5Fk",
+            "display": "Chloride"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbLhwQPE",
+            "display": "Carbon Dioxide"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/DiagnosticReport/4-1nXSE70DimE6Qqr0Ta",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "4-1nXSE70DimE6Qqr0Ta",
+        "meta": {
+          "lastUpdated": "2011-08-13T11:00:04Z"
+        },
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11502-2",
+              "display": "Laboratory report"
+            }
+          ],
+          "text": "Laboratory report"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2011-07-14T11:00:04Z",
+        "issued": "2011-07-14T11:00:04Z",
+        "result": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbMtkPH2",
+            "display": "Total Cholesterol"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl1oDumi",
+            "display": "Triglycerides"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl2ytE5E",
+            "display": "Low Density Lipoprotein Cholesterol"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl49YXNk",
+            "display": "High Density Lipoprotein Cholesterol"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/DiagnosticReport/4-1nXSE70DimE6RRBf7q",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "4-1nXSE70DimE6RRBf7q",
+        "meta": {
+          "lastUpdated": "2013-08-17T11:00:04Z"
+        },
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11502-2",
+              "display": "Laboratory report"
+            }
+          ],
+          "text": "Laboratory report"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2013-07-18T11:00:04Z",
+        "issued": "2013-07-18T11:00:04Z",
+        "result": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl5KDqgG",
+            "display": "Glucose"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl1oEBpk",
+            "display": "Urea Nitrogen"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl2ytV8G",
+            "display": "Creatinine"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl49YoQm",
+            "display": "Calcium"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl5KE7jI",
+            "display": "Sodium"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl1oESsm",
+            "display": "Potassium"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl2ytmBI",
+            "display": "Chloride"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbLkCwOi",
+            "display": "Carbon Dioxide"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/DiagnosticReport/4-1nXSE70DimE6S1WJm6",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "4-1nXSE70DimE6S1WJm6",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11502-2",
+              "display": "Laboratory report"
+            }
+          ],
+          "text": "Laboratory report"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "result": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbMusFhE",
+            "display": "Glucose"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbO5XYzk",
+            "display": "Urea Nitrogen"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbPGCsIG",
+            "display": "Creatinine"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbLkDDRk",
+            "display": "Calcium"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbMusWkG",
+            "display": "Sodium"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbO5Xq2m",
+            "display": "Potassium"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbPGD9LI",
+            "display": "Chloride"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbLkDUUm",
+            "display": "Carbon Dioxide"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/DiagnosticReport/4-1nXSE70DimE6SbqyQM",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "4-1nXSE70DimE6SbqyQM",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11502-2",
+              "display": "Laboratory report"
+            }
+          ],
+          "text": "Laboratory report"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "result": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbMusnnI",
+            "display": "Total Cholesterol"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl1pMJIy",
+            "display": "Triglycerides"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl301cbU",
+            "display": "Low Density Lipoprotein Cholesterol"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl4Agvu0",
+            "display": "High Density Lipoprotein Cholesterol"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/DiagnosticReport/4-1nXSE70DimE6TCBd4c",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "4-1nXSE70DimE6TCBd4c",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11502-2",
+              "display": "Laboratory report"
+            }
+          ],
+          "text": "Laboratory report"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2015-07-23T11:00:04Z",
+        "issued": "2015-07-23T11:00:04Z",
+        "result": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl5LMFCW",
+            "display": "Leukocytes [#/volume] in Blood by Automated count"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl1pMaM0",
+            "display": "Erythrocytes [#/volume] in Blood by Automated coun"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl301teW",
+            "display": "Hemoglobin [Mass/volume] in Blood"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl4AhCx2",
+            "display": "Hematocrit [Volume Fraction] of Blood by Automated"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl5LMWFY",
+            "display": "MCV [Entitic volume] by Automated count"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl1pMrP2",
+            "display": "MCH [Entitic mass] by Automated count"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl302AhY",
+            "display": "MCHC [Mass/volume] by Automated count"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbQMKbVk",
+            "display": "Erythrocyte distribution width [Entitic volume] by"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbRWzuoG",
+            "display": "Platelets [#/volume] in Blood by Automated count"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbShfE6m",
+            "display": "Platelet distribution width [Entitic volume] in Bl"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbTsKXPI",
+            "display": "Platelet mean volume [Entitic volume] in Blood by"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/DiagnosticReport/4-1nXSE70DimE6TmWHis",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "4-1nXSE70DimE6TmWHis",
+        "meta": {
+          "lastUpdated": "2017-08-26T11:00:04Z"
+        },
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11502-2",
+              "display": "Laboratory report"
+            }
+          ],
+          "text": "Laboratory report"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "effectiveDateTime": "2017-07-27T11:00:04Z",
+        "issued": "2017-07-27T11:00:04Z",
+        "result": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbQMKsYm",
+            "display": "Glucose"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbRX0BrI",
+            "display": "Urea Nitrogen"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbShfV9o",
+            "display": "Creatinine"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbTsKoSK",
+            "display": "Calcium"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbQML9bo",
+            "display": "Sodium"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEbRX0SuK",
+            "display": "Potassium"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl6RTyQ0",
+            "display": "Chloride"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-RJYJwAqmEl7c9HiW",
+            "display": "Carbon Dioxide"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/MedicationRequest/4-1nxDXGy4RoJZJylR5u",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "4-1nxDXGy4RoJZJylR5u",
+        "meta": {
+          "lastUpdated": "1991-09-05T11:00:04Z"
+        },
+        "status": "active",
+        "intent": "plan",
+        "reportedBoolean": true,
+        "medicationReference": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Medication/4-7SGVf3FjClwZKwaYjQe",
+          "display": "Hydrochlorothiazide 25 MG"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "authoredOn": "1991-09-05T11:00:04Z",
+        "requester": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ],
+          "display": "Unknown"
+        },
+        "note": [
+          {
+            "text": "Hydrochlorothiazide 25 MG"
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "Once per day.",
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "1991-09-05T11:00:04Z"
+                }
+              },
+              "code": {
+                "text": "As directed by physician."
+              }
+            },
+            "route": {
+              "text": "As directed by physician."
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/MedicationRequest/4-1nxDXGy4RoJZKZ65kA",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "4-1nxDXGy4RoJZKZ65kA",
+        "meta": {
+          "lastUpdated": "2009-10-28T11:00:04Z"
+        },
+        "status": "active",
+        "intent": "plan",
+        "reportedBoolean": true,
+        "medicationReference": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Medication/4-7SGVf3FjClwZKwsnSXI",
+          "display": "Acetaminophen 160 MG"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "authoredOn": "2009-10-28T11:00:04Z",
+        "requester": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ],
+          "display": "Unknown"
+        },
+        "note": [
+          {
+            "text": "Acetaminophen 160 MG"
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "Once per day.",
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2009-10-28T11:00:04Z"
+                }
+              },
+              "code": {
+                "text": "As directed by physician."
+              }
+            },
+            "route": {
+              "text": "As directed by physician."
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/MedicationRequest/4-1nxDXGy4RoJZL9QkOQ",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "4-1nxDXGy4RoJZL9QkOQ",
+        "meta": {
+          "lastUpdated": "2011-08-13T11:00:04Z"
+        },
+        "status": "active",
+        "intent": "plan",
+        "reportedBoolean": true,
+        "medicationReference": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Medication/4-7SGVf3FjClwZKwslG92",
+          "display": "Naproxen sodium 220 MG Oral Tablet"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "authoredOn": "2011-08-13T11:00:04Z",
+        "requester": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ],
+          "display": "Unknown"
+        },
+        "note": [
+          {
+            "text": "Naproxen sodium 220 MG Oral Tablet"
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "Once per day.",
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2011-08-13T11:00:04Z"
+                }
+              },
+              "code": {
+                "text": "As directed by physician."
+              }
+            },
+            "route": {
+              "text": "As directed by physician."
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/MedicationRequest/4-1nxDXGy4RoJZLjlP2g",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "4-1nxDXGy4RoJZLjlP2g",
+        "meta": {
+          "lastUpdated": "2016-06-01T11:00:04Z"
+        },
+        "status": "active",
+        "intent": "plan",
+        "reportedBoolean": true,
+        "medicationReference": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Medication/4-7SGVf3FjClwZKwswG6K",
+          "display": "Ibuprofen 200 MG Oral Tablet"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "authoredOn": "2016-06-01T11:00:04Z",
+        "requester": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ],
+          "display": "Unknown"
+        },
+        "note": [
+          {
+            "text": "Ibuprofen 200 MG Oral Tablet"
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "Once per day.",
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2016-06-01T11:00:04Z"
+                }
+              },
+              "code": {
+                "text": "As directed by physician."
+              }
+            },
+            "route": {
+              "text": "As directed by physician."
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/MedicationRequest/4-1nxDXGy4RoJZHdR5Xu",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "4-1nxDXGy4RoJZHdR5Xu",
+        "meta": {
+          "lastUpdated": "2016-07-05T11:00:04Z"
+        },
+        "status": "active",
+        "intent": "plan",
+        "reportedBoolean": true,
+        "medicationReference": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Medication/4-7SGVf3FjClwZKxT5unI",
+          "display": "Sertraline 100MG"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "authoredOn": "2016-07-05T11:00:04Z",
+        "requester": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ],
+          "display": "Unknown"
+        },
+        "note": [
+          {
+            "text": "Sertraline 100MG"
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "1 dose(s) 1 time(s) per 1 days",
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2016-07-05T11:00:04Z"
+                }
+              },
+              "code": {
+                "text": "As directed by physician."
+              }
+            },
+            "route": {
+              "text": "As directed by physician."
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/MedicationRequest/4-1nxDXGy4RoJZIDlkCA",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "4-1nxDXGy4RoJZIDlkCA",
+        "meta": {
+          "lastUpdated": "2016-07-05T11:00:04Z"
+        },
+        "status": "active",
+        "intent": "plan",
+        "reportedBoolean": true,
+        "medicationReference": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Medication/4-7SGVf3FjClwZKxT87BY",
+          "display": "Acetaminophen/Hydrocodone"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "authoredOn": "2016-07-05T11:00:04Z",
+        "requester": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ],
+          "display": "Unknown"
+        },
+        "note": [
+          {
+            "text": "Acetaminophen/Hydrocodone"
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "Once per day.",
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2016-07-05T11:00:04Z"
+                }
+              },
+              "code": {
+                "text": "As directed by physician."
+              }
+            },
+            "route": {
+              "text": "As directed by physician."
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/MedicationRequest/4-1nxDXGy4RoJe7g0Ux0",
+      "resource": {
+        "resourceType": "MedicationRequest",
+        "id": "4-1nxDXGy4RoJe7g0Ux0",
+        "meta": {
+          "lastUpdated": "2017-06-01T11:00:04Z"
+        },
+        "status": "active",
+        "intent": "plan",
+        "reportedBoolean": true,
+        "medicationReference": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Medication/4-7SGVf3FjClwZKwspevY",
+          "display": "Acetaminophen 325 MG Oral Tablet"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "authoredOn": "2017-06-01T11:00:04Z",
+        "requester": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/data-absent-reason",
+              "valueCode": "unknown"
+            }
+          ],
+          "display": "Unknown"
+        },
+        "note": [
+          {
+            "text": "Acetaminophen 325 MG Oral Tablet"
+          }
+        ],
+        "dosageInstruction": [
+          {
+            "text": "Once per day.",
+            "timing": {
+              "repeat": {
+                "boundsPeriod": {
+                  "start": "2017-06-01T11:00:04Z"
+                }
+              },
+              "code": {
+                "text": "As directed by physician."
+              }
+            },
+            "route": {
+              "text": "As directed by physician."
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-R74h8oo6R3hFFvNs",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-R74h8oo6R3hFFvNs",
+        "meta": {
+          "lastUpdated": "2009-07-09T11:00:04Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "140",
+              "display": "INFLUENZA, SEASONAL, INJECTABLE, PRESERVATIVE FREE"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "88",
+              "display": "VACCINE GROUP: FLU"
+            }
+          ],
+          "text": "Influenza, seasonal, injectable, preservative free"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "occurrenceDateTime": "2009-07-09T11:00:04Z",
+        "primarySource": true,
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-7QY97qVvujaWRyw2q88",
+          "display": "VISUAL IMPAIRMENT SVCS OUTPATIENT REHAB (VISOR)"
+        },
+        "doseQuantity": {
+          "value": 2
+        },
+        "note": [
+          {
+            "text": "Dose #26 of 101 of Influenza  seasonal  injectable  preservative free vaccine administered."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Fever"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "doseNumberString": "Series 1"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-R74h8oo6R3djGGXM",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-R74h8oo6R3djGGXM",
+        "meta": {
+          "lastUpdated": "2009-07-09T11:00:04Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "52",
+              "display": "HEP A, ADULT"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "85",
+              "display": "VACCINE GROUP: HepA"
+            }
+          ],
+          "text": "Hep A, adult"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "occurrenceDateTime": "2009-07-09T11:00:04Z",
+        "primarySource": true,
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-7QY97qVvujaWRzEHZEm",
+          "display": "TEM MH PSO TRS IND93EH 2"
+        },
+        "doseQuantity": {
+          "value": 0.5,
+          "unit": "mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL"
+        },
+        "note": [
+          {
+            "text": "Dose #1 of 2 of Hep A  adult vaccine administered."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Rash or itching"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "doseNumberString": "Series 1"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-R74h8oo6R3etvZps",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-R74h8oo6R3etvZps",
+        "meta": {
+          "lastUpdated": "2009-11-05T12:00:04Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "140",
+              "display": "INFLUENZA, SEASONAL, INJECTABLE, PRESERVATIVE FREE"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "88",
+              "display": "VACCINE GROUP: FLU"
+            }
+          ],
+          "text": "Influenza, seasonal, injectable, preservative free"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "occurrenceDateTime": "2009-11-05T12:00:04Z",
+        "primarySource": true,
+        "doseQuantity": {
+          "value": 0.3,
+          "unit": "mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL"
+        },
+        "note": [
+          {
+            "text": "Dose #27 of 101 of Influenza  seasonal  injectable  preservative free vaccine administered."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Fever"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "doseNumberString": "Booster"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-R74h8oo6RDKz4Oe4",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-R74h8oo6RDKz4Oe4",
+        "meta": {
+          "lastUpdated": "2011-07-14T11:00:04Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "140",
+              "display": "INFLUENZA, SEASONAL, INJECTABLE, PRESERVATIVE FREE"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "88",
+              "display": "VACCINE GROUP: FLU"
+            }
+          ],
+          "text": "Influenza, seasonal, injectable, preservative free"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "occurrenceDateTime": "2011-07-14T11:00:04Z",
+        "primarySource": true,
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-7QY97qVvujaWRyw2q88",
+          "display": "VISUAL IMPAIRMENT SVCS OUTPATIENT REHAB (VISOR)"
+        },
+        "doseQuantity": {
+          "value": 0.5,
+          "unit": "mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL"
+        },
+        "note": [
+          {
+            "text": "Dose #28 of 101 of Influenza  seasonal  injectable  preservative free vaccine administered."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Anaphylaxis or collapse"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "doseNumberString": "Series 1"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-R74h8oo6RDM9jhwa",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-R74h8oo6RDM9jhwa",
+        "meta": {
+          "lastUpdated": "2011-07-14T11:00:04Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "113",
+              "display": "TD (ADULT), 5 LF TETANUS TOXOID, PRESERVATIVE FREE, ADSORBED"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "139",
+              "display": "VACCINE GROUP: Td"
+            }
+          ],
+          "text": "Td (adult), 5 Lf tetanus toxoid, preservative free, adsorbed"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "occurrenceDateTime": "2011-07-14T11:00:04Z",
+        "primarySource": true,
+        "doseQuantity": {
+          "value": 2,
+          "unit": "ug/mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "ug/mL"
+        },
+        "note": [
+          {
+            "text": "Dose #2 of 8 of Td (adult) preservative free vaccine administered."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Irritability"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-R74h8oo6RDNKP1F6",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-R74h8oo6RDNKP1F6",
+        "meta": {
+          "lastUpdated": "2011-07-14T11:00:04Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "52",
+              "display": "HEP A, ADULT"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "85",
+              "display": "VACCINE GROUP: HepA"
+            }
+          ],
+          "text": "Hep A, adult"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "occurrenceDateTime": "2011-07-14T11:00:04Z",
+        "primarySource": true,
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-7QY97qVvujaWRyw2q88",
+          "display": "VISUAL IMPAIRMENT SVCS OUTPATIENT REHAB (VISOR)"
+        },
+        "doseQuantity": {
+          "value": 0.3,
+          "unit": "mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL"
+        },
+        "note": [
+          {
+            "text": "Dose #2 of 2 of Hep A  adult vaccine administered."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Lethargy"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-R74h8oo6RDJoPMOa",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-R74h8oo6RDJoPMOa",
+        "meta": {
+          "lastUpdated": "2013-07-18T11:00:04Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "140",
+              "display": "INFLUENZA, SEASONAL, INJECTABLE, PRESERVATIVE FREE"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "88",
+              "display": "VACCINE GROUP: FLU"
+            }
+          ],
+          "text": "Influenza, seasonal, injectable, preservative free"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "occurrenceDateTime": "2013-07-18T11:00:04Z",
+        "primarySource": true,
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-7QY97qVvujaWRzoKcky",
+          "display": "MENTAL HEALTH SERVICES"
+        },
+        "doseQuantity": {
+          "value": 2,
+          "unit": "ug/mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "ug/mL"
+        },
+        "note": [
+          {
+            "text": "Dose #29 of 101 of Influenza  seasonal  injectable  preservative free vaccine administered."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Vomiting"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "doseNumberString": "Series 1"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-R74h8oo6RDKz4fh6",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-R74h8oo6RDKz4fh6",
+        "meta": {
+          "lastUpdated": "2015-07-23T11:00:04Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "140",
+              "display": "INFLUENZA, SEASONAL, INJECTABLE, PRESERVATIVE FREE"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "88",
+              "display": "VACCINE GROUP: FLU"
+            }
+          ],
+          "text": "Influenza, seasonal, injectable, preservative free"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "occurrenceDateTime": "2015-07-23T11:00:04Z",
+        "primarySource": true,
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-7QY97qVvujaWRzoKcky",
+          "display": "MENTAL HEALTH SERVICES"
+        },
+        "doseQuantity": {
+          "value": 2
+        },
+        "note": [
+          {
+            "text": "Dose #30 of 101 of Influenza  seasonal  injectable  preservative free vaccine administered."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Convulsions"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "doseNumberString": "Series 1"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-R74h8oo6RDM9jyzc",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-R74h8oo6RDM9jyzc",
+        "meta": {
+          "lastUpdated": "2017-07-27T11:00:04Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "140",
+              "display": "INFLUENZA, SEASONAL, INJECTABLE, PRESERVATIVE FREE"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "88",
+              "display": "VACCINE GROUP: FLU"
+            }
+          ],
+          "text": "Influenza, seasonal, injectable, preservative free"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "occurrenceDateTime": "2017-07-27T11:00:04Z",
+        "primarySource": true,
+        "doseQuantity": {
+          "value": 0.3,
+          "unit": "mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL"
+        },
+        "note": [
+          {
+            "text": "Dose #31 of 101 of Influenza  seasonal  injectable  preservative free vaccine administered."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Local reaction or swelling"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "doseNumberString": "Booster"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Procedure/4-1nXi7DqRTwwD2YUqbC",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "4-1nXi7DqRTwwD2YUqbC",
+        "meta": {
+          "lastUpdated": "2011-08-13T11:00:04Z"
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "XXXXX",
+              "display": "Documentation of current medications"
+            }
+          ],
+          "text": "Documentation of current medications"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "performedDateTime": "2011-07-14T11:00:04Z"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Procedure/4-1nXi7DqRTwwD38pVFS",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "4-1nXi7DqRTwwD38pVFS",
+        "meta": {
+          "lastUpdated": "2011-09-12T11:00:04Z"
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "XXXXX",
+              "display": "Suture open wound"
+            }
+          ],
+          "text": "Suture open wound"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "performedDateTime": "2011-08-13T11:00:04Z"
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Procedure/4-1nXi7DqRTwwD3jA9ti",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "4-1nXi7DqRTwwD3jA9ti",
+        "meta": {
+          "lastUpdated": "2015-08-22T11:00:04Z"
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "XXXXX",
+              "display": "Documentation of current medications"
+            }
+          ],
+          "text": "Documentation of current medications"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "performedDateTime": "2015-07-23T11:00:04Z",
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-7QY97qVvujaWRzoKcky",
+          "display": "MENTAL HEALTH SERVICES"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Procedure/4-1nXi7DqRTwwD4JUoXy",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "4-1nXi7DqRTwwD4JUoXy",
+        "meta": {
+          "lastUpdated": "2016-07-21T11:00:04Z"
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "XXXXX",
+              "display": "Depression screening using Patient Health Question"
+            }
+          ],
+          "text": "Depression screening using Patient Health Question"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "performedDateTime": "2016-06-21T11:00:04Z",
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-7QY97qVvujaWRzEHZEm",
+          "display": "TEM MH PSO TRS IND93EH 2"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Procedure/4-1nXi7DqRTwwD4tpTCE",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "4-1nXi7DqRTwwD4tpTCE",
+        "meta": {
+          "lastUpdated": "2016-07-21T11:00:04Z"
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "XXXXX",
+              "display": "Suicide risk assessment (procedure)"
+            }
+          ],
+          "text": "Suicide risk assessment (procedure)"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "performedDateTime": "2016-06-21T11:00:04Z",
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-7QY97qVvujaWRyw2q88",
+          "display": "VISUAL IMPAIRMENT SVCS OUTPATIENT REHAB (VISOR)"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Procedure/4-1nXi7DqRTwwD0nV9hS",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "4-1nXi7DqRTwwD0nV9hS",
+        "meta": {
+          "lastUpdated": "2016-08-04T11:00:04Z"
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "XXXXX",
+              "display": "Depression screening using Patient Health Question"
+            }
+          ],
+          "text": "Depression screening using Patient Health Question"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "performedDateTime": "2016-07-05T11:00:04Z",
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-7QY97qVvujaWRyw2q88",
+          "display": "VISUAL IMPAIRMENT SVCS OUTPATIENT REHAB (VISOR)"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Procedure/4-1nXi7DqRTwwD1NpoLi",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "4-1nXi7DqRTwwD1NpoLi",
+        "meta": {
+          "lastUpdated": "2016-08-04T11:00:04Z"
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "XXXXX",
+              "display": "Suicide risk assessment (procedure)"
+            }
+          ],
+          "text": "Suicide risk assessment (procedure)"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "performedDateTime": "2016-07-05T11:00:04Z",
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-7QY97qVvujaWRzEHZEm",
+          "display": "TEM MH PSO TRS IND93EH 2"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Procedure/4-1nXi7DqRTwwHqq4Z6Y",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "4-1nXi7DqRTwwHqq4Z6Y",
+        "meta": {
+          "lastUpdated": "2017-07-01T11:00:04Z"
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "XXXXX",
+              "display": "Suture open wound"
+            }
+          ],
+          "text": "Suture open wound"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/2000190",
+          "display": "Mr. Luis923 Mayer370"
+        },
+        "performedDateTime": "2017-06-01T11:00:04Z",
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-7QY97qVvujaWRzoKcky",
+          "display": "MENTAL HEALTH SERVICES"
         }
       },
       "search": {

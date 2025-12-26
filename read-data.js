@@ -4,7 +4,7 @@ import jwt from 'jsonwebtoken';
 const aud = 'https://deptva-eval.okta.com/oauth2/aus8nm1q0f7VQ0a482p7/v1/token'
 const tokenService = 'https://sandbox-api.va.gov/oauth2/health/system/v1/token'
 const fhirEndpoint = 'https://sandbox-api.va.gov/services/fhir/v0/r4'
-const scope = 'launch system/AllergyIntolerance.read system/Appointment.read system/Condition.read system/Device.read system/DiagnosticReport.read system/Encounter.read system/Immunization.read system/Location.read system/Medication.read system/MedicationRequest.read system/Observation.read system/Organization.read system/Patient.read system/Procedure.read'
+const scope = 'launch system/AllergyIntolerance.read system/Appointment.read system/Condition.read system/Device.read system/DeviceRequest.read system/DiagnosticReport.read system/Encounter.read system/Immunization.read system/Location.read system/Medication.read system/MedicationRequest.read system/Observation.read system/Organization.read system/Patient.read system/Procedure.read'
 
 const mtnLotusClientID = '0oa18gyos5wfXeyyJ2p8'
 const mtnLotusPrivateKey = 'va-private.pem'
@@ -70,20 +70,51 @@ async function getAccessToken(patientID) {
 
 async function getAllFHIRData(patientID) {
   const accessToken = await getAccessToken(patientID)
-  await getFHIRData('Patient', patientID, accessToken)
-  await getFHIRData('Condition', patientID, accessToken)
-  await getFHIRData('Observation', patientID, accessToken)
-  await getFHIRData('MedicationRequest', patientID, accessToken)
-  await getFHIRData('Immunization', patientID, accessToken)
-  await getFHIRData('AllergyIntolerance', patientID, accessToken)
-  await getFHIRData('Encounter', patientID, accessToken)
-  await getFHIRData('Procedure', patientID, accessToken)
-  await getFHIRData('Device', patientID, accessToken)
+  const patient = await getFHIRData('Patient', patientID, accessToken)
+  const condition = await getFHIRData('Condition', patientID, accessToken)
+  const observation = await getFHIRData('Observation', patientID, accessToken)
+  const diagnosticReport = await getFHIRData('DiagnosticReport', patientID, accessToken)
+  const medicationRequest = await getFHIRData('MedicationRequest', patientID, accessToken)
+  const immunization = await getFHIRData('Immunization', patientID, accessToken)
+  const allergy = await getFHIRData('AllergyIntolerance', patientID, accessToken)
+  const encounter = await getFHIRData('Encounter', patientID, accessToken)
+  const procedure = await getFHIRData('Procedure', patientID, accessToken)
+  const device = await getFHIRData('Device', patientID, accessToken)
+  const deviceRequest = await getFHIRData('DeviceRequest', patientID, accessToken)
+
+  const fhirBundle = {
+    resourceType: 'Bundle',
+    type: "collection",
+    entry: [{ resource: patient },
+    ...condition.entry,
+    ...observation.entry,
+    ...diagnosticReport.entry,
+    ...medicationRequest.entry,
+    ...immunization.entry,
+    ...allergy.entry,
+    ...encounter.entry,
+    ...procedure.entry,
+    ...device.entry,
+    ...deviceRequest.entry,
+    ]
+  }
+
+  const jsonString = JSON.stringify(fhirBundle, null, 2);
+  await saveJsonToFile(jsonString, `test-data/${patientID}-bundle.json`)
 }
 
 async function getFHIRData(resourceType, patientID, accessToken) {
   try {
-    const url = resourceType === 'Patient' ? `${fhirEndpoint}/${resourceType}/${patientID}` : `${fhirEndpoint}/${resourceType}?patient=${patientID}`
+    var url = resourceType === 'Patient' ? `${fhirEndpoint}/${resourceType}/${patientID}` : `${fhirEndpoint}/${resourceType}?patient=${patientID}`
+    if (resourceType === 'Condition') {
+      url = url + '&category=http://terminology.hl7.org/CodeSystem/condition-category|problem-list-item'
+      url = url + '&clinical-status=http://terminology.hl7.org/CodeSystem/condition-clinical|active'
+    }
+    if (resourceType === 'MedicationRequest') {
+      url = url + '&status=active'
+      // TODO: Using VA sandbox, _include does not return Medication in the bundle or as contained.
+      url = url + '&_include=MedicationRequest:medication'
+    }
     // console.log(url)
     const response = await fetch(url, {
       method: 'GET',
@@ -101,8 +132,8 @@ async function getFHIRData(resourceType, patientID, accessToken) {
 
     const result = await response.json(); // Await parsing the JSON body
     // console.log('Success:', result);
-    const jsonString = JSON.stringify(result, null, 2);
-    await saveJsonToFile(jsonString, `test-data/${resourceType}-${patientID}.json`)
+    // const jsonString = JSON.stringify(result, null, 2);
+    // await saveJsonToFile(jsonString, `test-data/${resourceType}-${patientID}.json`)
     return result;
 
   } catch (error) {
@@ -123,3 +154,9 @@ const signedJWT = getAssertionPrivatekey(mtnLotusClientID, mtnLotusPrivateKey, a
 
 await getAllFHIRData('2000190')
 // await getAllFHIRData('36000216')
+
+// Diabetes condition
+// await getAllFHIRData('21000177')
+
+// Metformin meds
+// await getAllFHIRData('43000341')

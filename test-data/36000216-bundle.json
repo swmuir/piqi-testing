@@ -1,13 +1,330 @@
 {
   "resourceType": "Bundle",
-  "type": "searchset",
-  "link": [
-    {
-      "relation": "self",
-      "url": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation?patient=36000216&-pageToken=1~6Z807QTZrKsurkk"
-    }
-  ],
+  "type": "collection",
   "entry": [
+    {
+      "resource": {
+        "resourceType": "Patient",
+        "id": "36000216",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "extension": [
+          {
+            "extension": [
+              {
+                "url": "ombCategory",
+                "valueCoding": {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2076-8",
+                  "display": "Native Hawaiian or Other Pacific Islander"
+                }
+              },
+              {
+                "url": "text",
+                "valueString": "Native Hawaiian or Other Pacific Islander"
+              }
+            ],
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+          },
+          {
+            "extension": [
+              {
+                "url": "ombCategory",
+                "valueCoding": {
+                  "system": "urn:oid:2.16.840.1.113883.6.238",
+                  "code": "2186-5",
+                  "display": "Not Hispanic or Latino"
+                }
+              },
+              {
+                "url": "text",
+                "valueString": "Not Hispanic or Latino"
+              }
+            ],
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"
+          },
+          {
+            "url": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex",
+            "valueCode": "F"
+          }
+        ],
+        "identifier": [
+          {
+            "use": "usual",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "PN"
+                }
+              ]
+            },
+            "system": "http://va.gov/mpi",
+            "value": "36000216",
+            "assigner": {
+              "display": "Master Patient Index"
+            }
+          },
+          {
+            "use": "official",
+            "type": {
+              "coding": [
+                {
+                  "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+                  "code": "SS"
+                }
+              ]
+            },
+            "system": "http://hl7.org/fhir/sid/us-ssn",
+            "value": "999-72-7943",
+            "assigner": {
+              "display": "United States Social Security Number"
+            }
+          }
+        ],
+        "name": [
+          {
+            "use": "usual",
+            "text": "Mrs. Josephine273 Justine412 Walter473",
+            "family": "Walter473",
+            "given": [
+              "Josephine273"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "5556699542",
+            "use": "home"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1990-02-13",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "line": [
+              "224 Wyman Burg Unit 11"
+            ],
+            "city": "Lauderdale Lakes",
+            "state": "FL",
+            "postalCode": "33319"
+          }
+        ],
+        "contact": [
+          {
+            "relationship": [
+              {
+                "coding": [
+                  {
+                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+                    "code": "C",
+                    "display": "Emergency Contact"
+                  },
+                  {
+                    "system": "http://va.gov/terminology/vistaDefinedTerms/2",
+                    "code": ".3311",
+                    "display": "SECONDARY EMERGENCY CONTACT"
+                  }
+                ],
+                "text": "SECONDARY EMERGENCY CONTACT"
+              }
+            ],
+            "name": {
+              "text": "O'Conner582, Anneliese959"
+            },
+            "telecom": [
+              {
+                "system": "phone",
+                "value": "5552902741",
+                "use": "home"
+              },
+              {
+                "system": "phone",
+                "value": "5558725482",
+                "use": "work"
+              },
+              {
+                "system": "email",
+                "value": "stewart.skiles@example.com"
+              }
+            ],
+            "address": {
+              "line": [
+                "76210 Stehr Causeway",
+                "Suite 315"
+              ],
+              "city": "South Carleetown",
+              "state": "TX",
+              "postalCode": "42094"
+            }
+          }
+        ],
+        "communication": [
+          {
+            "language": {
+              "text": "ENGLISH"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Condition/4-1bKlYawjWcj6Jc",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "4-1bKlYawjWcj6Jc",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ],
+            "text": "Problem List Item"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "271737000",
+              "display": "Anemia (disorder)"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "D50.0",
+              "display": "Anemia (disorder)"
+            }
+          ],
+          "text": "Anemia (disorder)"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIwVIwN"
+        },
+        "onsetDateTime": "2008-04-08T08:43:18Z",
+        "recordedDate": "2008-04-08",
+        "recorder": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+          "display": "Dr. Chauncey770 Ritchie586"
+        },
+        "asserter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+          "display": "Dr. Chauncey770 Ritchie586"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Condition/4-1bKlYawjWckCVk",
+      "resource": {
+        "resourceType": "Condition",
+        "id": "4-1bKlYawjWckCVk",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "clinicalStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+              "code": "active",
+              "display": "Active"
+            }
+          ],
+          "text": "Active"
+        },
+        "verificationStatus": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+              "code": "confirmed",
+              "display": "Confirmed"
+            }
+          ],
+          "text": "Confirmed"
+        },
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/condition-category",
+                "code": "problem-list-item",
+                "display": "Problem List Item"
+              }
+            ],
+            "text": "Problem List Item"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "224295006",
+              "display": "Only received primary school education (finding)"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "Z55.9",
+              "display": "Only received primary school education (finding)"
+            }
+          ],
+          "text": "Only received primary school education (finding)"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIwVZzP"
+        },
+        "onsetDateTime": "2008-04-08T09:13:31Z",
+        "recordedDate": "2008-04-08",
+        "recorder": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79MfR2nlWr",
+          "display": "Dr. Melvin857 Nikolaus26"
+        },
+        "asserter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79MfR2nlWr",
+          "display": "Dr. Melvin857 Nikolaus26"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
     {
       "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHLblDf",
       "resource": {
@@ -5934,6 +6251,2474 @@
               ],
               "text": "CMV ANTIGENEMIA ASSAY POSITIVE"
             }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/DiagnosticReport/4-6XcikJEbcG7d7FJ",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "4-6XcikJEbcG7d7FJ",
+        "meta": {
+          "lastUpdated": "2015-05-21T08:43:18Z"
+        },
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11502-2",
+              "display": "Laboratory report"
+            }
+          ],
+          "text": "Laboratory report"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "effectiveDateTime": "2015-04-21T08:43:18Z",
+        "issued": "2015-04-21T08:43:19Z",
+        "result": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHNs0A7",
+            "display": "Glucose"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHNsHD9",
+            "display": "Urea Nitrogen"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHNsYGB",
+            "display": "Creatinine"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHNspJD",
+            "display": "Calcium"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHNt6MF",
+            "display": "Sodium"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHNtNPH",
+            "display": "Potassium"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHNteSJ",
+            "display": "Chloride"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IHNtvVL",
+            "display": "Carbon Dioxide"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/DiagnosticReport/4-6XcikJEbcIU7EYj",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "4-6XcikJEbcIU7EYj",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11502-2",
+              "display": "Laboratory report"
+            }
+          ],
+          "text": "Laboratory report"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "result": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZqMecF",
+            "display": "Glucose"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZqMvfH",
+            "display": "Urea Nitrogen"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZqNCiJ",
+            "display": "Creatinine"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZqNTlL",
+            "display": "Calcium"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZqNkoN",
+            "display": "Sodium"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZqO1rP",
+            "display": "Potassium"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZqOIuR",
+            "display": "Chloride"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZqOZxT",
+            "display": "Carbon Dioxide"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/DiagnosticReport/4-6XcikJEbcPLsRTN",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "4-6XcikJEbcPLsRTN",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11502-2",
+              "display": "Laboratory report"
+            }
+          ],
+          "text": "Laboratory report"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "effectiveDateTime": "2018-04-24T08:43:18Z",
+        "issued": "2018-04-24T08:43:19Z",
+        "result": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZqOr0V",
+            "display": "Leukocytes [#/volume] in Blood by Automated count"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZqP83X",
+            "display": "Erythrocytes [#/volume] in Blood by Automated count"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZsdRel",
+            "display": "Hemoglobin [Mass/volume] in Blood"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZsdihn",
+            "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZsdzkp",
+            "display": "MCV [Entitic volume] by Automated count"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZseGnr",
+            "display": "MCH [Entitic mass] by Automated count"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZseXqt",
+            "display": "MCHC [Mass/volume] by Automated count"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZseotv",
+            "display": "Erythrocyte distribution width [Entitic volume] by Automated count"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZsf5wx",
+            "display": "Platelets [#/volume] in Blood by Automated count"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZsfMzz",
+            "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZsfe31",
+            "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/DiagnosticReport/4-6XcikJEbcPPIjEH",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "4-6XcikJEbcPPIjEH",
+        "meta": {
+          "lastUpdated": "2021-05-27T08:43:18Z"
+        },
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11502-2",
+              "display": "Laboratory report"
+            }
+          ],
+          "text": "Laboratory report"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "effectiveDateTime": "2021-04-27T08:43:18Z",
+        "issued": "2021-04-27T08:43:19Z",
+        "result": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZxBZpr",
+            "display": "Glucose"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZxBqst",
+            "display": "Urea Nitrogen"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZxC7vv",
+            "display": "Creatinine"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZxCOyx",
+            "display": "Calcium"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZxCg1z",
+            "display": "Sodium"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZxCx51",
+            "display": "Potassium"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZxDE83",
+            "display": "Chloride"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZxDVB5",
+            "display": "Carbon Dioxide"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/DiagnosticReport/4-6XcikJEbcRkdLpJ",
+      "resource": {
+        "resourceType": "DiagnosticReport",
+        "id": "4-6XcikJEbcRkdLpJ",
+        "meta": {
+          "lastUpdated": "2021-05-27T08:43:18Z"
+        },
+        "status": "unknown",
+        "category": [
+          {
+            "coding": [
+              {
+                "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+                "code": "LAB",
+                "display": "Laboratory"
+              }
+            ],
+            "text": "Laboratory"
+          }
+        ],
+        "code": {
+          "coding": [
+            {
+              "system": "http://loinc.org",
+              "code": "11502-2",
+              "display": "Laboratory report"
+            }
+          ],
+          "text": "Laboratory report"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "effectiveDateTime": "2021-04-27T08:43:18Z",
+        "issued": "2021-04-27T08:43:19Z",
+        "result": [
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZzRomJ",
+            "display": "Total Cholesterol"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZzS5pL",
+            "display": "Triglycerides"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZzSMsN",
+            "display": "Low Density Lipoprotein Cholesterol"
+          },
+          {
+            "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Observation/4-1bKloZ1IZzSdvP",
+            "display": "High Density Lipoprotein Cholesterol"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-1abORwhPxZOnhK",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-1abORwhPxZOnhK",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "140",
+              "display": "FLU TRIVALENT PRES-FREE (HISTORICAL)"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "88",
+              "display": "VACCINE GROUP: FLU"
+            }
+          ],
+          "text": "Influenza, seasonal, injectable, preservative free"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIwWP8V"
+        },
+        "occurrenceDateTime": "2015-04-21T08:43:18Z",
+        "primarySource": true,
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRt4wrK9M",
+          "display": "TEST VA FACILITY"
+        },
+        "manufacturer": {
+          "display": "TEST MANUFACTURER"
+        },
+        "doseQuantity": {
+          "value": 5.5,
+          "unit": "mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL"
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+              "display": "Dr. Chauncey770 Ritchie586"
+            }
+          }
+        ],
+        "note": [
+          {
+            "text": "Sample Immunization Note."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Other"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "doseNumberString": "Series 1"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-1abORwhPxdw6jK",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-1abORwhPxdw6jK",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "140",
+              "display": "FLU TRIVALENT PRES-FREE (HISTORICAL)"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "88",
+              "display": "VACCINE GROUP: FLU"
+            }
+          ],
+          "text": "Influenza, seasonal, injectable, preservative free"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn"
+        },
+        "occurrenceDateTime": "2018-04-24T08:43:18Z",
+        "primarySource": true,
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRt4wrK9M",
+          "display": "TEST VA FACILITY"
+        },
+        "manufacturer": {
+          "display": "TEST MANUFACTURER"
+        },
+        "doseQuantity": {
+          "value": 8.8,
+          "unit": "mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL"
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+              "display": "Dr. Chauncey770 Ritchie586"
+            }
+          }
+        ],
+        "note": [
+          {
+            "text": "Sample Immunization Note."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Other"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "doseNumberString": "Series 1"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-1abORwhQG8gj4s",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-1abORwhQG8gj4s",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "208",
+              "display": "COVID-19 (PFIZER), MRNA, LNP-S, PF, 30 MCG/0.3 ML DOSE"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "213",
+              "display": "VACCINE GROUP: COVID-19"
+            }
+          ],
+          "text": "SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 30 mcg/0.3mL dose"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIymv7z"
+        },
+        "occurrenceDateTime": "2021-03-02T08:43:18Z",
+        "primarySource": true,
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRqfMtNC0",
+          "display": "TEST VA FACILITY"
+        },
+        "manufacturer": {
+          "display": "TEST MANUFACTURER"
+        },
+        "doseQuantity": {
+          "value": 6.6,
+          "unit": "mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL"
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79MfR2nlWr",
+              "display": "Dr. Melvin857 Nikolaus26"
+            }
+          }
+        ],
+        "note": [
+          {
+            "text": "Sample Immunization Note."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Other"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "doseNumberString": "Series 1"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-1abORwhQG8hYDy",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-1abORwhQG8hYDy",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "208",
+              "display": "COVID-19 (PFIZER), MRNA, LNP-S, PF, 30 MCG/0.3 ML DOSE"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "213",
+              "display": "VACCINE GROUP: COVID-19"
+            }
+          ],
+          "text": "SARS-COV-2 (COVID-19) vaccine, mRNA, spike protein, LNP, preservative free, 30 mcg/0.3mL dose"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIynCB1"
+        },
+        "occurrenceDateTime": "2021-03-23T08:43:18Z",
+        "primarySource": true,
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRqfMtNC0",
+          "display": "TEST VA FACILITY"
+        },
+        "manufacturer": {
+          "display": "TEST MANUFACTURER"
+        },
+        "doseQuantity": {
+          "value": 2.9,
+          "unit": "mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL"
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79MfR2nlWr",
+              "display": "Dr. Melvin857 Nikolaus26"
+            }
+          }
+        ],
+        "note": [
+          {
+            "text": "Sample Immunization Note."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Other"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "doseNumberString": "Series 1"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-1abORwhQGAxnAQ",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-1abORwhQGAxnAQ",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "140",
+              "display": "FLU TRIVALENT PRES-FREE (HISTORICAL)"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "88",
+              "display": "VACCINE GROUP: FLU"
+            }
+          ],
+          "text": "Influenza, seasonal, injectable, preservative free"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIynTE3"
+        },
+        "occurrenceDateTime": "2021-04-27T08:43:18Z",
+        "primarySource": true,
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRt4wrK9M",
+          "display": "TEST VA FACILITY"
+        },
+        "manufacturer": {
+          "display": "TEST MANUFACTURER"
+        },
+        "doseQuantity": {
+          "value": 6.7,
+          "unit": "mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL"
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+              "display": "Dr. Chauncey770 Ritchie586"
+            }
+          }
+        ],
+        "note": [
+          {
+            "text": "Sample Immunization Note."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Other"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "doseNumberString": "Series 1"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Immunization/4-1abORwhQGAy4DS",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "4-1abORwhQGAy4DS",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "113",
+              "display": "TD (ADULT), 5 LF TETANUS TOXOID, PRESERVATIVE FREE, ADSORBED"
+            },
+            {
+              "system": "http://hl7.org/fhir/sid/cvx",
+              "code": "139",
+              "display": "VACCINE GROUP: Td"
+            }
+          ],
+          "text": "Td (adult) preservative free"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "encounter": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIynTE3"
+        },
+        "occurrenceDateTime": "2021-04-27T08:43:18Z",
+        "primarySource": true,
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRt4wrK9M",
+          "display": "TEST VA FACILITY"
+        },
+        "manufacturer": {
+          "display": "TEST MANUFACTURER"
+        },
+        "doseQuantity": {
+          "value": 8,
+          "unit": "mL",
+          "system": "http://unitsofmeasure.org",
+          "code": "mL"
+        },
+        "performer": [
+          {
+            "actor": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+              "display": "Dr. Chauncey770 Ritchie586"
+            }
+          }
+        ],
+        "note": [
+          {
+            "text": "Sample Immunization Note."
+          }
+        ],
+        "reaction": [
+          {
+            "detail": {
+              "display": "Other"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "doseNumberString": "Series 1"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIwVIwN",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "4-1abOMcftIwVIwN",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "finished",
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://www.ama-assn.org/go/cpt",
+                "code": "80050",
+                "display": "GENERAL HEALTH PANEL"
+              }
+            ],
+            "text": "GENERAL HEALTH PANEL"
+          }
+        ],
+        "serviceType": {
+          "text": "ambulatory"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+              "display": "Dr. Chauncey770 Ritchie586"
+            }
+          }
+        ],
+        "period": {
+          "start": "2008-04-08",
+          "end": "2008-04-08"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRt4wrK9M",
+              "display": "TEST VA FACILITY"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+          "display": "TEST VAMC"
+        },
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIwVZzP",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "4-1abOMcftIwVZzP",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "finished",
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://www.ama-assn.org/go/cpt",
+                "code": "99214",
+                "display": "OFFICE O/P EST MOD 30-39 MIN"
+              }
+            ],
+            "text": "OFFICE O/P EST MOD 30-39 MIN"
+          }
+        ],
+        "serviceType": {
+          "text": "ambulatory"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79MfR2nlWr",
+              "display": "Dr. Melvin857 Nikolaus26"
+            }
+          }
+        ],
+        "period": {
+          "start": "2008-04-08",
+          "end": "2008-04-08"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "version": "10",
+                "code": "D64.9",
+                "display": "Anemia, unspecified"
+              }
+            ],
+            "text": "Anemia, unspecified"
+          }
+        ],
+        "location": [
+          {
+            "location": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRqfMtNC0",
+              "display": "TEST VA FACILITY"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-5pFm5BD7R1d",
+          "display": "TEST VAMC"
+        },
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIwVr2R",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "4-1abOMcftIwVr2R",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "finished",
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://www.ama-assn.org/go/cpt",
+                "code": "80050",
+                "display": "GENERAL HEALTH PANEL"
+              }
+            ],
+            "text": "GENERAL HEALTH PANEL"
+          }
+        ],
+        "serviceType": {
+          "text": "ambulatory"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+              "display": "Dr. Chauncey770 Ritchie586"
+            }
+          }
+        ],
+        "period": {
+          "start": "2012-04-17",
+          "end": "2012-04-17"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRt4wrK9M",
+              "display": "TEST VA FACILITY"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+          "display": "TEST VAMC"
+        },
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIwW85T",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "4-1abOMcftIwW85T",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "finished",
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+                "code": "D0120",
+                "display": "PERIODIC ORAL EVAL EST"
+              }
+            ],
+            "text": "PERIODIC ORAL EVAL EST"
+          }
+        ],
+        "serviceType": {
+          "text": "ambulatory"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79MfR2nlWr",
+              "display": "Dr. Melvin857 Nikolaus26"
+            }
+          }
+        ],
+        "period": {
+          "start": "2014-12-17",
+          "end": "2014-12-17"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRqfMtNC0",
+              "display": "TEST VA FACILITY"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-5pFm5BD7R1d",
+          "display": "TEST VAMC"
+        },
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIwWP8V",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "4-1abOMcftIwWP8V",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "finished",
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://www.ama-assn.org/go/cpt",
+                "code": "80050",
+                "display": "GENERAL HEALTH PANEL"
+              }
+            ],
+            "text": "GENERAL HEALTH PANEL"
+          }
+        ],
+        "serviceType": {
+          "text": "ambulatory"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+              "display": "Dr. Chauncey770 Ritchie586"
+            }
+          }
+        ],
+        "period": {
+          "start": "2015-04-21",
+          "end": "2015-04-21"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRt4wrK9M",
+              "display": "TEST VA FACILITY"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+          "display": "TEST VAMC"
+        },
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIwWgBX",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "4-1abOMcftIwWgBX",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "finished",
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://www.ama-assn.org/go/cpt",
+                "code": "4350F",
+                "display": "CNSLNG PROVIDED SYMP MNGMNT"
+              }
+            ],
+            "text": "CNSLNG PROVIDED SYMP MNGMNT"
+          }
+        ],
+        "serviceType": {
+          "text": "ambulatory"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79MfR2nlWr",
+              "display": "Dr. Melvin857 Nikolaus26"
+            }
+          }
+        ],
+        "period": {
+          "start": "2015-05-30",
+          "end": "2015-05-30"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-9-cm",
+                "version": "9",
+                "code": "473.9",
+                "display": "UNSPECIFIED SINUSITIS (CHRONIC)"
+              }
+            ],
+            "text": "UNSPECIFIED SINUSITIS (CHRONIC)"
+          }
+        ],
+        "location": [
+          {
+            "location": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRqfMtNC0",
+              "display": "TEST VA FACILITY"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-5pFm5BD7R1d",
+          "display": "TEST VAMC"
+        },
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIykzml",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "4-1abOMcftIykzml",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "finished",
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://www.ama-assn.org/go/cpt",
+                "code": "4350F",
+                "display": "CNSLNG PROVIDED SYMP MNGMNT"
+              }
+            ],
+            "text": "CNSLNG PROVIDED SYMP MNGMNT"
+          }
+        ],
+        "serviceType": {
+          "text": "ambulatory"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79MfR2nlWr",
+              "display": "Dr. Melvin857 Nikolaus26"
+            }
+          }
+        ],
+        "period": {
+          "start": "2015-08-15",
+          "end": "2015-08-15"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-9-cm",
+                "version": "9",
+                "code": "473.9",
+                "display": "UNSPECIFIED SINUSITIS (CHRONIC)"
+              }
+            ],
+            "text": "UNSPECIFIED SINUSITIS (CHRONIC)"
+          }
+        ],
+        "location": [
+          {
+            "location": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRqfMtNC0",
+              "display": "TEST VA FACILITY"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-5pFm5BD7R1d",
+          "display": "TEST VAMC"
+        },
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylGpn",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "4-1abOMcftIylGpn",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "finished",
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://www.ama-assn.org/go/cpt",
+                "code": "80050",
+                "display": "GENERAL HEALTH PANEL"
+              }
+            ],
+            "text": "GENERAL HEALTH PANEL"
+          }
+        ],
+        "serviceType": {
+          "text": "ambulatory"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+              "display": "Dr. Chauncey770 Ritchie586"
+            }
+          }
+        ],
+        "period": {
+          "start": "2018-04-24",
+          "end": "2018-04-24"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRt4wrK9M",
+              "display": "TEST VA FACILITY"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+          "display": "TEST VAMC"
+        },
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylXsp",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "4-1abOMcftIylXsp",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "finished",
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+                "code": "D0120",
+                "display": "PERIODIC ORAL EVAL EST"
+              }
+            ],
+            "text": "PERIODIC ORAL EVAL EST"
+          }
+        ],
+        "serviceType": {
+          "text": "ambulatory"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79MfR2nlWr",
+              "display": "Dr. Melvin857 Nikolaus26"
+            }
+          }
+        ],
+        "period": {
+          "start": "2018-11-26",
+          "end": "2018-11-26"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRqfMtNC0",
+              "display": "TEST VA FACILITY"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-5pFm5BD7R1d",
+          "display": "TEST VAMC"
+        },
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIylovr",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "4-1abOMcftIylovr",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "finished",
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://www.ama-assn.org/go/cpt",
+                "code": "99214",
+                "display": "OFFICE O/P EST MOD 30-39 MIN"
+              }
+            ],
+            "text": "OFFICE O/P EST MOD 30-39 MIN"
+          }
+        ],
+        "serviceType": {
+          "text": "ambulatory"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79MfR2nlWr",
+              "display": "Dr. Melvin857 Nikolaus26"
+            }
+          }
+        ],
+        "period": {
+          "start": "2018-11-29",
+          "end": "2018-11-29"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRqfMtNC0",
+              "display": "TEST VA FACILITY"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-5pFm5BD7R1d",
+          "display": "TEST VAMC"
+        },
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIym5yt",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "4-1abOMcftIym5yt",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "finished",
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://www.ama-assn.org/go/cpt",
+                "code": "99214",
+                "display": "OFFICE O/P EST MOD 30-39 MIN"
+              }
+            ],
+            "text": "OFFICE O/P EST MOD 30-39 MIN"
+          }
+        ],
+        "serviceType": {
+          "text": "ambulatory"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79MfR2nlWr",
+              "display": "Dr. Melvin857 Nikolaus26"
+            }
+          }
+        ],
+        "period": {
+          "start": "2019-12-24",
+          "end": "2019-12-24"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRqfMtNC0",
+              "display": "TEST VA FACILITY"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-5pFm5BD7R1d",
+          "display": "TEST VAMC"
+        },
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIymv7z",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "4-1abOMcftIymv7z",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "finished",
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://www.ama-assn.org/go/cpt",
+                "code": "90471",
+                "display": "IMMUNIZATION ADMIN"
+              }
+            ],
+            "text": "IMMUNIZATION ADMIN"
+          }
+        ],
+        "serviceType": {
+          "text": "ambulatory"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79MfR2nlWr",
+              "display": "Dr. Melvin857 Nikolaus26"
+            }
+          }
+        ],
+        "period": {
+          "start": "2021-03-02",
+          "end": "2021-03-02"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRqfMtNC0",
+              "display": "TEST VA FACILITY"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-5pFm5BD7R1d",
+          "display": "TEST VAMC"
+        },
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIynCB1",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "4-1abOMcftIynCB1",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "finished",
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://www.ama-assn.org/go/cpt",
+                "code": "90471",
+                "display": "IMMUNIZATION ADMIN"
+              }
+            ],
+            "text": "IMMUNIZATION ADMIN"
+          }
+        ],
+        "serviceType": {
+          "text": "ambulatory"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79MfR2nlWr",
+              "display": "Dr. Melvin857 Nikolaus26"
+            }
+          }
+        ],
+        "period": {
+          "start": "2021-03-23",
+          "end": "2021-03-23"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRqfMtNC0",
+              "display": "TEST VA FACILITY"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-5pFm5BD7R1d",
+          "display": "TEST VAMC"
+        },
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftIynTE3",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "4-1abOMcftIynTE3",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "finished",
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://www.ama-assn.org/go/cpt",
+                "code": "80050",
+                "display": "GENERAL HEALTH PANEL"
+              }
+            ],
+            "text": "GENERAL HEALTH PANEL"
+          }
+        ],
+        "serviceType": {
+          "text": "ambulatory"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+              "display": "Dr. Chauncey770 Ritchie586"
+            }
+          }
+        ],
+        "period": {
+          "start": "2021-04-27",
+          "end": "2021-04-27"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRt4wrK9M",
+              "display": "TEST VA FACILITY"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-O3d8XKfQu4qy",
+          "display": "TEST VAMC"
+        },
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftJ11mpH",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "4-1abOMcftJ11mpH",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "finished",
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+                "code": "D0120",
+                "display": "PERIODIC ORAL EVAL EST"
+              }
+            ],
+            "text": "PERIODIC ORAL EVAL EST"
+          }
+        ],
+        "serviceType": {
+          "text": "ambulatory"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79MfR2nlWr",
+              "display": "Dr. Melvin857 Nikolaus26"
+            }
+          }
+        ],
+        "period": {
+          "start": "2021-11-13",
+          "end": "2021-11-13"
+        },
+        "location": [
+          {
+            "location": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRqfMtNC0",
+              "display": "TEST VA FACILITY"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-5pFm5BD7R1d",
+          "display": "TEST VAMC"
+        },
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Encounter/4-1abOMcftJ123sJ",
+      "resource": {
+        "resourceType": "Encounter",
+        "id": "4-1abOMcftJ123sJ",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "status": "finished",
+        "type": [
+          {
+            "coding": [
+              {
+                "system": "http://www.ama-assn.org/go/cpt",
+                "code": "4350F",
+                "display": "CNSLNG PROVIDED SYMP MNGMNT"
+              }
+            ],
+            "text": "CNSLNG PROVIDED SYMP MNGMNT"
+          }
+        ],
+        "serviceType": {
+          "text": "ambulatory"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "participant": [
+          {
+            "individual": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79MfR2nlWr",
+              "display": "Dr. Melvin857 Nikolaus26"
+            }
+          }
+        ],
+        "period": {
+          "start": "2022-12-07",
+          "end": "2022-12-07"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "version": "10",
+                "code": "J02.9",
+                "display": "Acute pharyngitis, unspecified"
+              }
+            ],
+            "text": "Acute pharyngitis, unspecified"
+          }
+        ],
+        "location": [
+          {
+            "location": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRqfMtNC0",
+              "display": "TEST VA FACILITY"
+            }
+          }
+        ],
+        "serviceProvider": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-5pFm5BD7R1d",
+          "display": "TEST VAMC"
+        },
+        "class": {
+          "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+          "code": "AMB",
+          "display": "ambulatory"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Procedure/4-6XdeWl4nmprC282",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "4-6XdeWl4nmprC282",
+        "meta": {
+          "lastUpdated": "2015-05-21T08:43:18Z"
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "90862",
+              "display": "MEDICATION MANAGEMENT"
+            }
+          ],
+          "text": "MEDICATION MANAGEMENT"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "performedDateTime": "2015-04-21T08:43:18Z",
+        "performer": [
+          {
+            "actor": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+              "display": "Dr. Chauncey770 Ritchie586"
+            }
+          }
+        ],
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRt4wrK9M",
+          "display": "TEST VA FACILITY"
+        },
+        "note": [
+          {
+            "text": "TEST Note:  Case # 6124"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Procedure/4-6XdeWl4nmnVrga2",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "4-6XdeWl4nmnVrga2",
+        "meta": {
+          "lastUpdated": "2015-05-21T08:43:18Z"
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "80050",
+              "display": "GENERAL HEALTH PANEL"
+            }
+          ],
+          "text": "GENERAL HEALTH PANEL"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "performedDateTime": "2015-04-21T08:43:18Z",
+        "performer": [
+          {
+            "actor": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+              "display": "Dr. Chauncey770 Ritchie586"
+            }
+          }
+        ],
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRt4wrK9M",
+          "display": "TEST VA FACILITY"
+        },
+        "note": [
+          {
+            "text": "TEST Note:  Case # 2901"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Procedure/4-6XdeWl4nmprCJB4",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "4-6XdeWl4nmprCJB4",
+        "meta": {
+          "lastUpdated": "2015-05-21T09:19:48Z"
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+              "code": "G0444",
+              "display": "DEPRESSION SCREEN ANNUAL"
+            }
+          ],
+          "text": "DEPRESSION SCREEN ANNUAL"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "performedDateTime": "2015-04-21T09:19:48Z",
+        "performer": [
+          {
+            "actor": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+              "display": "Dr. Chauncey770 Ritchie586"
+            }
+          }
+        ],
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRt4wrK9M",
+          "display": "TEST VA FACILITY"
+        },
+        "note": [
+          {
+            "text": "TEST Note:  Case # 5430"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Procedure/4-6XdeWl4nmnVsEg6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "4-6XdeWl4nmnVsEg6",
+        "meta": {
+          "lastUpdated": "2015-05-21T10:07:30Z"
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+              "code": "H0005",
+              "display": "ALCOHOL AND/OR DRUG SERVICES"
+            }
+          ],
+          "text": "ALCOHOL AND/OR DRUG SERVICES"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "performedDateTime": "2015-04-21T10:07:30Z",
+        "performer": [
+          {
+            "actor": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+              "display": "Dr. Chauncey770 Ritchie586"
+            }
+          }
+        ],
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRt4wrK9M",
+          "display": "TEST VA FACILITY"
+        },
+        "note": [
+          {
+            "text": "TEST Note:  Case # 6848"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Procedure/4-6XdeWl4nmnY8CZW",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "4-6XdeWl4nmnY8CZW",
+        "meta": {
+          "lastUpdated": "2018-05-24T08:43:18Z"
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "80050",
+              "display": "GENERAL HEALTH PANEL"
+            }
+          ],
+          "text": "GENERAL HEALTH PANEL"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "performedDateTime": "2018-04-24T08:43:18Z",
+        "performer": [
+          {
+            "actor": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+              "display": "Dr. Chauncey770 Ritchie586"
+            }
+          }
+        ],
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRt4wrK9M",
+          "display": "TEST VA FACILITY"
+        },
+        "note": [
+          {
+            "text": "TEST Note:  Case # 7773"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Procedure/4-6XdeWl4nmnY8TcY",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "4-6XdeWl4nmnY8TcY",
+        "meta": {
+          "lastUpdated": "2018-05-24T09:43:37Z"
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+              "code": "G0444",
+              "display": "DEPRESSION SCREEN ANNUAL"
+            }
+          ],
+          "text": "DEPRESSION SCREEN ANNUAL"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "performedDateTime": "2018-04-24T09:43:37Z",
+        "performer": [
+          {
+            "actor": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+              "display": "Dr. Chauncey770 Ritchie586"
+            }
+          }
+        ],
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRt4wrK9M",
+          "display": "TEST VA FACILITY"
+        },
+        "note": [
+          {
+            "text": "TEST Note:  Case # 8521"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Procedure/4-6XdeWl4nmptTNGc",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "4-6XdeWl4nmptTNGc",
+        "meta": {
+          "lastUpdated": "2018-05-24T10:34:47Z"
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+              "code": "H0005",
+              "display": "ALCOHOL AND/OR DRUG SERVICES"
+            }
+          ],
+          "text": "ALCOHOL AND/OR DRUG SERVICES"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "performedDateTime": "2018-04-24T10:34:47Z",
+        "performer": [
+          {
+            "actor": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+              "display": "Dr. Chauncey770 Ritchie586"
+            }
+          }
+        ],
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRt4wrK9M",
+          "display": "TEST VA FACILITY"
+        },
+        "note": [
+          {
+            "text": "TEST Note:  Case # 2759"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Procedure/4-6XdeWl4nmz9yfO6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "4-6XdeWl4nmz9yfO6",
+        "meta": {
+          "lastUpdated": "2021-05-27T08:43:18Z"
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "90862",
+              "display": "MEDICATION MANAGEMENT"
+            }
+          ],
+          "text": "MEDICATION MANAGEMENT"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "performedDateTime": "2021-04-27T08:43:18Z",
+        "performer": [
+          {
+            "actor": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+              "display": "Dr. Chauncey770 Ritchie586"
+            }
+          }
+        ],
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRt4wrK9M",
+          "display": "TEST VA FACILITY"
+        },
+        "note": [
+          {
+            "text": "TEST Note:  Case # 9753"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Procedure/4-6XdeWl4nmwoeJq6",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "4-6XdeWl4nmwoeJq6",
+        "meta": {
+          "lastUpdated": "2021-05-27T08:43:18Z"
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "80050",
+              "display": "GENERAL HEALTH PANEL"
+            }
+          ],
+          "text": "GENERAL HEALTH PANEL"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "performedDateTime": "2021-04-27T08:43:18Z",
+        "performer": [
+          {
+            "actor": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+              "display": "Dr. Chauncey770 Ritchie586"
+            }
+          }
+        ],
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRt4wrK9M",
+          "display": "TEST VA FACILITY"
+        },
+        "note": [
+          {
+            "text": "TEST Note:  Case # 9593"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Procedure/4-6XdeWl4nmz9zDUA",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "4-6XdeWl4nmz9zDUA",
+        "meta": {
+          "lastUpdated": "2021-05-27T10:15:46Z"
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+              "code": "H0005",
+              "display": "ALCOHOL AND/OR DRUG SERVICES"
+            }
+          ],
+          "text": "ALCOHOL AND/OR DRUG SERVICES"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "performedDateTime": "2021-04-27T10:15:46Z",
+        "performer": [
+          {
+            "actor": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79Mgdpmk0X",
+              "display": "Dr. Chauncey770 Ritchie586"
+            }
+          }
+        ],
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRt4wrK9M",
+          "display": "TEST VA FACILITY"
+        },
+        "note": [
+          {
+            "text": "TEST Note:  Case # 3040"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Procedure/4-6XdeWl4nmzB8A6U",
+      "resource": {
+        "resourceType": "Procedure",
+        "id": "4-6XdeWl4nmzB8A6U",
+        "meta": {
+          "lastUpdated": "2023-01-06T04:43:18Z"
+        },
+        "status": "completed",
+        "code": {
+          "coding": [
+            {
+              "system": "http://www.ama-assn.org/go/cpt",
+              "code": "92502",
+              "display": "EAR AND THROAT EXAMINATION"
+            }
+          ],
+          "text": "EAR AND THROAT EXAMINATION"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "performedDateTime": "2022-12-07T04:43:18Z",
+        "performer": [
+          {
+            "actor": {
+              "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79MfR2nlWr",
+              "display": "Dr. Melvin857 Nikolaus26"
+            }
+          }
+        ],
+        "location": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Location/4-5lFRqfMtNC0",
+          "display": "TEST VA FACILITY"
+        },
+        "note": [
+          {
+            "text": "TEST Note:  Case # 4649"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/Device/4-6XdS7aWtyWnStAH",
+      "resource": {
+        "resourceType": "Device",
+        "id": "4-6XdS7aWtyWnStAH",
+        "meta": {
+          "lastUpdated": "2022-11-25T00:00:00Z"
+        },
+        "manufacturer": "TEST MANUFACTURER",
+        "expirationDate": "2033-04-02T08:43:18Z",
+        "lotNumber": "39599",
+        "serialNumber": "3132974457182920125",
+        "deviceName": [
+          {
+            "name": "SN60WF",
+            "type": "model-name"
+          },
+          {
+            "name": "INTRAOCULAR LENS",
+            "type": "user-friendly-name"
+          }
+        ],
+        "modelNumber": "SN60WF",
+        "type": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "53350007",
+              "display": "Prosthesis, device (physical object)"
+            }
+          ],
+          "text": "Prosthesis, device (physical object)"
+        },
+        "patient": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "owner": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Organization/4-5pFm5ABXHtB",
+          "display": "TEST VAMC"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "https://sandbox-api.va.gov/services/fhir/v0/r4/DeviceRequest/4-R0stO3tsbTXjrqcu",
+      "resource": {
+        "resourceType": "DeviceRequest",
+        "id": "4-R0stO3tsbTXjrqcu",
+        "meta": {
+          "lastUpdated": "2022-12-20T00:00:00Z"
+        },
+        "status": "completed",
+        "intent": "order",
+        "codeCodeableConcept": {
+          "text": "PROSTHETICS REQUEST - CPAP/BIPAP"
+        },
+        "subject": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Patient/36000216",
+          "display": "Mrs. Josephine273 Justine412 Walter473"
+        },
+        "occurrenceDateTime": "2022-12-20T00:00:00Z",
+        "requester": {
+          "reference": "https://sandbox-api.va.gov/services/fhir/v0/r4/Practitioner/4-Nn79MfQbVWYL",
+          "display": "Dr. Whitley172 Steuber698"
+        },
+        "reasonCode": [
+          {
+            "coding": [
+              {
+                "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                "version": "10",
+                "code": "F51.13",
+                "display": "Hypersomnia due to other mental disorder"
+              }
+            ],
+            "text": "Hypersomnia due to other mental disorder"
           }
         ]
       },
