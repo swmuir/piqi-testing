@@ -1,0 +1,3405 @@
+{
+    "formatID": "FHIR JSON",
+    "messageID": "2000190",
+    "patient": {
+        "demographics": {
+            "patientIdentifier": "2000190",
+            "birthSex": {
+                "codings": [
+                    {
+                        "system": "http://hl7.org/fhir/us/core/CodeSystem/birthsex",
+                        "code": "M",
+                        "display": "Male"
+                    }
+                ],
+                "text": "Male"
+            },
+            "birthDate": "1969-07-03",
+            "ethnicity": {
+                "codings": [
+                    {
+                        "system": "urn:oid:2.16.840.1.113883.6.238",
+                        "code": "*Unknown at this time*",
+                        "display": "*Unknown at this time*"
+                    }
+                ],
+                "text": "*Unknown at this time*"
+            },
+            "primaryLanguage": {
+                "text": "ENGLISH"
+            },
+            "race": {
+                "codings": [
+                    {
+                        "system": "urn:oid:2.16.840.1.113883.6.238",
+                        "code": "2106-3",
+                        "display": "White"
+                    }
+                ],
+                "text": "White"
+            }
+        },
+        "conditions": [
+            {
+                "conditionType": "Problem List Item",
+                "conditionStatus": {
+                    "codings": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "condition": {
+                    "codings": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "display": "Hypertension"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "display": "Hypertensive heart disease with heart failure"
+                        }
+                    ],
+                    "text": "Hypertension"
+                },
+                "effectiveDate": "1987-08-27",
+                "onsetDate": "1987-08-27T11:00:04Z"
+            },
+            {
+                "conditionType": "Problem List Item",
+                "conditionStatus": {
+                    "codings": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "condition": {
+                    "codings": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "display": "Prediabetes"
+                        }
+                    ],
+                    "text": "Prediabetes"
+                },
+                "effectiveDate": "2009-07-09",
+                "onsetDate": "2009-07-09T11:00:04Z"
+            },
+            {
+                "conditionType": "Problem List Item",
+                "conditionStatus": {
+                    "codings": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "display": "Active"
+                        }
+                    ],
+                    "text": "Active"
+                },
+                "condition": {
+                    "codings": [
+                        {
+                            "system": "http://snomed.info/sct",
+                            "display": "Posttraumatic stress disorder"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "display": "Personal history of combat and operational stress reaction"
+                        }
+                    ],
+                    "text": "Posttraumatic stress disorder"
+                },
+                "effectiveDate": "2016-06-21",
+                "onsetDate": "2016-06-21T11:00:04Z"
+            }
+        ],
+        "immunizations": [
+            {
+                "administrationDate": "2009-07-09T11:00:04Z",
+                "reaction": {
+                    "codings": [
+                        {
+                            "display": "Fever"
+                        }
+                    ]
+                },
+                "immunization": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "INFLUENZA, SEASONAL, INJECTABLE, PRESERVATIVE FREE"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "VACCINE GROUP: FLU"
+                        }
+                    ],
+                    "text": "Influenza, seasonal, injectable, preservative free"
+                },
+                "immunizationStatus": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "completed"
+                        }
+                    ],
+                    "text": "completed"
+                }
+            },
+            {
+                "administrationDate": "2009-07-09T11:00:04Z",
+                "reaction": {
+                    "codings": [
+                        {
+                            "display": "Rash or itching"
+                        }
+                    ]
+                },
+                "immunization": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "HEP A, ADULT"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "VACCINE GROUP: HepA"
+                        }
+                    ],
+                    "text": "Hep A, adult"
+                },
+                "immunizationStatus": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "completed"
+                        }
+                    ],
+                    "text": "completed"
+                }
+            },
+            {
+                "administrationDate": "2009-11-05T12:00:04Z",
+                "reaction": {
+                    "codings": [
+                        {
+                            "display": "Fever"
+                        }
+                    ]
+                },
+                "immunization": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "INFLUENZA, SEASONAL, INJECTABLE, PRESERVATIVE FREE"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "VACCINE GROUP: FLU"
+                        }
+                    ],
+                    "text": "Influenza, seasonal, injectable, preservative free"
+                },
+                "immunizationStatus": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "completed"
+                        }
+                    ],
+                    "text": "completed"
+                }
+            },
+            {
+                "administrationDate": "2011-07-14T11:00:04Z",
+                "reaction": {
+                    "codings": [
+                        {
+                            "display": "Anaphylaxis or collapse"
+                        }
+                    ]
+                },
+                "immunization": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "INFLUENZA, SEASONAL, INJECTABLE, PRESERVATIVE FREE"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "VACCINE GROUP: FLU"
+                        }
+                    ],
+                    "text": "Influenza, seasonal, injectable, preservative free"
+                },
+                "immunizationStatus": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "completed"
+                        }
+                    ],
+                    "text": "completed"
+                }
+            },
+            {
+                "administrationDate": "2011-07-14T11:00:04Z",
+                "reaction": {
+                    "codings": [
+                        {
+                            "display": "Irritability"
+                        }
+                    ]
+                },
+                "immunization": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "TD (ADULT), 5 LF TETANUS TOXOID, PRESERVATIVE FREE, ADSORBED"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "VACCINE GROUP: Td"
+                        }
+                    ],
+                    "text": "Td (adult), 5 Lf tetanus toxoid, preservative free, adsorbed"
+                },
+                "immunizationStatus": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "completed"
+                        }
+                    ],
+                    "text": "completed"
+                }
+            },
+            {
+                "administrationDate": "2011-07-14T11:00:04Z",
+                "reaction": {
+                    "codings": [
+                        {
+                            "display": "Lethargy"
+                        }
+                    ]
+                },
+                "immunization": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "HEP A, ADULT"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "VACCINE GROUP: HepA"
+                        }
+                    ],
+                    "text": "Hep A, adult"
+                },
+                "immunizationStatus": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "completed"
+                        }
+                    ],
+                    "text": "completed"
+                }
+            },
+            {
+                "administrationDate": "2013-07-18T11:00:04Z",
+                "reaction": {
+                    "codings": [
+                        {
+                            "display": "Vomiting"
+                        }
+                    ]
+                },
+                "immunization": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "INFLUENZA, SEASONAL, INJECTABLE, PRESERVATIVE FREE"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "VACCINE GROUP: FLU"
+                        }
+                    ],
+                    "text": "Influenza, seasonal, injectable, preservative free"
+                },
+                "immunizationStatus": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "completed"
+                        }
+                    ],
+                    "text": "completed"
+                }
+            },
+            {
+                "administrationDate": "2015-07-23T11:00:04Z",
+                "reaction": {
+                    "codings": [
+                        {
+                            "display": "Convulsions"
+                        }
+                    ]
+                },
+                "immunization": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "INFLUENZA, SEASONAL, INJECTABLE, PRESERVATIVE FREE"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "VACCINE GROUP: FLU"
+                        }
+                    ],
+                    "text": "Influenza, seasonal, injectable, preservative free"
+                },
+                "immunizationStatus": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "completed"
+                        }
+                    ],
+                    "text": "completed"
+                }
+            },
+            {
+                "administrationDate": "2017-07-27T11:00:04Z",
+                "reaction": {
+                    "codings": [
+                        {
+                            "display": "Local reaction or swelling"
+                        }
+                    ]
+                },
+                "immunization": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "INFLUENZA, SEASONAL, INJECTABLE, PRESERVATIVE FREE"
+                        },
+                        {
+                            "system": "http://hl7.org/fhir/sid/cvx",
+                            "display": "VACCINE GROUP: FLU"
+                        }
+                    ],
+                    "text": "Influenza, seasonal, injectable, preservative free"
+                },
+                "immunizationStatus": {
+                    "codings": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "completed"
+                        }
+                    ],
+                    "text": "completed"
+                }
+            }
+        ],
+        "diagnosticImaging": [
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "hasAttachment": "false",
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "reportDateTime": "2009-07-09T11:00:04Z",
+                "effectiveDate": "2009-07-09T11:00:04Z",
+                "issued": "2009-07-09T11:00:04Z"
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "hasAttachment": "false",
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "reportDateTime": "2011-07-14T11:00:04Z",
+                "effectiveDate": "2011-07-14T11:00:04Z",
+                "issued": "2011-07-14T11:00:04Z"
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "hasAttachment": "false",
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "reportDateTime": "2011-07-14T11:00:04Z",
+                "effectiveDate": "2011-07-14T11:00:04Z",
+                "issued": "2011-07-14T11:00:04Z"
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "hasAttachment": "false",
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "reportDateTime": "2013-07-18T11:00:04Z",
+                "effectiveDate": "2013-07-18T11:00:04Z",
+                "issued": "2013-07-18T11:00:04Z"
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "hasAttachment": "false",
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "reportDateTime": "2015-07-23T11:00:04Z",
+                "effectiveDate": "2015-07-23T11:00:04Z",
+                "issued": "2015-07-23T11:00:04Z"
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "hasAttachment": "false",
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "reportDateTime": "2015-07-23T11:00:04Z",
+                "effectiveDate": "2015-07-23T11:00:04Z",
+                "issued": "2015-07-23T11:00:04Z"
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "hasAttachment": "false",
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "reportDateTime": "2015-07-23T11:00:04Z",
+                "effectiveDate": "2015-07-23T11:00:04Z",
+                "issued": "2015-07-23T11:00:04Z"
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "hasAttachment": "false",
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Laboratory report"
+                        }
+                    ],
+                    "text": "Laboratory report"
+                },
+                "reportDateTime": "2017-07-27T11:00:04Z",
+                "effectiveDate": "2017-07-27T11:00:04Z",
+                "issued": "2017-07-27T11:00:04Z"
+            }
+        ],
+        "medications": [
+            {
+                "startDate": "1991-09-05T11:00:04Z",
+                "instructions": "Once per day.",
+                "doseRoute": {
+                    "text": "As directed by physician."
+                },
+                "statementDate": "1991-09-05T11:00:04Z"
+            },
+            {
+                "startDate": "2009-10-28T11:00:04Z",
+                "instructions": "Once per day.",
+                "doseRoute": {
+                    "text": "As directed by physician."
+                },
+                "statementDate": "2009-10-28T11:00:04Z"
+            },
+            {
+                "startDate": "2011-08-13T11:00:04Z",
+                "instructions": "Once per day.",
+                "doseRoute": {
+                    "text": "As directed by physician."
+                },
+                "statementDate": "2011-08-13T11:00:04Z"
+            },
+            {
+                "startDate": "2016-06-01T11:00:04Z",
+                "instructions": "Once per day.",
+                "doseRoute": {
+                    "text": "As directed by physician."
+                },
+                "statementDate": "2016-06-01T11:00:04Z"
+            },
+            {
+                "startDate": "2016-07-05T11:00:04Z",
+                "instructions": "1 dose(s) 1 time(s) per 1 days",
+                "doseRoute": {
+                    "text": "As directed by physician."
+                },
+                "statementDate": "2016-07-05T11:00:04Z"
+            },
+            {
+                "startDate": "2016-07-05T11:00:04Z",
+                "instructions": "Once per day.",
+                "doseRoute": {
+                    "text": "As directed by physician."
+                },
+                "statementDate": "2016-07-05T11:00:04Z"
+            },
+            {
+                "startDate": "2017-06-01T11:00:04Z",
+                "instructions": "Once per day.",
+                "doseRoute": {
+                    "text": "As directed by physician."
+                },
+                "statementDate": "2017-06-01T11:00:04Z"
+            }
+        ],
+        "vitalSigns": [
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Body height"
+                        }
+                    ],
+                    "text": "Body height"
+                },
+                "performedDateTime": "2009-07-09T11:00:04Z",
+                "performingSite": "DR. THOMAS359 REYNOLDS206 PHD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "68.9"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "[in_i]"
+                        }
+                    ],
+                    "text": "[in_i]"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+                        }
+                    ],
+                    "text": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+                },
+                "performedDateTime": "2009-07-09T11:00:04Z",
+                "performingSite": "DR. THOMAS359 REYNOLDS206 PHD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "1"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Body weight"
+                        }
+                    ],
+                    "text": "Body weight"
+                },
+                "performedDateTime": "2009-07-09T11:00:04Z",
+                "performingSite": "DR. THOMAS359 REYNOLDS206 PHD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "194.9"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "[lb_av]"
+                        }
+                    ],
+                    "text": "[lb_av]"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Diastolic blood pressure"
+                        }
+                    ],
+                    "text": "Diastolic blood pressure"
+                },
+                "issuedDateTime": "2009-07-09T11:00:04Z",
+                "performedDateTime": "2009-07-09T11:00:04Z",
+                "performingSite": "DR. JANE460 DOE922 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "97"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm[Hg]"
+                        }
+                    ],
+                    "text": "mm[Hg]"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Systolic blood pressure"
+                        }
+                    ],
+                    "text": "Systolic blood pressure"
+                },
+                "issuedDateTime": "2009-07-09T11:00:04Z",
+                "performedDateTime": "2009-07-09T11:00:04Z",
+                "performingSite": "DR. JANE460 DOE922 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "145"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm[Hg]"
+                        }
+                    ],
+                    "text": "mm[Hg]"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Body height"
+                        }
+                    ],
+                    "text": "Body height"
+                },
+                "performedDateTime": "2011-07-14T11:00:04Z",
+                "performingSite": "DR. JOHN248 SMITH811 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "68.9"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "[in_i]"
+                        }
+                    ],
+                    "text": "[in_i]"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+                        }
+                    ],
+                    "text": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+                },
+                "performedDateTime": "2011-07-14T11:00:04Z",
+                "performingSite": "DR. JANE460 DOE922 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "2"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Body weight"
+                        }
+                    ],
+                    "text": "Body weight"
+                },
+                "performedDateTime": "2011-07-14T11:00:04Z",
+                "performingSite": "DR. JOHN248 SMITH811 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "204.6"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "[lb_av]"
+                        }
+                    ],
+                    "text": "[lb_av]"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Diastolic blood pressure"
+                        }
+                    ],
+                    "text": "Diastolic blood pressure"
+                },
+                "issuedDateTime": "2011-07-14T11:00:04Z",
+                "performedDateTime": "2011-07-14T11:00:04Z",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "118"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm[Hg]"
+                        }
+                    ],
+                    "text": "mm[Hg]"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Systolic blood pressure"
+                        }
+                    ],
+                    "text": "Systolic blood pressure"
+                },
+                "issuedDateTime": "2011-07-14T11:00:04Z",
+                "performedDateTime": "2011-07-14T11:00:04Z",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "188"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm[Hg]"
+                        }
+                    ],
+                    "text": "mm[Hg]"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Body height"
+                        }
+                    ],
+                    "text": "Body height"
+                },
+                "performedDateTime": "2013-07-18T11:00:04Z",
+                "performingSite": "DR. JANE460 DOE922 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "68.9"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "[in_i]"
+                        }
+                    ],
+                    "text": "[in_i]"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+                        }
+                    ],
+                    "text": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+                },
+                "performedDateTime": "2013-07-18T11:00:04Z",
+                "performingSite": "DR. JANE460 DOE922 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "1"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Body weight"
+                        }
+                    ],
+                    "text": "Body weight"
+                },
+                "performedDateTime": "2013-07-18T11:00:04Z",
+                "performingSite": "DR. THOMAS359 REYNOLDS206 PHD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "211.3"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "[lb_av]"
+                        }
+                    ],
+                    "text": "[lb_av]"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Diastolic blood pressure"
+                        }
+                    ],
+                    "text": "Diastolic blood pressure"
+                },
+                "issuedDateTime": "2013-07-18T11:00:04Z",
+                "performedDateTime": "2013-07-18T11:00:04Z",
+                "performingSite": "DR. JANE460 DOE922 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "94"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm[Hg]"
+                        }
+                    ],
+                    "text": "mm[Hg]"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Systolic blood pressure"
+                        }
+                    ],
+                    "text": "Systolic blood pressure"
+                },
+                "issuedDateTime": "2013-07-18T11:00:04Z",
+                "performedDateTime": "2013-07-18T11:00:04Z",
+                "performingSite": "DR. JANE460 DOE922 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "140"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm[Hg]"
+                        }
+                    ],
+                    "text": "mm[Hg]"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Body height"
+                        }
+                    ],
+                    "text": "Body height"
+                },
+                "performedDateTime": "2015-07-23T11:00:04Z",
+                "performingSite": "NEW AMSTERDAM CBOC",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "68.9"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "[in_i]"
+                        }
+                    ],
+                    "text": "[in_i]"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+                        }
+                    ],
+                    "text": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+                },
+                "performedDateTime": "2015-07-23T11:00:04Z",
+                "performingSite": "DR. JOHN248 SMITH811 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "0"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Body weight"
+                        }
+                    ],
+                    "text": "Body weight"
+                },
+                "performedDateTime": "2015-07-23T11:00:04Z",
+                "performingSite": "DR. THOMAS359 REYNOLDS206 PHD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "218.3"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "[lb_av]"
+                        }
+                    ],
+                    "text": "[lb_av]"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Diastolic blood pressure"
+                        }
+                    ],
+                    "text": "Diastolic blood pressure"
+                },
+                "issuedDateTime": "2015-07-23T11:00:04Z",
+                "performedDateTime": "2015-07-23T11:00:04Z",
+                "performingSite": "LYONS VA MEDICAL CENTER",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "108"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm[Hg]"
+                        }
+                    ],
+                    "text": "mm[Hg]"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Systolic blood pressure"
+                        }
+                    ],
+                    "text": "Systolic blood pressure"
+                },
+                "issuedDateTime": "2015-07-23T11:00:04Z",
+                "performedDateTime": "2015-07-23T11:00:04Z",
+                "performingSite": "LYONS VA MEDICAL CENTER",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "178"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm[Hg]"
+                        }
+                    ],
+                    "text": "mm[Hg]"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+                        }
+                    ],
+                    "text": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+                },
+                "performedDateTime": "2016-07-05T11:00:04Z",
+                "performingSite": "DR. THOMAS359 REYNOLDS206 PHD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "5"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+                        }
+                    ],
+                    "text": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+                },
+                "performedDateTime": "2017-02-09T12:00:04Z",
+                "performingSite": "DR. JOHN248 SMITH811 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "2"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Body height"
+                        }
+                    ],
+                    "text": "Body height"
+                },
+                "performedDateTime": "2017-07-27T11:00:04Z",
+                "performingSite": "DR. JANE460 DOE922 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "68.9"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "[in_i]"
+                        }
+                    ],
+                    "text": "[in_i]"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+                        }
+                    ],
+                    "text": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+                },
+                "performedDateTime": "2017-07-27T11:00:04Z",
+                "performingSite": "DR. THOMAS359 REYNOLDS206 PHD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "3"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Body weight"
+                        }
+                    ],
+                    "text": "Body weight"
+                },
+                "performedDateTime": "2017-07-27T11:00:04Z",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "227"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "[lb_av]"
+                        }
+                    ],
+                    "text": "[lb_av]"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Diastolic blood pressure"
+                        }
+                    ],
+                    "text": "Diastolic blood pressure"
+                },
+                "issuedDateTime": "2017-07-27T11:00:04Z",
+                "performedDateTime": "2017-07-27T11:00:04Z",
+                "performingSite": "NEW AMSTERDAM CBOC",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "114"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm[Hg]"
+                        }
+                    ],
+                    "text": "mm[Hg]"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Systolic blood pressure"
+                        }
+                    ],
+                    "text": "Systolic blood pressure"
+                },
+                "issuedDateTime": "2017-07-27T11:00:04Z",
+                "performedDateTime": "2017-07-27T11:00:04Z",
+                "performingSite": "NEW AMSTERDAM CBOC",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "197"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mm[Hg]"
+                        }
+                    ],
+                    "text": "mm[Hg]"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+                        }
+                    ],
+                    "text": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+                },
+                "performedDateTime": "2017-08-25T11:00:04Z",
+                "performingSite": "LYONS VA MEDICAL CENTER",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "4"
+                }
+            },
+            {
+                "vitalsign": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+                        }
+                    ],
+                    "text": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
+                },
+                "performedDateTime": "2018-03-03T12:00:04Z",
+                "performingSite": "DR. JANE460 DOE922 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "6"
+                }
+            }
+        ],
+        "labResults": [
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Leukocytes [#/volume] in Blood by Automated count"
+                        }
+                    ],
+                    "text": "Leukocytes [#/volume] in Blood by Automated count"
+                },
+                "issuedDateTime": "2009-07-09T11:00:04Z",
+                "performedDateTime": "2009-07-09T11:00:04Z",
+                "performingSite": "LYONS VA MEDICAL CENTER",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "5.756428441"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "10*3/uL"
+                        }
+                    ],
+                    "text": "10*3/uL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Erythrocytes [#/volume] in Blood by Automated coun"
+                        }
+                    ],
+                    "text": "Erythrocytes [#/volume] in Blood by Automated coun"
+                },
+                "issuedDateTime": "2009-07-09T11:00:04Z",
+                "performedDateTime": "2009-07-09T11:00:04Z",
+                "performingSite": "LYONS VA MEDICAL CENTER",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "5.212716448"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "10*6/uL"
+                        }
+                    ],
+                    "text": "10*6/uL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Hemoglobin [Mass/volume] in Blood"
+                        }
+                    ],
+                    "text": "Hemoglobin [Mass/volume] in Blood"
+                },
+                "issuedDateTime": "2009-07-09T11:00:04Z",
+                "performedDateTime": "2009-07-09T11:00:04Z",
+                "performingSite": "DR. THOMAS359 REYNOLDS206 PHD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "17.2066248012"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "g/dL"
+                        }
+                    ],
+                    "text": "g/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Hematocrit [Volume Fraction] of Blood by Automated"
+                        }
+                    ],
+                    "text": "Hematocrit [Volume Fraction] of Blood by Automated"
+                },
+                "issuedDateTime": "2009-07-09T11:00:04Z",
+                "performedDateTime": "2009-07-09T11:00:04Z",
+                "performingSite": "NEW AMSTERDAM CBOC",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "45.0937309525"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "%"
+                        }
+                    ],
+                    "text": "%"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "MCV [Entitic volume] by Automated count"
+                        }
+                    ],
+                    "text": "MCV [Entitic volume] by Automated count"
+                },
+                "issuedDateTime": "2009-07-09T11:00:04Z",
+                "performedDateTime": "2009-07-09T11:00:04Z",
+                "performingSite": "NEW AMSTERDAM CBOC",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "86.9644847698"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "fL"
+                        }
+                    ],
+                    "text": "fL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "MCH [Entitic mass] by Automated count"
+                        }
+                    ],
+                    "text": "MCH [Entitic mass] by Automated count"
+                },
+                "issuedDateTime": "2009-07-09T11:00:04Z",
+                "performedDateTime": "2009-07-09T11:00:04Z",
+                "performingSite": "DR. JOHN248 SMITH811 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "30.0764199632"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "pg"
+                        }
+                    ],
+                    "text": "pg"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "MCHC [Mass/volume] by Automated count"
+                        }
+                    ],
+                    "text": "MCHC [Mass/volume] by Automated count"
+                },
+                "issuedDateTime": "2009-07-09T11:00:04Z",
+                "performedDateTime": "2009-07-09T11:00:04Z",
+                "performingSite": "DR. JANE460 DOE922 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "34.5609188921"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "g/dL"
+                        }
+                    ],
+                    "text": "g/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Erythrocyte distribution width [Entitic volume] by"
+                        }
+                    ],
+                    "text": "Erythrocyte distribution width [Entitic volume] by"
+                },
+                "issuedDateTime": "2009-07-09T11:00:04Z",
+                "performedDateTime": "2009-07-09T11:00:04Z",
+                "performingSite": "WASHINGTON VA MEDICAL CENTER",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "45.9812481291"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "fL"
+                        }
+                    ],
+                    "text": "fL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Platelets [#/volume] in Blood by Automated count"
+                        }
+                    ],
+                    "text": "Platelets [#/volume] in Blood by Automated count"
+                },
+                "issuedDateTime": "2009-07-09T11:00:04Z",
+                "performedDateTime": "2009-07-09T11:00:04Z",
+                "performingSite": "WASHINGTON VA MEDICAL CENTER",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "401.893580315"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "10*3/uL"
+                        }
+                    ],
+                    "text": "10*3/uL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Platelet distribution width [Entitic volume] in Bl"
+                        }
+                    ],
+                    "text": "Platelet distribution width [Entitic volume] in Bl"
+                },
+                "issuedDateTime": "2009-07-09T11:00:04Z",
+                "performedDateTime": "2009-07-09T11:00:04Z",
+                "performingSite": "DR. JANE460 DOE922 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "292.910929842"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "fL"
+                        }
+                    ],
+                    "text": "fL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Platelet mean volume [Entitic volume] in Blood by"
+                        }
+                    ],
+                    "text": "Platelet mean volume [Entitic volume] in Blood by"
+                },
+                "issuedDateTime": "2009-07-09T11:00:04Z",
+                "performedDateTime": "2009-07-09T11:00:04Z",
+                "performingSite": "DR. THOMAS359 REYNOLDS206 PHD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "11.3300284433"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "fL"
+                        }
+                    ],
+                    "text": "fL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Glucose"
+                        }
+                    ],
+                    "text": "Glucose"
+                },
+                "issuedDateTime": "2011-07-14T11:00:04Z",
+                "performedDateTime": "2011-07-14T11:00:04Z",
+                "performingSite": "LYONS VA MEDICAL CENTER",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "85.6681444009"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Urea Nitrogen"
+                        }
+                    ],
+                    "text": "Urea Nitrogen"
+                },
+                "issuedDateTime": "2011-07-14T11:00:04Z",
+                "performedDateTime": "2011-07-14T11:00:04Z",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "19.7726935906"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Creatinine"
+                        }
+                    ],
+                    "text": "Creatinine"
+                },
+                "issuedDateTime": "2011-07-14T11:00:04Z",
+                "performedDateTime": "2011-07-14T11:00:04Z",
+                "performingSite": "DR. JANE460 DOE922 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "1.2632241717"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Calcium"
+                        }
+                    ],
+                    "text": "Calcium"
+                },
+                "issuedDateTime": "2011-07-14T11:00:04Z",
+                "performedDateTime": "2011-07-14T11:00:04Z",
+                "performingSite": "NEW AMSTERDAM CBOC",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "9.165520181"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Sodium"
+                        }
+                    ],
+                    "text": "Sodium"
+                },
+                "issuedDateTime": "2011-07-14T11:00:04Z",
+                "performedDateTime": "2011-07-14T11:00:04Z",
+                "performingSite": "LYONS VA MEDICAL CENTER",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "141.0691568519"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Potassium"
+                        }
+                    ],
+                    "text": "Potassium"
+                },
+                "issuedDateTime": "2011-07-14T11:00:04Z",
+                "performedDateTime": "2011-07-14T11:00:04Z",
+                "performingSite": "DR. JOHN248 SMITH811 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "3.8713212057"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Chloride"
+                        }
+                    ],
+                    "text": "Chloride"
+                },
+                "issuedDateTime": "2011-07-14T11:00:04Z",
+                "performedDateTime": "2011-07-14T11:00:04Z",
+                "performingSite": "DR. THOMAS359 REYNOLDS206 PHD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "104.2343891529"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Carbon Dioxide"
+                        }
+                    ],
+                    "text": "Carbon Dioxide"
+                },
+                "issuedDateTime": "2011-07-14T11:00:04Z",
+                "performedDateTime": "2011-07-14T11:00:04Z",
+                "performingSite": "LYONS VA MEDICAL CENTER",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "21.0538141866"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Total Cholesterol"
+                        }
+                    ],
+                    "text": "Total Cholesterol"
+                },
+                "issuedDateTime": "2011-07-14T11:00:04Z",
+                "performedDateTime": "2011-07-14T11:00:04Z",
+                "performingSite": "DR. THOMAS359 REYNOLDS206 PHD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "183.4847972629"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Triglycerides"
+                        }
+                    ],
+                    "text": "Triglycerides"
+                },
+                "issuedDateTime": "2011-07-14T11:00:04Z",
+                "performedDateTime": "2011-07-14T11:00:04Z",
+                "performingSite": "LYONS VA MEDICAL CENTER",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "120.0844843707"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Low Density Lipoprotein Cholesterol"
+                        }
+                    ],
+                    "text": "Low Density Lipoprotein Cholesterol"
+                },
+                "issuedDateTime": "2011-07-14T11:00:04Z",
+                "performedDateTime": "2011-07-14T11:00:04Z",
+                "performingSite": "DR. JOHN248 SMITH811 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "97.2126802565"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "High Density Lipoprotein Cholesterol"
+                        }
+                    ],
+                    "text": "High Density Lipoprotein Cholesterol"
+                },
+                "issuedDateTime": "2011-07-14T11:00:04Z",
+                "performedDateTime": "2011-07-14T11:00:04Z",
+                "performingSite": "DR. JANE460 DOE922 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "62.2552201322"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Glucose"
+                        }
+                    ],
+                    "text": "Glucose"
+                },
+                "issuedDateTime": "2013-07-18T11:00:04Z",
+                "performedDateTime": "2013-07-18T11:00:04Z",
+                "performingSite": "DR. JOHN248 SMITH811 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "90.9740659947"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Urea Nitrogen"
+                        }
+                    ],
+                    "text": "Urea Nitrogen"
+                },
+                "issuedDateTime": "2013-07-18T11:00:04Z",
+                "performedDateTime": "2013-07-18T11:00:04Z",
+                "performingSite": "DR. THOMAS359 REYNOLDS206 PHD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "16.685026361"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Creatinine"
+                        }
+                    ],
+                    "text": "Creatinine"
+                },
+                "issuedDateTime": "2013-07-18T11:00:04Z",
+                "performedDateTime": "2013-07-18T11:00:04Z",
+                "performingSite": "LYONS VA MEDICAL CENTER",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "1.2777702801"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Calcium"
+                        }
+                    ],
+                    "text": "Calcium"
+                },
+                "issuedDateTime": "2013-07-18T11:00:04Z",
+                "performedDateTime": "2013-07-18T11:00:04Z",
+                "performingSite": "DR. THOMAS359 REYNOLDS206 PHD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "9.3375154244"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Sodium"
+                        }
+                    ],
+                    "text": "Sodium"
+                },
+                "issuedDateTime": "2013-07-18T11:00:04Z",
+                "performedDateTime": "2013-07-18T11:00:04Z",
+                "performingSite": "DR. JOHN248 SMITH811 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "139.8965830046"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Potassium"
+                        }
+                    ],
+                    "text": "Potassium"
+                },
+                "issuedDateTime": "2013-07-18T11:00:04Z",
+                "performedDateTime": "2013-07-18T11:00:04Z",
+                "performingSite": "DR. JANE460 DOE922 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "4.5038996747"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Chloride"
+                        }
+                    ],
+                    "text": "Chloride"
+                },
+                "issuedDateTime": "2013-07-18T11:00:04Z",
+                "performedDateTime": "2013-07-18T11:00:04Z",
+                "performingSite": "LYONS VA MEDICAL CENTER",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "105.1528063705"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Carbon Dioxide"
+                        }
+                    ],
+                    "text": "Carbon Dioxide"
+                },
+                "issuedDateTime": "2013-07-18T11:00:04Z",
+                "performedDateTime": "2013-07-18T11:00:04Z",
+                "performingSite": "DR. JANE460 DOE922 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "25.8188313968"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Glucose"
+                        }
+                    ],
+                    "text": "Glucose"
+                },
+                "issuedDateTime": "2015-07-23T11:00:04Z",
+                "performedDateTime": "2015-07-23T11:00:04Z",
+                "performingSite": "DR. THOMAS359 REYNOLDS206 PHD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "80.0087466798"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Urea Nitrogen"
+                        }
+                    ],
+                    "text": "Urea Nitrogen"
+                },
+                "issuedDateTime": "2015-07-23T11:00:04Z",
+                "performedDateTime": "2015-07-23T11:00:04Z",
+                "performingSite": "DR. THOMAS359 REYNOLDS206 PHD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "8.2288415188"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Creatinine"
+                        }
+                    ],
+                    "text": "Creatinine"
+                },
+                "issuedDateTime": "2015-07-23T11:00:04Z",
+                "performedDateTime": "2015-07-23T11:00:04Z",
+                "performingSite": "DR. THOMAS359 REYNOLDS206 PHD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "1.3388503874"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Calcium"
+                        }
+                    ],
+                    "text": "Calcium"
+                },
+                "issuedDateTime": "2015-07-23T11:00:04Z",
+                "performedDateTime": "2015-07-23T11:00:04Z",
+                "performingSite": "DR. THOMAS359 REYNOLDS206 PHD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "9.689601767"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Sodium"
+                        }
+                    ],
+                    "text": "Sodium"
+                },
+                "issuedDateTime": "2015-07-23T11:00:04Z",
+                "performedDateTime": "2015-07-23T11:00:04Z",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "137.9969879792"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Potassium"
+                        }
+                    ],
+                    "text": "Potassium"
+                },
+                "issuedDateTime": "2015-07-23T11:00:04Z",
+                "performedDateTime": "2015-07-23T11:00:04Z",
+                "performingSite": "WASHINGTON VA MEDICAL CENTER",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "4.4212919909"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Chloride"
+                        }
+                    ],
+                    "text": "Chloride"
+                },
+                "issuedDateTime": "2015-07-23T11:00:04Z",
+                "performedDateTime": "2015-07-23T11:00:04Z",
+                "performingSite": "DR. JOHN248 SMITH811 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "106.6480023674"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Carbon Dioxide"
+                        }
+                    ],
+                    "text": "Carbon Dioxide"
+                },
+                "issuedDateTime": "2015-07-23T11:00:04Z",
+                "performedDateTime": "2015-07-23T11:00:04Z",
+                "performingSite": "DR. JANE460 DOE922 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "27.6271649004"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Total Cholesterol"
+                        }
+                    ],
+                    "text": "Total Cholesterol"
+                },
+                "issuedDateTime": "2015-07-23T11:00:04Z",
+                "performedDateTime": "2015-07-23T11:00:04Z",
+                "performingSite": "LYONS VA MEDICAL CENTER",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "198.9421725762"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Triglycerides"
+                        }
+                    ],
+                    "text": "Triglycerides"
+                },
+                "issuedDateTime": "2015-07-23T11:00:04Z",
+                "performedDateTime": "2015-07-23T11:00:04Z",
+                "performingSite": "DR. JANE460 DOE922 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "106.6132108406"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Low Density Lipoprotein Cholesterol"
+                        }
+                    ],
+                    "text": "Low Density Lipoprotein Cholesterol"
+                },
+                "issuedDateTime": "2015-07-23T11:00:04Z",
+                "performedDateTime": "2015-07-23T11:00:04Z",
+                "performingSite": "WASHINGTON VA MEDICAL CENTER",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "117.6106303345"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "High Density Lipoprotein Cholesterol"
+                        }
+                    ],
+                    "text": "High Density Lipoprotein Cholesterol"
+                },
+                "issuedDateTime": "2015-07-23T11:00:04Z",
+                "performedDateTime": "2015-07-23T11:00:04Z",
+                "performingSite": "DR. JOHN248 SMITH811 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "60.0089000735"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Leukocytes [#/volume] in Blood by Automated count"
+                        }
+                    ],
+                    "text": "Leukocytes [#/volume] in Blood by Automated count"
+                },
+                "issuedDateTime": "2015-07-23T11:00:04Z",
+                "performedDateTime": "2015-07-23T11:00:04Z",
+                "performingSite": "DR. JOHN248 SMITH811 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "6.2525266982"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "10*3/uL"
+                        }
+                    ],
+                    "text": "10*3/uL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Erythrocytes [#/volume] in Blood by Automated coun"
+                        }
+                    ],
+                    "text": "Erythrocytes [#/volume] in Blood by Automated coun"
+                },
+                "issuedDateTime": "2015-07-23T11:00:04Z",
+                "performedDateTime": "2015-07-23T11:00:04Z",
+                "performingSite": "DR. JOHN248 SMITH811 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "5.0081525075"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "10*6/uL"
+                        }
+                    ],
+                    "text": "10*6/uL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Hemoglobin [Mass/volume] in Blood"
+                        }
+                    ],
+                    "text": "Hemoglobin [Mass/volume] in Blood"
+                },
+                "issuedDateTime": "2015-07-23T11:00:04Z",
+                "performedDateTime": "2015-07-23T11:00:04Z",
+                "performingSite": "DR. THOMAS359 REYNOLDS206 PHD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "12.0281423707"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "g/dL"
+                        }
+                    ],
+                    "text": "g/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Hematocrit [Volume Fraction] of Blood by Automated"
+                        }
+                    ],
+                    "text": "Hematocrit [Volume Fraction] of Blood by Automated"
+                },
+                "issuedDateTime": "2015-07-23T11:00:04Z",
+                "performedDateTime": "2015-07-23T11:00:04Z",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "36.1261768277"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "%"
+                        }
+                    ],
+                    "text": "%"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "MCV [Entitic volume] by Automated count"
+                        }
+                    ],
+                    "text": "MCV [Entitic volume] by Automated count"
+                },
+                "issuedDateTime": "2015-07-23T11:00:04Z",
+                "performedDateTime": "2015-07-23T11:00:04Z",
+                "performingSite": "DR. JANE460 DOE922 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "94.2631729213"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "fL"
+                        }
+                    ],
+                    "text": "fL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "MCH [Entitic mass] by Automated count"
+                        }
+                    ],
+                    "text": "MCH [Entitic mass] by Automated count"
+                },
+                "issuedDateTime": "2015-07-23T11:00:04Z",
+                "performedDateTime": "2015-07-23T11:00:04Z",
+                "performingSite": "DR. JANE460 DOE922 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "31.2228236171"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "pg"
+                        }
+                    ],
+                    "text": "pg"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "MCHC [Mass/volume] by Automated count"
+                        }
+                    ],
+                    "text": "MCHC [Mass/volume] by Automated count"
+                },
+                "issuedDateTime": "2015-07-23T11:00:04Z",
+                "performedDateTime": "2015-07-23T11:00:04Z",
+                "performingSite": "DR. JOHN248 SMITH811 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "33.9880756848"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "g/dL"
+                        }
+                    ],
+                    "text": "g/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Erythrocyte distribution width [Entitic volume] by"
+                        }
+                    ],
+                    "text": "Erythrocyte distribution width [Entitic volume] by"
+                },
+                "issuedDateTime": "2015-07-23T11:00:04Z",
+                "performedDateTime": "2015-07-23T11:00:04Z",
+                "performingSite": "DR. THOMAS359 REYNOLDS206 PHD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "40.2443675484"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "fL"
+                        }
+                    ],
+                    "text": "fL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Platelets [#/volume] in Blood by Automated count"
+                        }
+                    ],
+                    "text": "Platelets [#/volume] in Blood by Automated count"
+                },
+                "issuedDateTime": "2015-07-23T11:00:04Z",
+                "performedDateTime": "2015-07-23T11:00:04Z",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "309.2174381825"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "10*3/uL"
+                        }
+                    ],
+                    "text": "10*3/uL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Platelet distribution width [Entitic volume] in Bl"
+                        }
+                    ],
+                    "text": "Platelet distribution width [Entitic volume] in Bl"
+                },
+                "issuedDateTime": "2015-07-23T11:00:04Z",
+                "performedDateTime": "2015-07-23T11:00:04Z",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "406.5224153358"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "fL"
+                        }
+                    ],
+                    "text": "fL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Platelet mean volume [Entitic volume] in Blood by"
+                        }
+                    ],
+                    "text": "Platelet mean volume [Entitic volume] in Blood by"
+                },
+                "issuedDateTime": "2015-07-23T11:00:04Z",
+                "performedDateTime": "2015-07-23T11:00:04Z",
+                "performingSite": "DR. JOHN248 SMITH811 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "10.8417666705"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "fL"
+                        }
+                    ],
+                    "text": "fL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Glucose"
+                        }
+                    ],
+                    "text": "Glucose"
+                },
+                "issuedDateTime": "2017-07-27T11:00:04Z",
+                "performedDateTime": "2017-07-27T11:00:04Z",
+                "performingSite": "LYONS VA MEDICAL CENTER",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "85.5965567809"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Urea Nitrogen"
+                        }
+                    ],
+                    "text": "Urea Nitrogen"
+                },
+                "issuedDateTime": "2017-07-27T11:00:04Z",
+                "performedDateTime": "2017-07-27T11:00:04Z",
+                "performingSite": "LYONS VA MEDICAL CENTER",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "17.11537412"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Creatinine"
+                        }
+                    ],
+                    "text": "Creatinine"
+                },
+                "issuedDateTime": "2017-07-27T11:00:04Z",
+                "performedDateTime": "2017-07-27T11:00:04Z",
+                "performingSite": "WASHINGTON VA MEDICAL CENTER",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "1.3157059997"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Calcium"
+                        }
+                    ],
+                    "text": "Calcium"
+                },
+                "issuedDateTime": "2017-07-27T11:00:04Z",
+                "performedDateTime": "2017-07-27T11:00:04Z",
+                "performingSite": "DR. THOMAS359 REYNOLDS206 PHD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "10.009136897"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mg/dL"
+                        }
+                    ],
+                    "text": "mg/dL"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Sodium"
+                        }
+                    ],
+                    "text": "Sodium"
+                },
+                "issuedDateTime": "2017-07-27T11:00:04Z",
+                "performedDateTime": "2017-07-27T11:00:04Z",
+                "performingSite": "DR. JANE460 DOE922 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "143.7058751498"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Potassium"
+                        }
+                    ],
+                    "text": "Potassium"
+                },
+                "issuedDateTime": "2017-07-27T11:00:04Z",
+                "performedDateTime": "2017-07-27T11:00:04Z",
+                "performingSite": "DR. JOHN248 SMITH811 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "4.7995480028"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Chloride"
+                        }
+                    ],
+                    "text": "Chloride"
+                },
+                "issuedDateTime": "2017-07-27T11:00:04Z",
+                "performedDateTime": "2017-07-27T11:00:04Z",
+                "performingSite": "DR. JOHN248 SMITH811 MD",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "105.7523450015"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            },
+            {
+                "test": {
+                    "codings": [
+                        {
+                            "system": "http://loinc.org",
+                            "display": "Carbon Dioxide"
+                        }
+                    ],
+                    "text": "Carbon Dioxide"
+                },
+                "issuedDateTime": "2017-07-27T11:00:04Z",
+                "performedDateTime": "2017-07-27T11:00:04Z",
+                "resultStatus": "final",
+                "resultValue": {
+                    "type": {
+                        "text": "PQ"
+                    },
+                    "text": "26.6160489725"
+                },
+                "resultUnit": {
+                    "codings": [
+                        {
+                            "display": "mmol/L"
+                        }
+                    ],
+                    "text": "mmol/L"
+                }
+            }
+        ],
+        "procedures": [
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "display": "Documentation of current medications"
+                        }
+                    ],
+                    "text": "Documentation of current medications"
+                },
+                "procedureDateTime": "2011-07-14T11:00:04Z",
+                "procedurePerformedDate": "2011-07-14T11:00:04Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "display": "Suture open wound"
+                        }
+                    ],
+                    "text": "Suture open wound"
+                },
+                "procedureDateTime": "2011-08-13T11:00:04Z",
+                "procedurePerformedDate": "2011-08-13T11:00:04Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "display": "Documentation of current medications"
+                        }
+                    ],
+                    "text": "Documentation of current medications"
+                },
+                "procedureDateTime": "2015-07-23T11:00:04Z",
+                "procedurePerformedDate": "2015-07-23T11:00:04Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "display": "Depression screening using Patient Health Question"
+                        }
+                    ],
+                    "text": "Depression screening using Patient Health Question"
+                },
+                "procedureDateTime": "2016-06-21T11:00:04Z",
+                "procedurePerformedDate": "2016-06-21T11:00:04Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "display": "Suicide risk assessment (procedure)"
+                        }
+                    ],
+                    "text": "Suicide risk assessment (procedure)"
+                },
+                "procedureDateTime": "2016-06-21T11:00:04Z",
+                "procedurePerformedDate": "2016-06-21T11:00:04Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "display": "Depression screening using Patient Health Question"
+                        }
+                    ],
+                    "text": "Depression screening using Patient Health Question"
+                },
+                "procedureDateTime": "2016-07-05T11:00:04Z",
+                "procedurePerformedDate": "2016-07-05T11:00:04Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "display": "Suicide risk assessment (procedure)"
+                        }
+                    ],
+                    "text": "Suicide risk assessment (procedure)"
+                },
+                "procedureDateTime": "2016-07-05T11:00:04Z",
+                "procedurePerformedDate": "2016-07-05T11:00:04Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            },
+            {
+                "procedure": {
+                    "codings": [
+                        {
+                            "system": "http://www.ama-assn.org/go/cpt",
+                            "display": "Suture open wound"
+                        }
+                    ],
+                    "text": "Suture open wound"
+                },
+                "procedureDateTime": "2017-06-01T11:00:04Z",
+                "procedurePerformedDate": "2017-06-01T11:00:04Z",
+                "procedureStatus": {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/event-status",
+                            "code": "completed",
+                            "display": "Completed"
+                        }
+                    ],
+                    "text": "Completed"
+                }
+            }
+        ],
+        "id": "patient-2000190"
+    },
+    "dataSourceID": "Test Source FHIR",
+    "dataProviderID": "Connectathon"
+}
