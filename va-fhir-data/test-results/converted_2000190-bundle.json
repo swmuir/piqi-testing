@@ -46,6 +46,7 @@
                     "codings": [
                         {
                             "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active",
                             "display": "Active"
                         }
                     ],
@@ -55,10 +56,12 @@
                     "codings": [
                         {
                             "system": "http://snomed.info/sct",
+                            "code": "38341003",
                             "display": "Hypertension"
                         },
                         {
                             "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "code": "I11.0",
                             "display": "Hypertensive heart disease with heart failure"
                         }
                     ],
@@ -73,6 +76,7 @@
                     "codings": [
                         {
                             "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active",
                             "display": "Active"
                         }
                     ],
@@ -82,6 +86,7 @@
                     "codings": [
                         {
                             "system": "http://snomed.info/sct",
+                            "code": "15777000",
                             "display": "Prediabetes"
                         }
                     ],
@@ -96,6 +101,7 @@
                     "codings": [
                         {
                             "system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+                            "code": "active",
                             "display": "Active"
                         }
                     ],
@@ -105,10 +111,12 @@
                     "codings": [
                         {
                             "system": "http://snomed.info/sct",
+                            "code": "47505003",
                             "display": "Posttraumatic stress disorder"
                         },
                         {
                             "system": "http://hl7.org/fhir/sid/icd-10-cm",
+                            "code": "Z86.51",
                             "display": "Personal history of combat and operational stress reaction"
                         }
                     ],
@@ -132,10 +140,12 @@
                     "codings": [
                         {
                             "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "140",
                             "display": "INFLUENZA, SEASONAL, INJECTABLE, PRESERVATIVE FREE"
                         },
                         {
                             "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "88",
                             "display": "VACCINE GROUP: FLU"
                         }
                     ],
@@ -165,10 +175,12 @@
                     "codings": [
                         {
                             "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "52",
                             "display": "HEP A, ADULT"
                         },
                         {
                             "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "85",
                             "display": "VACCINE GROUP: HepA"
                         }
                     ],
@@ -198,10 +210,12 @@
                     "codings": [
                         {
                             "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "140",
                             "display": "INFLUENZA, SEASONAL, INJECTABLE, PRESERVATIVE FREE"
                         },
                         {
                             "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "88",
                             "display": "VACCINE GROUP: FLU"
                         }
                     ],
@@ -231,10 +245,12 @@
                     "codings": [
                         {
                             "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "140",
                             "display": "INFLUENZA, SEASONAL, INJECTABLE, PRESERVATIVE FREE"
                         },
                         {
                             "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "88",
                             "display": "VACCINE GROUP: FLU"
                         }
                     ],
@@ -264,10 +280,12 @@
                     "codings": [
                         {
                             "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "113",
                             "display": "TD (ADULT), 5 LF TETANUS TOXOID, PRESERVATIVE FREE, ADSORBED"
                         },
                         {
                             "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "139",
                             "display": "VACCINE GROUP: Td"
                         }
                     ],
@@ -297,10 +315,12 @@
                     "codings": [
                         {
                             "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "52",
                             "display": "HEP A, ADULT"
                         },
                         {
                             "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "85",
                             "display": "VACCINE GROUP: HepA"
                         }
                     ],
@@ -330,10 +350,12 @@
                     "codings": [
                         {
                             "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "140",
                             "display": "INFLUENZA, SEASONAL, INJECTABLE, PRESERVATIVE FREE"
                         },
                         {
                             "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "88",
                             "display": "VACCINE GROUP: FLU"
                         }
                     ],
@@ -363,10 +385,12 @@
                     "codings": [
                         {
                             "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "140",
                             "display": "INFLUENZA, SEASONAL, INJECTABLE, PRESERVATIVE FREE"
                         },
                         {
                             "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "88",
                             "display": "VACCINE GROUP: FLU"
                         }
                     ],
@@ -396,10 +420,12 @@
                     "codings": [
                         {
                             "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "140",
                             "display": "INFLUENZA, SEASONAL, INJECTABLE, PRESERVATIVE FREE"
                         },
                         {
                             "system": "http://hl7.org/fhir/sid/cvx",
+                            "code": "88",
                             "display": "VACCINE GROUP: FLU"
                         }
                     ],
@@ -423,6 +449,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "11502-2",
                             "display": "Laboratory report"
                         }
                     ],
@@ -433,6 +460,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "11502-2",
                             "display": "Laboratory report"
                         }
                     ],
@@ -447,6 +475,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "11502-2",
                             "display": "Laboratory report"
                         }
                     ],
@@ -457,6 +486,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "11502-2",
                             "display": "Laboratory report"
                         }
                     ],
@@ -471,6 +501,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "11502-2",
                             "display": "Laboratory report"
                         }
                     ],
@@ -481,6 +512,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "11502-2",
                             "display": "Laboratory report"
                         }
                     ],
@@ -495,6 +527,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "11502-2",
                             "display": "Laboratory report"
                         }
                     ],
@@ -505,6 +538,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "11502-2",
                             "display": "Laboratory report"
                         }
                     ],
@@ -519,6 +553,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "11502-2",
                             "display": "Laboratory report"
                         }
                     ],
@@ -529,6 +564,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "11502-2",
                             "display": "Laboratory report"
                         }
                     ],
@@ -543,6 +579,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "11502-2",
                             "display": "Laboratory report"
                         }
                     ],
@@ -553,6 +590,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "11502-2",
                             "display": "Laboratory report"
                         }
                     ],
@@ -567,6 +605,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "11502-2",
                             "display": "Laboratory report"
                         }
                     ],
@@ -577,6 +616,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "11502-2",
                             "display": "Laboratory report"
                         }
                     ],
@@ -591,6 +631,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "11502-2",
                             "display": "Laboratory report"
                         }
                     ],
@@ -601,6 +642,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "11502-2",
                             "display": "Laboratory report"
                         }
                     ],
@@ -675,6 +717,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "8302-2",
                             "display": "Body height"
                         }
                     ],
@@ -703,6 +746,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "72514-3",
                             "display": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
                         }
                     ],
@@ -723,6 +767,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "29463-7",
                             "display": "Body weight"
                         }
                     ],
@@ -751,6 +796,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "8462-4",
                             "display": "Diastolic blood pressure"
                         }
                     ],
@@ -780,6 +826,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "8480-6",
                             "display": "Systolic blood pressure"
                         }
                     ],
@@ -809,6 +856,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "8302-2",
                             "display": "Body height"
                         }
                     ],
@@ -837,6 +885,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "72514-3",
                             "display": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
                         }
                     ],
@@ -857,6 +906,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "29463-7",
                             "display": "Body weight"
                         }
                     ],
@@ -885,6 +935,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "8462-4",
                             "display": "Diastolic blood pressure"
                         }
                     ],
@@ -913,6 +964,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "8480-6",
                             "display": "Systolic blood pressure"
                         }
                     ],
@@ -941,6 +993,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "8302-2",
                             "display": "Body height"
                         }
                     ],
@@ -969,6 +1022,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "72514-3",
                             "display": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
                         }
                     ],
@@ -989,6 +1043,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "29463-7",
                             "display": "Body weight"
                         }
                     ],
@@ -1017,6 +1072,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "8462-4",
                             "display": "Diastolic blood pressure"
                         }
                     ],
@@ -1046,6 +1102,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "8480-6",
                             "display": "Systolic blood pressure"
                         }
                     ],
@@ -1075,6 +1132,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "8302-2",
                             "display": "Body height"
                         }
                     ],
@@ -1103,6 +1161,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "72514-3",
                             "display": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
                         }
                     ],
@@ -1123,6 +1182,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "29463-7",
                             "display": "Body weight"
                         }
                     ],
@@ -1151,6 +1211,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "8462-4",
                             "display": "Diastolic blood pressure"
                         }
                     ],
@@ -1180,6 +1241,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "8480-6",
                             "display": "Systolic blood pressure"
                         }
                     ],
@@ -1209,6 +1271,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "72514-3",
                             "display": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
                         }
                     ],
@@ -1229,6 +1292,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "72514-3",
                             "display": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
                         }
                     ],
@@ -1249,6 +1313,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "8302-2",
                             "display": "Body height"
                         }
                     ],
@@ -1277,6 +1342,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "72514-3",
                             "display": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
                         }
                     ],
@@ -1297,6 +1363,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "29463-7",
                             "display": "Body weight"
                         }
                     ],
@@ -1324,6 +1391,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "8462-4",
                             "display": "Diastolic blood pressure"
                         }
                     ],
@@ -1353,6 +1421,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "8480-6",
                             "display": "Systolic blood pressure"
                         }
                     ],
@@ -1382,6 +1451,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "72514-3",
                             "display": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
                         }
                     ],
@@ -1402,6 +1472,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "72514-3",
                             "display": "Pain severity - 0-10 verbal numeric rating [#] - Reported"
                         }
                     ],
@@ -1424,6 +1495,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "6690-2",
                             "display": "Leukocytes [#/volume] in Blood by Automated count"
                         }
                     ],
@@ -1453,6 +1525,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "789-8",
                             "display": "Erythrocytes [#/volume] in Blood by Automated coun"
                         }
                     ],
@@ -1482,6 +1555,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "718-7",
                             "display": "Hemoglobin [Mass/volume] in Blood"
                         }
                     ],
@@ -1511,6 +1585,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "4544-3",
                             "display": "Hematocrit [Volume Fraction] of Blood by Automated"
                         }
                     ],
@@ -1540,6 +1615,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "787-2",
                             "display": "MCV [Entitic volume] by Automated count"
                         }
                     ],
@@ -1569,6 +1645,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "785-6",
                             "display": "MCH [Entitic mass] by Automated count"
                         }
                     ],
@@ -1598,6 +1675,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "786-4",
                             "display": "MCHC [Mass/volume] by Automated count"
                         }
                     ],
@@ -1627,6 +1705,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "21000-5",
                             "display": "Erythrocyte distribution width [Entitic volume] by"
                         }
                     ],
@@ -1656,6 +1735,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "777-3",
                             "display": "Platelets [#/volume] in Blood by Automated count"
                         }
                     ],
@@ -1685,6 +1765,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "32207-3",
                             "display": "Platelet distribution width [Entitic volume] in Bl"
                         }
                     ],
@@ -1714,6 +1795,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "32623-1",
                             "display": "Platelet mean volume [Entitic volume] in Blood by"
                         }
                     ],
@@ -1743,6 +1825,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "2339-0",
                             "display": "Glucose"
                         }
                     ],
@@ -1772,6 +1855,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "6299-2",
                             "display": "Urea Nitrogen"
                         }
                     ],
@@ -1800,6 +1884,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "38483-4",
                             "display": "Creatinine"
                         }
                     ],
@@ -1829,6 +1914,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "49765-1",
                             "display": "Calcium"
                         }
                     ],
@@ -1858,6 +1944,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "2947-0",
                             "display": "Sodium"
                         }
                     ],
@@ -1887,6 +1974,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "6298-4",
                             "display": "Potassium"
                         }
                     ],
@@ -1916,6 +2004,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "2069-3",
                             "display": "Chloride"
                         }
                     ],
@@ -1945,6 +2034,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "20565-8",
                             "display": "Carbon Dioxide"
                         }
                     ],
@@ -1974,6 +2064,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "2093-3",
                             "display": "Total Cholesterol"
                         }
                     ],
@@ -2003,6 +2094,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "2571-8",
                             "display": "Triglycerides"
                         }
                     ],
@@ -2032,6 +2124,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "18262-6",
                             "display": "Low Density Lipoprotein Cholesterol"
                         }
                     ],
@@ -2061,6 +2154,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "2085-9",
                             "display": "High Density Lipoprotein Cholesterol"
                         }
                     ],
@@ -2090,6 +2184,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "2339-0",
                             "display": "Glucose"
                         }
                     ],
@@ -2119,6 +2214,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "6299-2",
                             "display": "Urea Nitrogen"
                         }
                     ],
@@ -2148,6 +2244,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "38483-4",
                             "display": "Creatinine"
                         }
                     ],
@@ -2177,6 +2274,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "49765-1",
                             "display": "Calcium"
                         }
                     ],
@@ -2206,6 +2304,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "2947-0",
                             "display": "Sodium"
                         }
                     ],
@@ -2235,6 +2334,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "6298-4",
                             "display": "Potassium"
                         }
                     ],
@@ -2264,6 +2364,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "2069-3",
                             "display": "Chloride"
                         }
                     ],
@@ -2293,6 +2394,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "20565-8",
                             "display": "Carbon Dioxide"
                         }
                     ],
@@ -2322,6 +2424,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "2339-0",
                             "display": "Glucose"
                         }
                     ],
@@ -2351,6 +2454,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "6299-2",
                             "display": "Urea Nitrogen"
                         }
                     ],
@@ -2380,6 +2484,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "38483-4",
                             "display": "Creatinine"
                         }
                     ],
@@ -2409,6 +2514,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "49765-1",
                             "display": "Calcium"
                         }
                     ],
@@ -2438,6 +2544,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "2947-0",
                             "display": "Sodium"
                         }
                     ],
@@ -2466,6 +2573,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "6298-4",
                             "display": "Potassium"
                         }
                     ],
@@ -2495,6 +2603,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "2069-3",
                             "display": "Chloride"
                         }
                     ],
@@ -2524,6 +2633,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "20565-8",
                             "display": "Carbon Dioxide"
                         }
                     ],
@@ -2553,6 +2663,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "2093-3",
                             "display": "Total Cholesterol"
                         }
                     ],
@@ -2582,6 +2693,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "2571-8",
                             "display": "Triglycerides"
                         }
                     ],
@@ -2611,6 +2723,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "18262-6",
                             "display": "Low Density Lipoprotein Cholesterol"
                         }
                     ],
@@ -2640,6 +2753,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "2085-9",
                             "display": "High Density Lipoprotein Cholesterol"
                         }
                     ],
@@ -2669,6 +2783,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "6690-2",
                             "display": "Leukocytes [#/volume] in Blood by Automated count"
                         }
                     ],
@@ -2698,6 +2813,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "789-8",
                             "display": "Erythrocytes [#/volume] in Blood by Automated coun"
                         }
                     ],
@@ -2727,6 +2843,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "718-7",
                             "display": "Hemoglobin [Mass/volume] in Blood"
                         }
                     ],
@@ -2756,6 +2873,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "4544-3",
                             "display": "Hematocrit [Volume Fraction] of Blood by Automated"
                         }
                     ],
@@ -2784,6 +2902,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "787-2",
                             "display": "MCV [Entitic volume] by Automated count"
                         }
                     ],
@@ -2813,6 +2932,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "785-6",
                             "display": "MCH [Entitic mass] by Automated count"
                         }
                     ],
@@ -2842,6 +2962,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "786-4",
                             "display": "MCHC [Mass/volume] by Automated count"
                         }
                     ],
@@ -2871,6 +2992,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "21000-5",
                             "display": "Erythrocyte distribution width [Entitic volume] by"
                         }
                     ],
@@ -2900,6 +3022,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "777-3",
                             "display": "Platelets [#/volume] in Blood by Automated count"
                         }
                     ],
@@ -2928,6 +3051,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "32207-3",
                             "display": "Platelet distribution width [Entitic volume] in Bl"
                         }
                     ],
@@ -2956,6 +3080,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "32623-1",
                             "display": "Platelet mean volume [Entitic volume] in Blood by"
                         }
                     ],
@@ -2985,6 +3110,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "2339-0",
                             "display": "Glucose"
                         }
                     ],
@@ -3014,6 +3140,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "6299-2",
                             "display": "Urea Nitrogen"
                         }
                     ],
@@ -3043,6 +3170,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "38483-4",
                             "display": "Creatinine"
                         }
                     ],
@@ -3072,6 +3200,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "49765-1",
                             "display": "Calcium"
                         }
                     ],
@@ -3101,6 +3230,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "2947-0",
                             "display": "Sodium"
                         }
                     ],
@@ -3130,6 +3260,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "6298-4",
                             "display": "Potassium"
                         }
                     ],
@@ -3159,6 +3290,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "2069-3",
                             "display": "Chloride"
                         }
                     ],
@@ -3188,6 +3320,7 @@
                     "codings": [
                         {
                             "system": "http://loinc.org",
+                            "code": "20565-8",
                             "display": "Carbon Dioxide"
                         }
                     ],
@@ -3218,6 +3351,7 @@
                     "codings": [
                         {
                             "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "XXXXX",
                             "display": "Documentation of current medications"
                         }
                     ],
@@ -3241,6 +3375,7 @@
                     "codings": [
                         {
                             "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "XXXXX",
                             "display": "Suture open wound"
                         }
                     ],
@@ -3264,6 +3399,7 @@
                     "codings": [
                         {
                             "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "XXXXX",
                             "display": "Documentation of current medications"
                         }
                     ],
@@ -3287,6 +3423,7 @@
                     "codings": [
                         {
                             "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "XXXXX",
                             "display": "Depression screening using Patient Health Question"
                         }
                     ],
@@ -3310,6 +3447,7 @@
                     "codings": [
                         {
                             "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "XXXXX",
                             "display": "Suicide risk assessment (procedure)"
                         }
                     ],
@@ -3333,6 +3471,7 @@
                     "codings": [
                         {
                             "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "XXXXX",
                             "display": "Depression screening using Patient Health Question"
                         }
                     ],
@@ -3356,6 +3495,7 @@
                     "codings": [
                         {
                             "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "XXXXX",
                             "display": "Suicide risk assessment (procedure)"
                         }
                     ],
@@ -3379,6 +3519,7 @@
                     "codings": [
                         {
                             "system": "http://www.ama-assn.org/go/cpt",
+                            "code": "XXXXX",
                             "display": "Suture open wound"
                         }
                     ],
@@ -3398,7 +3539,7 @@
                 }
             }
         ],
-        "id": "2000190-bundle.json"
+        "id": "test"
     },
     "dataSourceID": "Test Source FHIR",
     "dataProviderID": "Connectathon"

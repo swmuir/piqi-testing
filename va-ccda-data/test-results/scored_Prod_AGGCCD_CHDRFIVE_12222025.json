@@ -1,33 +1,33 @@
 {
     "succeeded": true,
-    "elapsedTimeInMS": 282,
+    "elapsedTimeInMS": 214,
     "scoringData": {
         "dataProviderID": "Connectathon",
         "dataSourceID": "Test Source C-CDA",
         "messageID": "3A353D0D-9855-4E39-90AE-26F8DF96B15D",
-        "channelMnemonic": "CONNECTATHON_USCDI_V3",
-        "evaluationRubric": "USCDI v3",
-        "processDate": "2026-01-12T18:58:17.0531406+00:00",
+        "channelMnemonic": "CONNECTATHON_USCDI_V2",
+        "evaluationRubric": "USCDI v2",
+        "processDate": "2026-01-13T17:44:36.3850658+00:00",
         "messageResults": {
-            "denominator": 2147,
-            "numerator": 1065,
-            "piqiScore": 49,
-            "criticalFailureCount": 30,
-            "weightedDenominator": 2147,
-            "weightedNumerator": 1065,
-            "weightedPIQIScore": 49
+            "denominator": 787,
+            "numerator": 508,
+            "piqiScore": 64,
+            "criticalFailureCount": 28,
+            "weightedDenominator": 787,
+            "weightedNumerator": 508,
+            "weightedPIQIScore": 64
         },
         "dataClassResults": [
             {
                 "dataClassName": "Allergies",
                 "instanceCount": 32,
                 "denominator": 96,
-                "numerator": 23,
-                "piqiScore": 23,
+                "numerator": 40,
+                "piqiScore": 41,
                 "criticalFailureCount": 0,
                 "weightedDenominator": 96,
-                "weightedNumerator": 23,
-                "weightedPIQIScore": 23
+                "weightedNumerator": 40,
+                "weightedPIQIScore": 41
             },
             {
                 "dataClassName": "Clinical Documents",
@@ -44,23 +44,23 @@
                 "dataClassName": "Conditions",
                 "instanceCount": 51,
                 "denominator": 102,
-                "numerator": 5,
-                "piqiScore": 4,
+                "numerator": 53,
+                "piqiScore": 51,
                 "criticalFailureCount": 0,
                 "weightedDenominator": 102,
-                "weightedNumerator": 5,
-                "weightedPIQIScore": 4
+                "weightedNumerator": 53,
+                "weightedPIQIScore": 51
             },
             {
                 "dataClassName": "Demographics",
                 "instanceCount": 1,
-                "denominator": 4,
-                "numerator": 1,
-                "piqiScore": 25,
+                "denominator": 5,
+                "numerator": 5,
+                "piqiScore": 100,
                 "criticalFailureCount": 0,
-                "weightedDenominator": 4,
-                "weightedNumerator": 1,
-                "weightedPIQIScore": 25
+                "weightedDenominator": 5,
+                "weightedNumerator": 5,
+                "weightedPIQIScore": 100
             },
             {
                 "dataClassName": "Diagnostic Imaging",
@@ -76,13 +76,13 @@
             {
                 "dataClassName": "Encounters",
                 "instanceCount": 67,
-                "denominator": 335,
-                "numerator": 135,
-                "piqiScore": 40,
+                "denominator": 0,
+                "numerator": 0,
+                "piqiScore": 0,
                 "criticalFailureCount": 0,
-                "weightedDenominator": 335,
-                "weightedNumerator": 135,
-                "weightedPIQIScore": 40
+                "weightedDenominator": 0,
+                "weightedNumerator": 0,
+                "weightedPIQIScore": 0
             },
             {
                 "dataClassName": "Goals",
@@ -109,24 +109,24 @@
             {
                 "dataClassName": "Immunizations",
                 "instanceCount": 28,
-                "denominator": 84,
-                "numerator": 33,
-                "piqiScore": 39,
+                "denominator": 56,
+                "numerator": 56,
+                "piqiScore": 100,
                 "criticalFailureCount": 0,
-                "weightedDenominator": 84,
-                "weightedNumerator": 33,
-                "weightedPIQIScore": 39
+                "weightedDenominator": 56,
+                "weightedNumerator": 56,
+                "weightedPIQIScore": 100
             },
             {
                 "dataClassName": "Lab Results",
                 "instanceCount": 30,
-                "denominator": 143,
-                "numerator": 65,
-                "piqiScore": 45,
-                "criticalFailureCount": 30,
-                "weightedDenominator": 143,
-                "weightedNumerator": 65,
-                "weightedPIQIScore": 45
+                "denominator": 90,
+                "numerator": 62,
+                "piqiScore": 68,
+                "criticalFailureCount": 28,
+                "weightedDenominator": 90,
+                "weightedNumerator": 62,
+                "weightedPIQIScore": 68
             },
             {
                 "dataClassName": "Medical Devices",
@@ -142,35 +142,46 @@
             {
                 "dataClassName": "Medications",
                 "instanceCount": 205,
-                "denominator": 1230,
-                "numerator": 757,
-                "piqiScore": 61,
+                "denominator": 205,
+                "numerator": 101,
+                "piqiScore": 49,
                 "criticalFailureCount": 0,
-                "weightedDenominator": 1230,
-                "weightedNumerator": 757,
-                "weightedPIQIScore": 61
+                "weightedDenominator": 205,
+                "weightedNumerator": 101,
+                "weightedPIQIScore": 49
             },
             {
                 "dataClassName": "Procedures",
                 "instanceCount": 2,
-                "denominator": 6,
+                "denominator": 4,
                 "numerator": 2,
-                "piqiScore": 33,
+                "piqiScore": 50,
                 "criticalFailureCount": 0,
-                "weightedDenominator": 6,
+                "weightedDenominator": 4,
                 "weightedNumerator": 2,
-                "weightedPIQIScore": 33
+                "weightedPIQIScore": 50
+            },
+            {
+                "dataClassName": "Providers",
+                "instanceCount": 0,
+                "denominator": 0,
+                "numerator": 0,
+                "piqiScore": 0,
+                "criticalFailureCount": 0,
+                "weightedDenominator": 0,
+                "weightedNumerator": 0,
+                "weightedPIQIScore": 0
             },
             {
                 "dataClassName": "Vital Signs",
                 "instanceCount": 82,
-                "denominator": 147,
-                "numerator": 44,
-                "piqiScore": 29,
+                "denominator": 229,
+                "numerator": 189,
+                "piqiScore": 82,
                 "criticalFailureCount": 0,
-                "weightedDenominator": 147,
-                "weightedNumerator": 44,
-                "weightedPIQIScore": 29
+                "weightedDenominator": 229,
+                "weightedNumerator": 189,
+                "weightedPIQIScore": 82
             }
         ],
         "informationalResults": [
@@ -219,13 +230,6 @@
                         "instanceCount": 30,
                         "denominator": 30,
                         "numerator": 0
-                    },
-                    {
-                        "entityName": "test",
-                        "evaluationName": "LOINC Code Active",
-                        "instanceCount": 30,
-                        "denominator": 30,
-                        "numerator": 4
                     }
                 ]
             },
@@ -239,6 +243,10 @@
             },
             {
                 "dataClassName": "Procedures",
+                "evaluationList": []
+            },
+            {
+                "dataClassName": "Providers",
                 "evaluationList": []
             },
             {
